@@ -163,8 +163,6 @@
 		{
 			"name": "Scythe",
 			"source": "IcewindDaleRimeoftheLamberto",
-			"srd": true,
-			"basicRules": true,
 			"type": "M",
 			"rarity": "none",
 			"weight": 6,
