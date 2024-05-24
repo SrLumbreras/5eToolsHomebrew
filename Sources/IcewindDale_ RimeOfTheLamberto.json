@@ -162,7 +162,7 @@
 	"baseitem": [
 		{
 			"name": "Scythe",
-			"source": "IDRotL",
+			"source": "IcewindDaleRimeoftheLamberto",
 			"srd": true,
 			"basicRules": true,
 			"type": "M",
