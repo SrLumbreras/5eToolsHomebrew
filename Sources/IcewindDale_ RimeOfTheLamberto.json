@@ -157,6 +157,125 @@
 			"damageTags": [
 				"P"
 			]
+		},
+		{
+			"name": "Peñalba's Soldier",
+			"source": "IcewindDaleRimeoftheLamberto",
+			"page": 226,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item chain mail|phb}",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 16,
+				"formula": "3d8 + 3"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 13,
+			"dex": 12,
+			"con": 12,
+			"int": 10,
+			"wis": 11,
+			"cha": 11,
+			"skill": {
+				"perception": "+2",
+				"athletics": "+3"
+			},
+			"passive": 12,
+			"languages": [
+				"Common"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Formation Tactics",
+					"entries": [
+						"The soldier has advantage on saving throws against being {@condition charmed}, {@condition frightened}, {@condition grappled}, or {@condition restrained} while it is within 5 feet of at least one ally."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Spear",
+					"entries": [
+						"{@atk mw,rw} {@hit +3} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage, or 6 ({@damage 1d8 + 2}) slashing damage if used with two hands."
+					]
+				}
+			],
+			"attachedItems": [
+				"spear|phb"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"miscTags": [
+				"RW",
+				"MW",
+				"MLW",
+				"THW"
+			],
+			"hasFluff": true,
+			"token": {
+				"name": "Soldier",
+				"source": "GGR"
+			},
+			"fluff": {
+				"name": "Soldier",
+				"source": "GGR",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											"Soldiers are found in many of Ravnica's guilds. The soldier stat block represents a typical member of the rank and file, though weaponry and armor can vary."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"reaction": [
+				{
+					"name": "Backstab",
+					"entries": [
+						"When a creature provokes an opportunity attack from the soldier, he can inflict the target the {@condition prone} condition before making a melee spear attack."
+					]
+				}
+			],
+			"isNamedCreature": true,
+			"damageTags": [
+				"P",
+				"S"
+			]
 		}
 	],
 	"baseitem": [
