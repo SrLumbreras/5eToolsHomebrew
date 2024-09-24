@@ -1,0 +1,237 @@
+{
+	"fileType": "dm-screen",
+	"siteVersion": "1.209.2",
+	"w": 3,
+	"h": 4,
+	"ctc": false,
+	"fs": false,
+	"lk": false,
+	"ps": [
+		{
+			"x": 1,
+			"y": 0,
+			"w": 1,
+			"h": 1,
+			"t": 5,
+			"s": {
+				"s": "NUMBER",
+				"d": "DESC",
+				"ri": true,
+				"m": false,
+				"rg": false,
+				"rri": false,
+				"g": true,
+				"p": true,
+				"a": false,
+				"k": false,
+				"piHp": false,
+				"piHm": false,
+				"piV": true,
+				"piO": false,
+				"c": [],
+				"cndc": [],
+				"r": [
+					{
+						"id": "0da2cd81-d9f2-4c54-8294-34b5c6bef393",
+						"n": "Sacred Statue",
+						"h": 95,
+						"g": 95,
+						"i": 12,
+						"a": true,
+						"s": "MPMM",
+						"c": [],
+						"v": false,
+						"o": 1,
+						"k": []
+					},
+					{
+						"id": "f37a632a-43c5-4fc5-ad91-4db98bc7e8b3",
+						"n": "Eidolon",
+						"h": 63,
+						"g": 63,
+						"i": 7,
+						"a": false,
+						"s": "MPMM",
+						"c": [],
+						"v": false,
+						"o": 1,
+						"k": []
+					},
+					{
+						"id": "87ad0016-e549-45a0-9e80-b2760f4d352a",
+						"n": "Oliver (Marina)",
+						"a": false,
+						"c": [],
+						"v": true,
+						"k": []
+					},
+					{
+						"id": "2de7e4f0-b18b-4c6b-a15e-f5ba803dad09",
+						"n": "Crogan (Tuch)",
+						"a": false,
+						"c": [],
+						"v": true,
+						"k": []
+					},
+					{
+						"id": "b54bf2b4-4986-4670-a6da-36a15c9cb999",
+						"n": "(Ana)",
+						"a": false,
+						"c": [],
+						"v": true,
+						"k": []
+					}
+				],
+				"rdp": [],
+				"n": 1
+			}
+		},
+		{
+			"x": 0,
+			"y": 0,
+			"w": 1,
+			"h": 2,
+			"t": 51,
+			"s": {}
+		},
+		{
+			"x": 2,
+			"y": 0,
+			"w": 1,
+			"h": 4,
+			"t": 13,
+			"c": {
+				"a": "IDRotF",
+				"c": 12
+			}
+		},
+		{
+			"x": 1,
+			"y": 1,
+			"w": 1,
+			"h": 1,
+			"t": 3,
+			"s": {
+				"x": ""
+			}
+		},
+		{
+			"x": 1,
+			"y": 2,
+			"w": 1,
+			"h": 2,
+			"t": 0
+		},
+		{
+			"x": 0,
+			"y": 2,
+			"w": 1,
+			"h": 2,
+			"t": 0
+		}
+	],
+	"ex": [
+		{
+			"x": 0,
+			"y": 2,
+			"w": 1,
+			"h": 2,
+			"t": 1,
+			"c": {
+				"p": "bestiary.html",
+				"s": "IDRotF",
+				"u": "frost%20druid_idrotf"
+			}
+		},
+		{
+			"x": 1,
+			"y": 2,
+			"w": 1,
+			"h": 2,
+			"t": 1,
+			"c": {
+				"p": "bestiary.html",
+				"s": "BGG",
+				"u": "frostmourn_bgg"
+			}
+		},
+		{
+			"x": 0,
+			"y": 2,
+			"w": 1,
+			"h": 2,
+			"t": 90,
+			"c": {
+				"u": "https://docs.google.com/document/d/e/2PACX-1vQOcYVoK0PhDG-LiLvit8lnCnsudds2DVqbOtsU5PRSch1vLTIVxtYpX4BG_Zjq-YmdP0Puws69HL4-/pub"
+			}
+		},
+		{
+			"x": 0,
+			"y": 2,
+			"w": 1,
+			"h": 1,
+			"t": 90,
+			"c": {
+				"u": "<iframe src=\"https://docs.google.com/document/d/e/2PACX-1vQOcYVoK0PhDG-LiLvit8lnCnsudds2DVqbOtsU5PRSch1vLTIVxtYpX4BG_Zjq-YmdP0Puws69HL4-/pub?embedded=true\"></iframe>"
+			}
+		},
+		{
+			"x": 0,
+			"y": 2,
+			"w": 1,
+			"h": 1,
+			"t": 90,
+			"c": {
+				"u": "<iframe src=\"https://docs.google.com/document/d/e/2PACX-1vQOcYVoK0PhDG-LiLvit8lnCnsudds2DVqbOtsU5PRSch1vLTIVxtYpX4BG_Zjq-YmdP0Puws69HL4-/pub?embedded=true\"></iframe>"
+			}
+		},
+		{
+			"x": 0,
+			"y": 2,
+			"w": 1,
+			"h": 1,
+			"t": 90,
+			"c": {
+				"u": "<iframe src=\"https://docs.google.com/document/d/e/2PACX-1vQOcYVoK0PhDG-LiLvit8lnCnsudds2DVqbOtsU5PRSch1vLTIVxtYpX4BG_Zjq-YmdP0Puws69HL4-/pub?embedded=true\"></iframe>"
+			}
+		},
+		{
+			"x": 0,
+			"y": 2,
+			"w": 1,
+			"h": 1,
+			"t": 15,
+			"s": {}
+		},
+		{
+			"x": 0,
+			"y": 2,
+			"w": 1,
+			"h": 1,
+			"t": 15,
+			"s": {}
+		},
+		{
+			"x": 2,
+			"y": 0,
+			"w": 1,
+			"h": 1,
+			"t": 1,
+			"c": {
+				"p": "bestiary.html",
+				"s": "MM",
+				"u": "duergar_mm"
+			}
+		},
+		{
+			"x": 1,
+			"y": 1,
+			"w": 2,
+			"h": 2,
+			"t": 20,
+			"c": {
+				"u": "https://i.imgur.com/etrbuBV.jpeg"
+			}
+		}
+	]
+}

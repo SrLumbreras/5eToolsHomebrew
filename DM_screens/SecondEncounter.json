@@ -1,0 +1,217 @@
+{
+	"fileType": "dm-screen",
+	"siteVersion": "1.206.1",
+	"w": 3,
+	"h": 4,
+	"ctc": false,
+	"fs": false,
+	"lk": false,
+	"ps": [
+		{
+			"x": 1,
+			"y": 0,
+			"w": 1,
+			"h": 1,
+			"t": 5,
+			"s": {
+				"s": "NUMBER",
+				"d": "DESC",
+				"ri": true,
+				"m": false,
+				"rg": false,
+				"rri": false,
+				"g": true,
+				"p": true,
+				"a": false,
+				"k": false,
+				"piHp": false,
+				"piHm": false,
+				"piV": true,
+				"piO": false,
+				"c": [],
+				"cndc": [],
+				"r": [
+					{
+						"id": "e654db81-7d50-4545-b105-b07efda02116",
+						"n": "Frost Druid",
+						"h": 67,
+						"g": 67,
+						"i": 15,
+						"a": false,
+						"s": "IDRotF",
+						"c": [],
+						"v": false,
+						"o": 1,
+						"k": []
+					},
+					{
+						"id": "76b8336a-a34a-4b53-89e3-e6fdec1c83f9",
+						"n": "Frostmourn",
+						"h": 195,
+						"g": 195,
+						"i": 2,
+						"a": true,
+						"s": "BGG",
+						"c": [],
+						"v": false,
+						"o": 1,
+						"k": []
+					}
+				],
+				"rdp": [],
+				"n": 1
+			}
+		},
+		{
+			"x": 0,
+			"y": 0,
+			"w": 1,
+			"h": 2,
+			"t": 51,
+			"s": {}
+		},
+		{
+			"x": 1,
+			"y": 2,
+			"w": 1,
+			"h": 2,
+			"t": 1,
+			"c": {
+				"p": "bestiary.html",
+				"s": "BGG",
+				"u": "frostmourn_bgg"
+			}
+		},
+		{
+			"x": 0,
+			"y": 2,
+			"w": 1,
+			"h": 2,
+			"t": 1,
+			"c": {
+				"p": "bestiary.html",
+				"s": "IDRotF",
+				"u": "frost%20druid_idrotf"
+			}
+		},
+		{
+			"x": 2,
+			"y": 0,
+			"w": 1,
+			"h": 4,
+			"t": 13,
+			"c": {
+				"a": "IDRotF",
+				"c": 12
+			}
+		},
+		{
+			"x": 1,
+			"y": 1,
+			"w": 1,
+			"h": 1,
+			"t": 3,
+			"s": {
+				"x": ""
+			}
+		}
+	],
+	"ex": [
+		{
+			"x": 0,
+			"y": 2,
+			"w": 1,
+			"h": 2,
+			"t": 90,
+			"c": {
+				"u": "https://docs.google.com/document/d/e/2PACX-1vQOcYVoK0PhDG-LiLvit8lnCnsudds2DVqbOtsU5PRSch1vLTIVxtYpX4BG_Zjq-YmdP0Puws69HL4-/pub"
+			}
+		},
+		{
+			"x": 0,
+			"y": 2,
+			"w": 1,
+			"h": 1,
+			"t": 90,
+			"c": {
+				"u": "<iframe src=\"https://docs.google.com/document/d/e/2PACX-1vQOcYVoK0PhDG-LiLvit8lnCnsudds2DVqbOtsU5PRSch1vLTIVxtYpX4BG_Zjq-YmdP0Puws69HL4-/pub?embedded=true\"></iframe>"
+			}
+		},
+		{
+			"x": 0,
+			"y": 2,
+			"w": 1,
+			"h": 1,
+			"t": 90,
+			"c": {
+				"u": "<iframe src=\"https://docs.google.com/document/d/e/2PACX-1vQOcYVoK0PhDG-LiLvit8lnCnsudds2DVqbOtsU5PRSch1vLTIVxtYpX4BG_Zjq-YmdP0Puws69HL4-/pub?embedded=true\"></iframe>"
+			}
+		},
+		{
+			"x": 0,
+			"y": 2,
+			"w": 1,
+			"h": 1,
+			"t": 90,
+			"c": {
+				"u": "<iframe src=\"https://docs.google.com/document/d/e/2PACX-1vQOcYVoK0PhDG-LiLvit8lnCnsudds2DVqbOtsU5PRSch1vLTIVxtYpX4BG_Zjq-YmdP0Puws69HL4-/pub?embedded=true\"></iframe>"
+			}
+		},
+		{
+			"x": 0,
+			"y": 2,
+			"w": 1,
+			"h": 1,
+			"t": 15,
+			"s": {}
+		},
+		{
+			"x": 0,
+			"y": 2,
+			"w": 1,
+			"h": 1,
+			"t": 15,
+			"s": {}
+		},
+		{
+			"x": 2,
+			"y": 0,
+			"w": 1,
+			"h": 1,
+			"t": 1,
+			"c": {
+				"p": "bestiary.html",
+				"s": "MM",
+				"u": "duergar_mm"
+			}
+		},
+		{
+			"x": 1,
+			"y": 1,
+			"w": 2,
+			"h": 2,
+			"t": 20,
+			"c": {
+				"u": "https://i.imgur.com/etrbuBV.jpeg"
+			}
+		},
+		{
+			"x": 1,
+			"y": 1,
+			"w": 1,
+			"h": 1,
+			"t": 20,
+			"c": {
+				"u": "https://i.imgur.com/IxfXokR.png"
+			}
+		},
+		{
+			"x": 0,
+			"y": 1,
+			"w": 1,
+			"h": 1,
+			"t": 51,
+			"s": {}
+		}
+	]
+}
