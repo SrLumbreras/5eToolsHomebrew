@@ -161,7 +161,6 @@
 		{
 			"name": "Peñalba's Soldier",
 			"source": "IcewindDaleRimeoftheLamberto",
-			"page": 226,
 			"size": [
 				"M"
 			],
@@ -418,6 +417,208 @@
 			],
 			"savingThrowForced": [
 				"constitution"
+			]
+		},
+		{
+			"name": "Hjoölvir",
+			"source": "IcewindDaleRimeoftheLamberto",
+			"size": [
+				"H"
+			],
+			"type": "giant",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "35d12 + 140",
+				"average": 367
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 23,
+			"dex": 10,
+			"con": 19,
+			"int": 11,
+			"wis": 19,
+			"cha": 16,
+			"save": {
+				"con": "+10",
+				"wis": "+10",
+				"cha": "+9",
+				"str": "+12"
+			},
+			"skill": {
+				"athletics": "+12",
+				"perception": "+10"
+			},
+			"passive": 20,
+			"immune": [
+				"cold"
+			],
+			"languages": [
+				"Common",
+				"Giant"
+			],
+			"cr": "19",
+			"trait": [
+				{
+					"name": "Frost Rune",
+					"entries": [
+						"Hjoölvir has a frost rune inscribed on a chunk of ice or some other object in her possession. While holding or wearing the object bearing the rune, Hjoölvir can use her Ice Wolves action and Ice Armor reaction.",
+						"The object bearing the rune has AC 16; 40 hit points; and immunity to necrotic, poison, and psychic damage. The object regains all its hit points at the end of every turn, but it turns to dust if reduced to 0 hit points or when Hjoölvir dies. If the rune is destroyed, Hjoölvir can inscribe a frost rune on an object in her possession when she finishes a short or long rest."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If Hjoölvir fails a saving throw, she can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Hjoölvir makes three attacks using Greataxe, Freezing Ray, or a combination of them."
+					]
+				},
+				{
+					"name": "Greataxe",
+					"entries": [
+						"{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}22 ({@damage 3d10 + 6}) slashing damage plus 9 ({@damage 2d8}) cold damage."
+					]
+				},
+				{
+					"name": "Freezing Ray",
+					"entries": [
+						"{@atk rs} {@hit 10} to hit, range 120 ft., one target. {@h}17 ({@damage 3d8 + 4}) cold damage, and the target must make a {@dc 18} Constitution saving throw. On a failed save, the target has the {@condition restrained} condition until the end of its next turn. On a successful save, the target's speed is reduced by 10 feet until the end of its next turn."
+					]
+				},
+				{
+					"name": "Ice Wolves (Requires Frost Rune)",
+					"entries": [
+						"Hjoölvir magically summons {@dice 1d4} wolves made of ice (use the {@creature winter wolf} stat block in the Monster Manual to represent them, but they are Elementals instead of Monstrosities). The wolves appear in unoccupied spaces Hjoölvir can see within 30 feet of herself. The wolves take their turn immediately after Hjoölvir on the same initiative count, and they obey Hjoölvir's commands. The wolves gain a +6 bonus to their attack and damage rolls while they are within 30 feet of Hjoölvir. The wolves disappear after 1 minute, when Hjoölvir dies, or when Hjoölvir uses this action again."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Ice Armor (Requires Frost Rune)",
+					"entries": [
+						"When a creature Hjoölvir can see makes an attack roll against her, the giant can form a coat of ice around herself, granting her a +6 bonus to her AC against that attack. After the attack hits or misses, the ice shatters, and each creature within 5 feet of Hjoölvir must succeed on a {@dc 18} Dexterity saving throw or take 13 ({@damage 3d8}) cold damage."
+					]
+				}
+			],
+			"attachedItems": [
+				"greataxe|phb"
+			],
+			"traitTags": [
+				"Legendary Resistances"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"GI"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"MLW",
+				"RA",
+				"AOE"
+			],
+			"conditionInflict": [
+				"restrained"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"Frost giants who master rune magic are known as ice shapers, and their sheer power typically contributes to a meteoric rise in the giants' ordning. Many of them end up as jarls, leading their communities, or as advisers to jarls—often the true power behind the throne. They are usually devoted to Thrym.",
+							"True to their name, these ice shapers manipulate the raw elemental energy of air and water to wield ice in both offense and defense. They summon ice elementals in the shape of wolves, cloak themselves in icy armor, and just as quickly turn that armor into a hail of deadly ice shards.",
+							"In ancient times, Hjoölvir, was well known in the Icewind Dale region, a frost giant of immense power, able to summon ice storms with a single thought. Her throne, hidden deep in the frozen expanses of Icewind Dale, was the heart of her dominion, where two wolves of elemental fury guarded her. Fearing her growing strength, humans devised a plan to imprison her. Using mirrors that distorted light and runes that dampened her magic, they lured Hjoölvir into a trap.",
+							"The dungeon holding Hjoölvir has remained intact due to the Twenty Stones of Thruun, a circle of &nbsp standing stones located in Dougan’s Hole. Though these stones have held her for over a thousand years, the barrier is slowly weakening, and Hjoölvir’s fury intensifies. When she breaks free, winter will descend upon the land once again."
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://github.com/SrLumbreras/5eToolsHomebrew/blob/main/Homebrewery_images/Hjoolvir_The_Enraged_Storm/Hjoolvir_The_Enraged_Storm.png?raw=true"
+						}
+					}
+				]
+			},
+			"shortName": "Hjoölvir",
+			"environment": [
+				"arctic"
+			],
+			"senses": [
+				"truesight 30 ft."
+			],
+			"senseTags": [
+				"U"
+			],
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"isNamedCreature": true,
+			"legendary": [
+				{
+					"name": "Greataxe Attack",
+					"entries": [
+						"Hjoölvir makes a Greataxe attack."
+					]
+				},
+				{
+					"name": "Enhanced Rush",
+					"entries": [
+						"Hjoölvir moves up to her speed without provoking attacks of opportunity."
+					]
+				},
+				{
+					"name": "Absorb elemental (Requires Frost Rune) (Costs 2 Actions)",
+					"entries": [
+						"If an Ice Wolf is within 30 feet of Hjoölvir, she can magically absorb it, taking its remaining hit points (up to half its maximum HP, rounded up) and making the Ice Wolf disappear."
+					]
+				}
+			],
+			"token": {
+				"name": "Frost Giant Everlasting One",
+				"source": "MPMM"
+			},
+			"damageTags": [
+				"C",
+				"S"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"dexterity"
 			]
 		}
 	],
