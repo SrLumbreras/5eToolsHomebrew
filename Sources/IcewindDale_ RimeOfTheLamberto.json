@@ -620,6 +620,161 @@
 				"constitution",
 				"dexterity"
 			]
+		},
+		{
+			"name": "Sephek Kaltro",
+			"source": "IcewindDaleRimeoftheLamberto",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "undead"
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"ice-bound leather armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "21d8 + 105",
+				"average": 200
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 20,
+			"dex": 16,
+			"con": 20,
+			"int": 12,
+			"wis": 18,
+			"cha": 20,
+			"save": {
+				"con": "+9",
+				"wis": "+8",
+				"cha": "+9"
+			},
+			"skill": {
+				"perception": "+8",
+				"survival": "+8",
+				"stealth": "+7"
+			},
+			"resist": [
+				"bludgeoning, piercing, and slashing from nonmagical attacks"
+			],
+			"immune": [
+				"cold"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 18,
+			"languages": [
+				"Common"
+			],
+			"cr": "10",
+			"pb": 4,
+			"trait": [
+				{
+					"name": "Cold Regeneration",
+					"entries": [
+						"If the temperature around him is 0°F (-18°C) or lower, Sephek regains 15 hit points at the start of his turn. If he takes fire damage, this trait doesn't function at the start of his next turn. Sephek dies only if he starts his turn with 0 hit points and doesn't regenerate."
+					]
+				},
+				{
+					"name": "Innate Spellcasting",
+					"entries": [
+						"Sephek's innate spellcasting ability is Charisma (spell save DC 17, +9 to hit with spell attacks). He can innately cast the following spells, requiring no components:",
+						"• 3/day each: {@spell misty step}, {@spell ice knife}, {@spell armor of agathys} (at 5th level, 25 temp HP, 25 cold damage)",
+						"• 1/day each: {@spell cone of cold}, {@spell hold person}"
+					]
+				},
+				{
+					"name": "Frozen Predator",
+					"entries": [
+						"Sephek has advantage on attack rolls against any creature that hasn’t taken a turn yet in combat."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Sephek makes three attacks with his Ice Longsword or Ice Dagger in any combination."
+					]
+				},
+				{
+					"name": "Ice Longsword",
+					"entries": [
+						"{@atk mw} {@hit +9} to hit, reach 5 ft., one target. {@h}12 ({@damage 1d8 + 8}) slashing damage, or 13 ({@damage 1d10 + 8}) slashing damage if wielded with two hands, plus 10 ({@damage 3d6}) cold damage."
+					]
+				},
+				{
+					"name": "Ice Dagger",
+					"entries": [
+						"{@atk rw} {@hit +9} to hit, range 20/60 ft., one target. {@h}9 ({@damage 1d4 + 7}) piercing damage plus 10 ({@damage 3d6}) cold damage. On a hit, the target’s speed is reduced by 10 ft. until the end of Sephek’s next turn."
+					]
+				},
+				{
+					"name": "Frostwind Slash (Recharge 5–6)",
+					"entries": [
+						"Sephek swings his longsword in a freezing arc. All creatures in a 15-ft. cone must make a DC 17 Constitution saving throw, taking 31 ({@damage 7d8}) cold damage on a failed save, or half as much on a success."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Frozen Riposte",
+					"entries": [
+						"When a creature within 5 ft. of Sephek misses him with a melee attack, Sephek can make one Ice Longsword attack against that creature."
+					]
+				}
+			],
+			"environment": [
+				"arctic"
+			],
+			"token": {
+				"name": "Sephek Kaltro",
+				"source": "IDRotF"
+			},
+			"damageTags": [
+				"S",
+				"P",
+				"C"
+			],
+			"damageTagsLegendary": [
+				"C",
+				"S",
+				"P"
+			],
+			"savingThrowForcedLegendary": [
+				"constitution"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"MLW"
+			],
+			"senseTags": [
+				"D"
+			],
+			"isNamedCreature": true
 		}
 	],
 	"baseitem": [
