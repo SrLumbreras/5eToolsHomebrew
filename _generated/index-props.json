@@ -1,5 +1,1 @@
-{
-    "monster": {
-        "Sources/IcewindDale_ RimeOfTheLamberto.json": "creature"
-    }
-}
+{"monster":{"Sources/IcewindDale_ RimeOfTheLamberto.json":"Sources"},"baseitem":{"Sources/IcewindDale_ RimeOfTheLamberto.json":"Sources"}}

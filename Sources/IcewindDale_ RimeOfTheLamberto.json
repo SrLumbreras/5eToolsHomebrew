@@ -15,7 +15,9 @@
 				],
 				"color": "1cceab"
 			}
-		]
+		],
+		"dateAdded": 1755096466,
+		"dateLastModified": 1755096466
 	},
 	"monster": [
 		{
@@ -549,10 +551,10 @@
 					{
 						"type": "entries",
 						"entries": [
-							"Frost giants who master rune magic are known as ice shapers, and their sheer power typically contributes to a meteoric rise in the giants' ordning. Many of them end up as jarls, leading their communities, or as advisers to jarls—often the true power behind the throne. They are usually devoted to Thrym.",
+							"Frost giants who master rune magic are known as ice shapers, and their sheer power typically contributes to a meteoric rise in the giants' ordning. Many of them end up as jarls, leading their communities, or as advisers to jarls\u2014often the true power behind the throne. They are usually devoted to Thrym.",
 							"True to their name, these ice shapers manipulate the raw elemental energy of air and water to wield ice in both offense and defense. They summon ice elementals in the shape of wolves, cloak themselves in icy armor, and just as quickly turn that armor into a hail of deadly ice shards.",
 							"In ancient times, Hjoölvir, was well known in the Icewind Dale region, a frost giant of immense power, able to summon ice storms with a single thought. Her throne, hidden deep in the frozen expanses of Icewind Dale, was the heart of her dominion, where two wolves of elemental fury guarded her. Fearing her growing strength, humans devised a plan to imprison her. Using mirrors that distorted light and runes that dampened her magic, they lured Hjoölvir into a trap.",
-							"The dungeon holding Hjoölvir has remained intact due to the Twenty Stones of Thruun, a circle of &nbsp standing stones located in Dougan’s Hole. Though these stones have held her for over a thousand years, the barrier is slowly weakening, and Hjoölvir’s fury intensifies. When she breaks free, winter will descend upon the land once again."
+							"The dungeon holding Hjoölvir has remained intact due to the Twenty Stones of Thruun, a circle of &nbsp standing stones located in Dougan's Hole. Though these stones have held her for over a thousand years, the barrier is slowly weakening, and Hjoölvir's fury intensifies. When she breaks free, winter will descend upon the land once again."
 						]
 					}
 				],
@@ -702,7 +704,7 @@
 				{
 					"name": "Frozen Predator",
 					"entries": [
-						"Sephek has advantage on attack rolls against any creature that hasn’t taken a turn yet in combat."
+						"Sephek has advantage on attack rolls against any creature that hasn't taken a turn yet in combat."
 					]
 				}
 			],
@@ -722,11 +724,11 @@
 				{
 					"name": "Ice Dagger",
 					"entries": [
-						"{@atk rw} {@hit +9} to hit, range 20/60 ft., one target. {@h}9 ({@damage 1d4 + 7}) piercing damage plus 10 ({@damage 3d6}) cold damage. On a hit, the target’s speed is reduced by 10 ft. until the end of Sephek’s next turn."
+						"{@atk rw} {@hit +9} to hit, range 20/60 ft., one target. {@h}9 ({@damage 1d4 + 7}) piercing damage plus 10 ({@damage 3d6}) cold damage. On a hit, the target's speed is reduced by 10 ft. until the end of Sephek's next turn."
 					]
 				},
 				{
-					"name": "Frostwind Slash (Recharge 5–6)",
+					"name": "Frostwind Slash (Recharge 5\u20136)",
 					"entries": [
 						"Sephek swings his longsword in a freezing arc. All creatures in a 15-ft. cone must make a DC 17 Constitution saving throw, taking 31 ({@damage 7d8}) cold damage on a failed save, or half as much on a success."
 					]
@@ -773,6 +775,274 @@
 			],
 			"senseTags": [
 				"D"
+			],
+			"isNamedCreature": true
+		},
+		{
+			"name": "Eva, Winter Acolyte",
+			"source": "IcewindDaleRimeoftheLamberto",
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					{
+						"tag": "Human",
+						"prefix": "Child"
+					}
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"blessing of the frost"
+					]
+				}
+			],
+			"hp": {
+				"formula": "10d8 + 20",
+				"average": 65
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 14,
+			"con": 14,
+			"int": 12,
+			"wis": 18,
+			"cha": 16,
+			"save": {
+				"wis": "+7",
+				"cha": "+6"
+			},
+			"skill": {
+				"religion": "+4",
+				"insight": "+7",
+				"medicine": "+7",
+				"persuasion": "+6"
+			},
+			"resist": [
+				"cold"
+			],
+			"immune": [],
+			"conditionImmune": [
+				"charmed"
+			],
+			"senses": [],
+			"passive": 17,
+			"languages": [
+				"Common",
+				"Celestial"
+			],
+			"cr": "5",
+			"pb": 3,
+			"trait": [
+				{
+					"name": "Divine Spellcasting",
+					"entries": [
+						"Eva is a 9th-level spellcaster. Her spellcasting ability is Wisdom (spell save DC 15, +7 to hit with spell attacks). She has the following cleric spells prepared:",
+						"• Cantrips (at will): {@spell thaumaturgy}, {@spell guidance}, {@spell sacred flame}, {@spell spare the dying}",
+						"• 1st level (4 slots): {@spell bless}, {@spell cure wounds}, {@spell command}",
+						"• 2nd level (3 slots): {@spell hold person}, {@spell spiritual weapon}",
+						"• 3rd level (3 slots): {@spell bestow curse}, {@spell dispel magic}, {@spell spirit guardians}",
+						"• 4th level (3 slots): {@spell banishment}, {@spell guardian of faith}",
+						"• 5th level (1 slot): {@spell flame strike}"
+					]
+				},
+				{
+					"name": "Aura of Winter",
+					"entries": [
+						"Allies within 10 ft. of Eva gain resistance to fire damage. Enemies that start their turn within 10 ft. of her must succeed on a DC 15 Constitution saving throw or have their speed reduced by 10 ft. until the start of their next turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Mace",
+					"entries": [
+						"{@atk mw} {@hit +3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Channel Divinity (1/Short Rest)",
+					"entries": [
+						"Eva can use her Channel Divinity to either Turn Undead (as per cleric rules) or invoke a chilling blessing, causing up to 3 creatures of her choice within 30 ft. to regain 15 hit points."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"underground"
+			],
+			"token": {
+				"name": "Eva, Winter Acolyte",
+				"source": "Custom"
+			},
+			"damageTags": [
+				"B",
+				"R",
+				"F"
+			],
+			"damageTagsLegendary": [
+				"B",
+				"R",
+				"F"
+			],
+			"savingThrowForcedLegendary": [
+				"wisdom",
+				"constitution"
+			],
+			"actionTags": [
+				"Spellcasting"
+			],
+			"languageTags": [
+				"C",
+				"CE"
+			],
+			"miscTags": [
+				"MW",
+				"AoE"
+			],
+			"isNamedCreature": true
+		},
+		{
+			"name": "Adan, Frost Disciple",
+			"source": "IcewindDaleRimeoftheLamberto",
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					{
+						"tag": "Human",
+						"prefix": "Child"
+					}
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"ice-tempered chain shirt"
+					]
+				}
+			],
+			"hp": {
+				"formula": "10d8 + 30",
+				"average": 75
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 18,
+			"dex": 16,
+			"con": 16,
+			"int": 10,
+			"wis": 14,
+			"cha": 12,
+			"save": {
+				"str": "+7",
+				"dex": "+6",
+				"con": "+6"
+			},
+			"skill": {
+				"athletics": "+7",
+				"acrobatics": "+6",
+				"perception": "+4",
+				"survival": "+4"
+			},
+			"resist": [
+				"cold"
+			],
+			"conditionImmune": [],
+			"senses": [],
+			"passive": 14,
+			"languages": [
+				"Common"
+			],
+			"cr": "5",
+			"pb": 3,
+			"trait": [
+				{
+					"name": "Frost-Forged Training",
+					"entries": [
+						"Adan's melee weapon attacks deal an extra 7 ({@damage 2d6}) cold damage."
+					]
+				},
+				{
+					"name": "Icebound Agility",
+					"entries": [
+						"Adan can Dash or Disengage as a bonus action on each of his turns."
+					]
+				},
+				{
+					"name": "Winter's Tenacity",
+					"entries": [
+						"Once per day, when Adan would be reduced to 0 hit points, he can instead drop to 1 hit point."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Adan makes three melee attacks with his Frost Blades."
+					]
+				},
+				{
+					"name": "Frost Blades",
+					"entries": [
+						"{@atk mw} {@hit +7} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) slashing damage plus 7 ({@damage 2d6}) cold damage."
+					]
+				},
+				{
+					"name": "Glacial Dash (Recharge 5\u20136)",
+					"entries": [
+						"Adan moves up to his speed without provoking opportunity attacks. At any point during this movement, he can make one Frost Blades attack against up to three different creatures (one attack per creature)."
+					]
+				}
+			],
+			"environment": [
+				"arctic"
+			],
+			"token": {
+				"name": "Adan, Frost Disciple",
+				"source": "Custom"
+			},
+			"damageTags": [
+				"S",
+				"C"
+			],
+			"damageTagsLegendary": [
+				"S",
+				"C"
+			],
+			"savingThrowForcedLegendary": [
+				"strength",
+				"constitution",
+				"dexterity"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"miscTags": [
+				"MW",
+				"MLW"
 			],
 			"isNamedCreature": true
 		}
