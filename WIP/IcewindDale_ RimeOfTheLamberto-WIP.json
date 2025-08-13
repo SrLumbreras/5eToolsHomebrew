@@ -125,7 +125,7 @@
 					]
 				},
 				{
-					"name": "Frostwind Slash (Recharge 5\u20136)",
+					"name": "Frostwind Slash (Recharge 5–6)",
 					"entries": [
 						"Sephek swings his longsword in a freezing arc. All creatures in a 15-ft. cone must make a DC 17 Constitution saving throw, taking 31 ({@damage 7d8}) cold damage on a failed save, or half as much on a success."
 					]
@@ -310,7 +310,7 @@
 			"isNamedCreature": true
 		},
 		{
-			"name": "Adan, Frost Disciple",
+			"name": "Adan Perire",
 			"source": "IcewindDaleRimeoftheLamberto-WIP",
 			"size": [
 				"S"
@@ -330,42 +330,35 @@
 			],
 			"ac": [
 				{
-					"ac": 17,
+					"ac": 16,
 					"from": [
-						"ice-tempered chain shirt"
+						"{@item breastplate|xphb}"
 					]
 				}
 			],
 			"hp": {
-				"formula": "10d8 + 30",
-				"average": 75
+				"formula": "9d8 + 27",
+				"average": 67
 			},
 			"speed": {
 				"walk": 40
 			},
-			"str": 18,
-			"dex": 16,
+			"str": 16,
+			"dex": 18,
 			"con": 16,
 			"int": 10,
 			"wis": 14,
 			"cha": 12,
 			"save": {
-				"str": "+7",
-				"dex": "+6",
-				"con": "+6"
+				"dex": "+7",
+				"str": "+6",
+				"cha": "+4"
 			},
-			"skill": {
-				"athletics": "+7",
-				"acrobatics": "+6",
-				"perception": "+4",
-				"survival": "+4"
-			},
-			"resist": [
-				"cold"
+			"conditionImmune": [
+				"charmed",
+				"frightened"
 			],
-			"conditionImmune": [],
-			"senses": [],
-			"passive": 14,
+			"passive": 12,
 			"languages": [
 				"Common"
 			],
@@ -405,7 +398,7 @@
 					]
 				},
 				{
-					"name": "Glacial Dash (Recharge 5\u20136)",
+					"name": "Glacial Dash (Recharge 5–6)",
 					"entries": [
 						"Adan moves up to his speed without provoking opportunity attacks. At any point during this movement, he can make one Frost Blades attack against up to three different creatures (one attack per creature)."
 					]
@@ -418,10 +411,6 @@
 				"name": "Adan, Frost Disciple",
 				"source": "Custom"
 			},
-			"damageTags": [
-				"S",
-				"C"
-			],
 			"damageTagsLegendary": [
 				"S",
 				"C"
@@ -438,10 +427,48 @@
 				"C"
 			],
 			"miscTags": [
-				"MW",
-				"MLW"
+				"MW"
 			],
-			"isNamedCreature": true
+			"isNamedCreature": true,
+			"shortName": "Adan",
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"skill": {
+				"survival": "+5",
+				"acrobatics": "+7",
+				"stealth": "+7"
+			},
+			"immune": [
+				"cold"
+			],
+			"damageTags": [
+				"C",
+				"S"
+			]
+		}
+	],
+	"makebrewCreatureTrait": [
+		{
+			"name": "Frost-Forged Training",
+			"entries": [
+				"Adan's melee weapon attacks deal an extra 7 ({@damage 2d6}) cold damage."
+			]
+		},
+		{
+			"name": "Icebound Agility",
+			"entries": [
+				"Adan can Dash or Disengage as a bonus action on each of his turns."
+			]
+		},
+		{
+			"name": "Winter's Tenacity",
+			"entries": [
+				"Once per day, when Adan would be reduced to 0 hit points, he can instead drop to 1 hit point."
+			]
 		}
 	]
 }
