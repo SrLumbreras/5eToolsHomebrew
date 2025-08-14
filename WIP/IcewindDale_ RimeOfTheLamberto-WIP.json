@@ -125,7 +125,7 @@
 					]
 				},
 				{
-					"name": "Frostwind Slash (Recharge 5–6)",
+					"name": "Frostwind Slash (Recharge 5\u20136)",
 					"entries": [
 						"Sephek swings his longsword in a freezing arc. All creatures in a 15-ft. cone must make a DC 17 Constitution saving throw, taking 31 ({@damage 7d8}) cold damage on a failed save, or half as much on a success."
 					]
@@ -398,7 +398,7 @@
 					]
 				},
 				{
-					"name": "Glacial Dash (Recharge 5–6)",
+					"name": "Glacial Dash (Recharge 5\u20136)",
 					"entries": [
 						"Adan moves up to his speed without provoking opportunity attacks. At any point during this movement, he can make one Frost Blades attack against up to three different creatures (one attack per creature)."
 					]
@@ -453,22 +453,11 @@
 	],
 	"makebrewCreatureTrait": [
 		{
-			"name": "Frost-Forged Training",
+			"name": "Cold Regeneration",
 			"entries": [
-				"Adan's melee weapon attacks deal an extra 7 ({@damage 2d6}) cold damage."
-			]
-		},
-		{
-			"name": "Icebound Agility",
-			"entries": [
-				"Adan can Dash or Disengage as a bonus action on each of his turns."
-			]
-		},
-		{
-			"name": "Winter's Tenacity",
-			"entries": [
-				"Once per day, when Adan would be reduced to 0 hit points, he can instead drop to 1 hit point."
-			]
+				"If the temperature around him is 0°F (-18°C) or lower, Sephek regains 15 hit points at the start of his turn. If he takes fire damage, this trait doesn't function at the start of his next turn. Sephek dies only if he starts his turn with 0 hit points and doesn't regenerate."
+			],
+			"source": "IcewindDaleRimeoftheLamberto-WIP"
 		}
 	]
 }
