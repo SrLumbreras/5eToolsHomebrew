@@ -199,8 +199,8 @@
 			},
 			"fluff": {
 				"entries": [
-					"Eva Perire is a human cleric devoted to {@deity Tempus}, raised in Bryn Shander under the care of Sephek alongside her twin brother, Adan. Unlike many orphans, she grew up under strict discipline, learning early to value both prayer and steel. Her faith in Tempus has been unwavering since childhood, and Sephek encouraged her to follow the path of the war god's clergy.",
-					"At fourteen, Eva began serving as Sephek's squire. She accompanied him and Adan on mercenary contracts, tending to his equipment, assisting in the field, and watching battles unfold at his side. Though still young, she has been shaped by these journeys, gaining firsthand knowledge of survival and service while remaining loyal to the orphanage that gave her shelter."
+					"Eva Perire is a human cleric devoted to {@deity Tempus}, raised in Bryn Shander under the care of {@creature Sephek Kaltro|IDRotL} alongside her twin brother, {@creature Adan Perire|IDRotL}. Unlike many orphans, she grew up under strict discipline, learning early to value both prayer and steel. Her faith in Tempus has been unwavering since childhood, and {@creature Sephek Kaltro|IDRotL} encouraged her to follow the path of the war god's clergy.",
+					"At fourteen, Eva began serving as {@creature Sephek Kaltro|IDRotL}'s squire. She accompanied him and {@creature Adan Perire|IDRotL} on mercenary contracts, tending to his equipment, assisting in the field, and watching battles unfold at his side. Though still young, she has been shaped by these journeys, gaining firsthand knowledge of survival and service while remaining loyal to the orphanage that gave her shelter."
 				],
 				"images": [
 					{
