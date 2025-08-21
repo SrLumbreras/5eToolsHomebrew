@@ -50,6 +50,12 @@
                     "from": [
                         "{@item breastplate|xphb}"
                     ]
+                },
+                {
+                    "ac": 18,
+                    "from": [
+                        "{@spell Shield of Faith}"
+                    ]
                 }
             ],
             "hp": {
@@ -68,13 +74,12 @@
             "skill": {
                 "insight": "+7",
                 "medicine": "+7",
-                "religion": "+5",
-                "perception": "+7"
+                "religion": "+5"
             },
             "immune": [
                 "cold"
             ],
-            "passive": 17,
+            "passive": 14,
             "languages": [
                 "Celestial",
                 "Common"
@@ -83,21 +88,9 @@
             "pb": 3,
             "trait": [
                 {
-                    "name": "Divine Spellcasting",
-                    "entries": [
-                        "Eva is a 9th-level spellcaster. Her spellcasting ability is Wisdom (spell save {@dc 15}, {@hit 7} to hit with spell attacks). She has the following cleric spells prepared:",
-                        "• Cantrips (at will): {@spell thaumaturgy}, {@spell guidance}, {@spell sacred flame}, {@spell spare the dying}",
-                        "• 1st level (4 slots): {@spell bless}, {@spell cure wounds}, {@spell command}",
-                        "• 2nd level (3 slots): {@spell hold person}, {@spell spiritual weapon}",
-                        "• 3rd level (3 slots): {@spell bestow curse}, {@spell dispel magic}, {@spell spirit guardians}",
-                        "• 4th level (3 slots): {@spell banishment}, {@spell guardian of faith}",
-                        "• 5th level (1 slot): {@spell flame strike}"
-                    ]
-                },
-                {
                     "name": "Aura of Winter",
                     "entries": [
-                        "Allies within 10 ft. of Eva gain resistance to fire damage. Enemies that start their turn within 10 ft. of her must succeed on a {@dc 15} Constitution saving throw or have their speed reduced by 10 ft. until the start of their next turn."
+                        "Allies within 10 ft. of Eva gains the effects of {@spell fire shield} spell (chill shield)."
                     ]
                 },
                 {
@@ -109,26 +102,18 @@
             ],
             "action": [
                 {
-                    "name": "Mace",
+                    "name": "Staff",
                     "entries": [
-                        "{@atk mw} {@hit +3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage."
+                        "{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d6 - 1}) damage."
                     ]
                 },
                 {
-                    "name": "Channel Divinity (1/Short Rest)",
+                    "name": "Channel Divinity (2/Day)",
                     "entries": [
-                        "Eva can use her Channel Divinity to either Turn Undead (as per cleric rules) or invoke a chilling blessing, causing up to 3 creatures of her choice within 30 ft. to regain 15 hit points."
+                        "Eva can use her Channel Divinity to either {@classFeature Turn Undead|Cleric|XPHB|2|XPHB|Turn Undead} or to {@classFeature Divine Spark|Cleric|XPHB|2|XPHB|Divine Spark}."
                     ]
                 }
             ],
-            "environment": [
-                "arctic",
-                "underground"
-            ],
-            "token": {
-                "name": "Eva, Winter Acolyte",
-                "source": "Custom"
-            },
             "damageTagsLegendary": [
                 "B",
                 "R",
@@ -145,14 +130,7 @@
                 "CE",
                 "C"
             ],
-            "miscTags": [
-                "MW",
-                "MLW"
-            ],
             "isNamedCreature": true,
-            "attachedItems": [
-                "mace|phb"
-            ],
             "save": {
                 "wis": "+7",
                 "cha": "+6",
@@ -175,7 +153,7 @@
                 {
                     "name": "Spellcasting",
                     "headerEntries": [
-                        "Eva casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 14}):"
+                        "Eva casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 15}):"
                     ],
                     "will": [
                         "{@spell light|XPHB}",
@@ -183,13 +161,19 @@
                         "{@spell spare the dying|XPHB}"
                     ],
                     "daily": {
-                        "2": [
-                            "{@spell sending|XPHB}"
+                        "2e": [
+                            "{@spell mass healing word|XPHB}",
+                            "{@spell sending|XPHB}",
+                            "{@spell spirit guardians|XPHB}"
                         ],
                         "3e": [
-                            "{@spell cure wounds|XPHB} (level 2 version)"
+                            "{@spell cure wounds|XPHB} (level 2 version)",
+                            "{@spell guiding bolt|XPHB} (level 2 version)"
                         ]
                     },
+                    "constant": [
+                        "{@spell fire shield|XPHB}"
+                    ],
                     "ability": "wis",
                     "type": "spellcasting",
                     "displayAs": "action"
@@ -198,17 +182,48 @@
             "spellcastingTags": [
                 "O"
             ],
-            "damageTags": [
-                "B"
+            "miscTags": [
+                "MW"
+            ],
+            "reaction": [
+                {
+                    "name": "Guided Strike {@recharge 5}",
+                    "entries": [
+                        "When Eva or a creature within 30 feet of her misses with an attack roll, Eva can give that roll a +10 bonus, potentially causing it to hit."
+                    ]
+                }
+            ],
+            "tokenHref": {
+                "type": "external",
+                "url": "https://raw.githubusercontent.com/SrLumbreras/HomebrewMedia/refs/heads/main/Tokens/IDRotL/Eva_Perire.png"
+            },
+            "fluff": {
+                "entries": [
+                    "Eva Perire is a human cleric devoted to {@deity Tempus}, raised in Bryn Shander under the care of Sephek alongside her twin brother, Adan. Unlike many orphans, she grew up under strict discipline, learning early to value both prayer and steel. Her faith in Tempus has been unwavering since childhood, and Sephek encouraged her to follow the path of the war god’s clergy.",
+                    "At fourteen, Eva began serving as Sephek’s squire. She accompanied him and Adan on mercenary contracts, tending to his equipment, assisting in the field, and watching battles unfold at his side. Though still young, she has been shaped by these journeys, gaining firsthand knowledge of survival and service while remaining loyal to the orphanage that gave her shelter."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/SrLumbreras/HomebrewMedia/refs/heads/main/Illustrations/IDRotL/Eva_Perire/FullBody_noBG.png"
+                        }
+                    }
+                ]
+            },
+            "environment": [
+                "arctic"
             ],
             "damageTagsSpell": [
+                "C",
+                "F",
+                "N",
                 "R"
             ],
-            "savingThrowForced": [
-                "constitution"
-            ],
             "savingThrowForcedSpell": [
-                "dexterity"
+                "dexterity",
+                "wisdom"
             ]
         }
     ]
