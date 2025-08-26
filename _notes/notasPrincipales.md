@@ -18,13 +18,13 @@
 - **Mikaela** — Maga (segunda entrada, "tetona de Targos")  
 
 ### Alcaldes y Líderes Locales
-- **Vilhon** — Alcalde de Good Mead (sustituto)  
-- **Sandar** — Hijo del antiguo alcalde de Good Mead (elegido de Tempus)  
-- **Danneth** — Alcalde de Easthaven  
-- **Crannoc Siever** — Alcalde de Caer-Dineval (sur)  
-- **Trovus** — Alcalde de Caer-Konig (norte)  
-- **Enda** — Alcaldesa de Dougan's Hole  
-- **Dormo** — Hijo de la alcaldesa Enda de Dougan’s Hole  
+- **Vilhon** — Alcalde de Good Mead (sustituto)
+- **Sandar** — Hijo del antiguo alcalde de Good Mead (elegido de Tempus)
+- **Danneth** — Alcalde de Easthaven
+- **Crannoc Siever** — Alcalde de Caer-Dineval (sur)
+- **Trovus** — Alcalde de Caer-Konig (norte)
+- **Enda** — Alcaldesa de Dougan's Hole
+- **Dormo** — Hijo de la alcaldesa Enda de Dougan’s Hole
 
 ### Drows y Aliados
 - **Lylyl** — Drow muerto en el lago  
@@ -36,11 +36,13 @@
 - **Thal'Zovir** — Familia de sirvientes de los Do'Urden  
 
 #### Figuras Clave
-- **Orlyndis Thal'Zorvir IV** — Shapeshifter, mayordomo de Drizzt Do'Urden  
-- **Dolyr Khareese** — *[por completar]*  
+- **Orlyndis Thal'Zorvir IV** — Shapeshifter, mayordomo de Drizzt Do'Urden
+  - **Michael** — Alter ego mayordomo humano
+
+- **Dolyr Khareese** — Matriarca del clan
 - **Zyn'dorel Khareese** — Mago trans, hijo de matriarca, aliado de los Do'Urden  
   - [Referencia: Abjurer Wizard (5eTools)](https://5e.tools/bestiary.html#abjurer%20wizard_mpmm)  
-- **Michael** — Puede buscarse en Caer-Dineval  
+- **Ulnar Khareese** — Drow de Antonio, general del asalto de Bryn Shander 
 
 ## Gigante Encerrado
 - **Hjoölvir (Thruun)** — Gigante del sur de Dougan's Hole  
