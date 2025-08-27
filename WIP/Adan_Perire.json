@@ -27,7 +27,12 @@
 				"S"
 			],
 			"type": {
-				"type": "humanoid",
+				"type": {
+					"choose": [
+						"humanoid",
+						"undead"
+					]
+				},
 				"tags": [
 					{
 						"tag": "Human",
@@ -48,8 +53,8 @@
 				}
 			],
 			"hp": {
-				"formula": "9d8 + 27",
-				"average": 67
+				"formula": "10d12 + 30",
+				"average": 95
 			},
 			"speed": {
 				"walk": 40
@@ -61,15 +66,15 @@
 			"wis": 14,
 			"cha": 12,
 			"save": {
-				"dex": "+7",
 				"str": "+6",
+				"dex": "+7",
 				"cha": "+4"
 			},
 			"conditionImmune": [
 				"charmed",
 				"frightened"
 			],
-			"passive": 12,
+			"passive": 15,
 			"languages": [
 				"Common"
 			],
@@ -77,21 +82,9 @@
 			"pb": 3,
 			"trait": [
 				{
-					"name": "Frost-Forged Training",
+					"name": "Cold Regeneration.",
 					"entries": [
-						"Adan's melee weapon attacks deal an extra 7 ({@damage 2d6}) cold damage."
-					]
-				},
-				{
-					"name": "Icebound Agility",
-					"entries": [
-						"Adan can Dash or Disengage as a bonus action on each of his turns."
-					]
-				},
-				{
-					"name": "Winter's Tenacity",
-					"entries": [
-						"Once per day, when Adan would be reduced to 0 hit points, he can instead drop to 1 hit point."
+						"If the temperature around him is 0°F (-18°C) or lower, Adan regains 15 hit points at the start of his turn. If he takes fire damage, this trait doesn't function at the start of his next turn. Adan dies only if he starts his turn with 0 hit points and doesn't regenerate."
 					]
 				}
 			],
@@ -105,11 +98,11 @@
 				{
 					"name": "Frost Blades",
 					"entries": [
-						"{@atk mw} {@hit +7} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) slashing damage plus 7 ({@damage 2d6}) cold damage."
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage, plus 7 ({@damage 2d6}) cold damage, and the target's speed is reduced by 10 feet until the start of Adan's next turn."
 					]
 				},
 				{
-					"name": "Glacial Dash (Recharge 5\u20136)",
+					"name": "Glacial Dash {@recharge 5}",
 					"entries": [
 						"Adan moves up to his speed without provoking opportunity attacks. At any point during this movement, he can make one Frost Blades attack against up to three different creatures (one attack per creature)."
 					]
@@ -118,10 +111,6 @@
 			"environment": [
 				"arctic"
 			],
-			"token": {
-				"name": "Adan, Frost Disciple",
-				"source": "Custom"
-			},
 			"damageTagsLegendary": [
 				"S",
 				"C"
@@ -141,7 +130,6 @@
 				"MW"
 			],
 			"isNamedCreature": true,
-			"shortName": "Adan",
 			"senses": [
 				"darkvision 60 ft."
 			],
@@ -149,18 +137,44 @@
 				"D"
 			],
 			"skill": {
-				"survival": "+5",
 				"acrobatics": "+7",
-				"stealth": "+7"
+				"stealth": "+7",
+				"perception": "+5"
 			},
 			"immune": [
 				"cold"
 			],
+			"bonus": [
+				{
+					"name": "Icebound Agility",
+					"entries": [
+						"Adan can {@action Dash} or {@action Disengage} as a bonus action."
+					]
+				}
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/SrLumbreras/HomebrewMedia/refs/heads/main/Tokens/IDRotL/Adan_Perire.png"
+			},
+			"fluff": {
+				"entries": [
+					"Adan Perire is a disciplined fighter and rogue who grew up in Bryn Shander under the guardianship of Sephek. From childhood he was immersed in the dogma of {@deity Tempus}, learning that strength, discipline, and conflict were the true measures of a life well lived. Though he never took holy vows, the war god’s creed is etched deeply into his character, shaping both his outlook and his methods.",
+					"At fourteen, Adan began serving as Sephek’s squire, accompanying him and Eva on mercenary contracts across Icewind Dale. In this role he maintained arms and armor, observed the art of battle, and tested his own skill in the field. Though trained in discipline, his path grew into a swift and pragmatic form of combat, blending the soldier’s endurance with the duelist’s precision, a style meant for those who value movement and timing as much as raw strength."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/SrLumbreras/HomebrewMedia/refs/heads/main/Illustrations/IDRotL/Adan_Perire/FullBody_noBG.png"
+						}
+					}
+				]
+			},
 			"damageTags": [
 				"C",
 				"S"
-			],
-			"uniqueId": "719628dd-6c5f-49be-9868-a9cf743985a0"
+			]
 		}
 	]
 }
