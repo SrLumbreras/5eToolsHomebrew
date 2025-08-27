@@ -125,7 +125,7 @@
 					]
 				},
 				{
-					"name": "Frostwind Slash (Recharge 5–6)",
+					"name": "Frostwind Slash (Recharge 5\u20136)",
 					"entries": [
 						"Sephek swings his longsword in a freezing arc. All creatures in a 15-ft. cone must make a DC 17 Constitution saving throw, taking 31 ({@damage 7d8}) cold damage on a failed save, or half as much on a success."
 					]
@@ -449,7 +449,7 @@
 					]
 				},
 				{
-					"name": "Glacial Dash (Recharge 5–6)",
+					"name": "Glacial Dash (Recharge 5\u20136)",
 					"entries": [
 						"Adan moves up to his speed without provoking opportunity attacks. At any point during this movement, he can make one Frost Blades attack against up to three different creatures (one attack per creature)."
 					]
