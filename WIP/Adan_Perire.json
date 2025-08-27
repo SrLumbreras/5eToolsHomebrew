@@ -1,0 +1,166 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "AdanPerire-WIP",
+                "abbreviation": "AdanPerire-WIP",
+                "full": "AdanPerire-WIP",
+                "version": "1.0.0",
+                "url": "https://5e.tools/adventure.html#idrotf",
+                "authors": [
+                    "Lumbreras"
+                ],
+                "convertedBy": [
+                    "Lumbreras"
+                ],
+                "color": "1cceab"
+            }
+        ],
+        "dateAdded": 1755096466,
+        "dateLastModified": 1755096466
+    },
+    "monster": [
+        {
+            "name": "Adan Perire",
+            "source": "AdanPerire-WIP",
+            "size": [
+                "S"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    {
+                        "tag": "Human",
+                        "prefix": "Child"
+                    }
+                ]
+            },
+            "alignment": [
+                "N",
+                "E"
+            ],
+            "ac": [
+                {
+                    "ac": 16,
+                    "from": [
+                        "{@item breastplate|xphb}"
+                    ]
+                }
+            ],
+            "hp": {
+                "formula": "9d8 + 27",
+                "average": 67
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 16,
+            "dex": 18,
+            "con": 16,
+            "int": 10,
+            "wis": 14,
+            "cha": 12,
+            "save": {
+                "dex": "+7",
+                "str": "+6",
+                "cha": "+4"
+            },
+            "conditionImmune": [
+                "charmed",
+                "frightened"
+            ],
+            "passive": 12,
+            "languages": [
+                "Common"
+            ],
+            "cr": "5",
+            "pb": 3,
+            "trait": [
+                {
+                    "name": "Frost-Forged Training",
+                    "entries": [
+                        "Adan's melee weapon attacks deal an extra 7 ({@damage 2d6}) cold damage."
+                    ]
+                },
+                {
+                    "name": "Icebound Agility",
+                    "entries": [
+                        "Adan can Dash or Disengage as a bonus action on each of his turns."
+                    ]
+                },
+                {
+                    "name": "Winter's Tenacity",
+                    "entries": [
+                        "Once per day, when Adan would be reduced to 0 hit points, he can instead drop to 1 hit point."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "Adan makes three melee attacks with his Frost Blades."
+                    ]
+                },
+                {
+                    "name": "Frost Blades",
+                    "entries": [
+                        "{@atk mw} {@hit +7} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) slashing damage plus 7 ({@damage 2d6}) cold damage."
+                    ]
+                },
+                {
+                    "name": "Glacial Dash (Recharge 5–6)",
+                    "entries": [
+                        "Adan moves up to his speed without provoking opportunity attacks. At any point during this movement, he can make one Frost Blades attack against up to three different creatures (one attack per creature)."
+                    ]
+                }
+            ],
+            "environment": [
+                "arctic"
+            ],
+            "token": {
+                "name": "Adan, Frost Disciple",
+                "source": "Custom"
+            },
+            "damageTagsLegendary": [
+                "S",
+                "C"
+            ],
+            "savingThrowForcedLegendary": [
+                "strength",
+                "constitution",
+                "dexterity"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "C"
+            ],
+            "miscTags": [
+                "MW"
+            ],
+            "isNamedCreature": true,
+            "shortName": "Adan",
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "senseTags": [
+                "D"
+            ],
+            "skill": {
+                "survival": "+5",
+                "acrobatics": "+7",
+                "stealth": "+7"
+            },
+            "immune": [
+                "cold"
+            ],
+            "damageTags": [
+                "C",
+                "S"
+            ],
+            "uniqueId": "719628dd-6c5f-49be-9868-a9cf743985a0"
+        }
+    ]
+}
