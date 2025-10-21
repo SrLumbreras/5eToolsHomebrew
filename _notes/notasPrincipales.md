@@ -72,4 +72,45 @@
 - **Toph the Fire Demon** — Draconic Sorcerer (tieflin)  
 - **Romyah de Windspeaker** — Ranger, Horizon Walker (air genasi)  
 - **Luis the Blue Blade** — Fighter, Psionic Warrior (humano)  
-- **Vishara the Avatar** — Monk, Elementos (bugbear)  
+- **Vishara the Avatar** — Monk, Elementos (bugbear)
+
+---
+
+# Esclavos Cazadores
+Karra - Semiorca
+Sibilis - Yuanti
+Harrik - Enano
+Ssivarra - Yuanti
+Kaelthar - Hijo de Trovus
+
+---
+
+# Esclavos Supervivientes
+Lucas - Humano
+Tessa - Niña Tiefling
+Joren - Adolescente Semielfo
+Fenn - Gnoma de las nieves
+
+--- 
+
+# Regimiento 115 alias
+- **Julian (Enano F)** - Wardsix
+- **Grog (Goliat M)** - Casandra
+- **Oryn (Halfling M)** - Thalia
+- **Horacio (Reborn M)** - Chester
+- **Esmeralda (Tieflign F)** - Roblin
+- **Tabito (Gnoll M)** - Ditta
+
+---
+
+# Cazadores Peñalba
+- **Geronimo y Tea** - 
+- **Fivel (Tamer)** - https://5e.tools/bestiary.html#red%20ruin_dsotdq
+- **Mickey (Brujo)** - https://5e.tools/bestiary.html#murgaxor_scc,scaled:15
+- **Rizzo (Lanzero)** https://5e.tools/bestiary.html#isarr%20kronenstrom_idrotf
+
+
+Anillo que buscan
+https://5e.tools/items.html#ring%20of%20winter_toa
+
+Tokens de Dispel Magic (abjuracion), Teleport (conjuracion) y Locate Creature (divinacion)
