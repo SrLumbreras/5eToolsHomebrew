@@ -104,8 +104,12 @@ Fenn - Gnoma de las nieves
 ---
 
 # Cazadores Peñalba
-- **Geronimo y Tea** - 
-- **Fivel (Tamer)** - https://5e.tools/bestiary.html#red%20ruin_dsotdq
+- **Geronimo y Tea** - https://5e.tools/bestiary.html#blackguard_mpmm (WIP)
+- **Fievel (Tamer)** - https://5e.tools/bestiary.html#red%20ruin_dsotdq
+  - https://5e.tools/bestiary.html#displacer%20beast_xmm
+  - Swarm of https://5e.tools/bestiary.html#yeti%20tyke_idrotf
+  - https://5e.tools/bestiary.html#snowy%20owlbear_idrotf
+  - Mounted on https://5e.tools/bestiary.html#griffon_xmm with 18 AC
 - **Mickey (Brujo)** - https://5e.tools/bestiary.html#murgaxor_scc,scaled:15
 - **Rizzo (Lanzero)** https://5e.tools/bestiary.html#isarr%20kronenstrom_idrotf
 
