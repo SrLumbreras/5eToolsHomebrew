@@ -77,11 +77,11 @@
 ---
 
 # Esclavos Cazadores
-Karra - Semiorca
-Sibilis - Yuanti
-Harrik - Enano
-Ssivarra - Yuanti
-Kaelthar - Hijo de Trovus
+Karra - Semiorca - https://5e.tools/bestiary.html#anchorite%20of%20talos_dip
+Sibilis - Yuanti - https://5e.tools/bestiary.html#yuan-ti%20malison%20(type%203)_xmm
+Harrik - Enano - DECEASED
+Sivarra - Yuanti - https://5e.tools/bestiary.html#yuan-ti%20malison%20(type%203)_xmm
+Kaelthar - Dragonborn (Hijo de Trovus) - DECEASED - https://5e.tools/bestiary.html#thrakkus_wdh
 
 ---
 
@@ -91,7 +91,7 @@ Tessa - Niña Tiefling
 Joren - Adolescente Semielfo
 Fenn - Gnoma de las nieves
 
---- 
+---
 
 # Regimiento 115 alias
 - **Julian (Enano F)** - Wardsix
@@ -105,6 +105,7 @@ Fenn - Gnoma de las nieves
 
 # Cazadores Peñalba
 - **Geronimo y Tea** - https://5e.tools/bestiary.html#blackguard_mpmm (WIP)
+                     - https://5e.tools/bestiary.html#inda_veor
 - **Fievel (Tamer)** - https://5e.tools/bestiary.html#red%20ruin_dsotdq
   - https://5e.tools/bestiary.html#displacer%20beast_xmm
   - Swarm of https://5e.tools/bestiary.html#yeti%20tyke_idrotf
@@ -118,3 +119,7 @@ Anillo que buscan
 https://5e.tools/items.html#ring%20of%20winter_toa
 
 Tokens de Dispel Magic (abjuracion), Teleport (conjuracion) y Locate Creature (divinacion)
+
+Saco divinacion - nada x1
+Saco conjuracion - barro x2 2/2
+Saco abjuracion - rojo x2 0/2
