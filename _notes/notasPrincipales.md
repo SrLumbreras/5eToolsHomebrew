@@ -123,3 +123,7 @@ Tokens de Dispel Magic (abjuracion), Teleport (conjuracion) y Locate Creature (d
 Saco divinacion - nada x1
 Saco conjuracion - barro x2 2/2
 Saco abjuracion - rojo x2 0/2
+
+La esfera anti Divina la tiene el clerigo de Tobias
+La esfera anti Primal la tiene el regimiento 115 (rota)
+La esfera anti Arcana la tiene Anaar
