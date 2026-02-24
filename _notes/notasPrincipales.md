@@ -1,10 +1,16 @@
 # Notas de Partida
 
 ## Personajes y Familias de Targos
-- **Mikaela** — Maga de Targos  
+- **Mikaela** — Maga de Targos
+  ![cordelia_dead_state](https://art.ngfiles.com/images/5935000/5935916_1076844_blitzilla_cordelia-dead-estate.dd4fc9fe51c2ff80dff7470d8b93dfcc.jpg?f1723047702)
 - **Doval** — Familia drow de Targos  
 - **Casanova** — Familia de nobles de Targos  
-- **Bel y Mael** — Nobles de casa Casanova  
+- **Bel y Mael** — Nobles de casa Casanova 
+
+## Personajes y Familias de Bryn Shander
+- **Duvesa** - La alcaldesa
+- **Anaar (Balalaika)** - La mejor cleriga
+- **Olivessa** - Presidenta de la asociación de mercaderes
 
 ## Bryn Shander
 - **Ercis** — Tabernero (tieflin gallego)  
@@ -15,7 +21,6 @@
 
 ## Otros PNJ Relevantes
 - **Dotus** — Líder de cazadores del clan del oso  
-- **Mikaela** — Maga (segunda entrada, "tetona de Targos")  
 
 ### Alcaldes y Líderes Locales
 - **Vilhon** — Alcalde de Good Mead (sustituto)
