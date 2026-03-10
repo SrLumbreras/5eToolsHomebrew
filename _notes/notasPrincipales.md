@@ -3,28 +3,31 @@
 ## Personajes y Familias de Targos
 - **Mikaela** — Maga de Targos
   ![cordelia_dead_state](https://art.ngfiles.com/images/5935000/5935916_1076844_blitzilla_cordelia-dead-estate.dd4fc9fe51c2ff80dff7470d8b93dfcc.jpg?f1723047702)
-- **Doval** — Familia drow de Targos  
-- **Casanova** — Familia de nobles de Targos  
-- **Bel y Mael** — Nobles de casa Casanova 
+- **Doval** — Familia drow de Targos
+- **Casanova** — Familia de nobles de Targos
+- **Bel y Mael** — Nobles de casa Casanova
+- **Naerth** — Alcalde (sustituido por Dzaan)
+  - **Captain Skath** — Guardia tiefling del alcalde (sustituido por el compa Wight de Dzaan)
 
 ## Personajes y Familias de Bryn Shander
-- **Duvesa** - La alcaldesa
-- **Anaar (Balalaika)** - La mejor cleriga
-- **Olivessa** - Presidenta de la asociación de mercaderes
+- **Duvesa** — La alcaldesa
+- **Anaar (Balalaika)** — La mejor cleriga
+- **Olivessa** — Presidenta de la asociación de mercaderes
 
 ## Bryn Shander
-- **Ercis** — Tabernero (tieflin gallego)  
-- **Johan** — Esclavista  
-- **Dieter** — Ayudante de Johan  
-- **Elara** — Maestra de Thalia  
-- **Oars** — Alcalde  
+- **Ercis** — Tabernero (tieflin gallego)
+- **Johan** — Esclavista
+- **Dieter** — Ayudante de Johan
+- **Elara** — Maestra de Thalia
+- **Oars** — Alcalde
 
 ## Otros PNJ Relevantes
-- **Dotus** — Líder de cazadores del clan del oso  
+- **Dotus** — Líder de cazadores del clan del oso
+- **Dana** — Espia de la hermandad arcana, "tabernera" en Lonelywood
 
 ### Alcaldes y Líderes Locales
 - **Vilhon** — Alcalde de Good Mead (sustituto)
-- **Sandar** — Hijo del antiguo alcalde de Good Mead (elegido de Tempus)
+  - **Sandar** — Hijo del antiguo alcalde de Good Mead (elegido de Tempus)
 - **Danneth** — Alcalde de Easthaven
 - **Crannoc Siever** — Alcalde de Caer-Dineval (sur)
 - **Trovus** — Alcalde de Caer-Konig (norte)
