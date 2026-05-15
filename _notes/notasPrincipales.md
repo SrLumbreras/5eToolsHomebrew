@@ -134,4 +134,5 @@ Saco abjuracion - rojo x2 0/2
 
 La esfera anti Divina la tiene el clerigo de Tobias
 La esfera anti Primal la tiene el regimiento 115 (rota)
-La esfera anti Arcana la tiene Anaar
+La esfera anti Pacto la tiene el regimiento 115 (antiguamente de Anaar)
+La esfera anti Arcana esta en ??

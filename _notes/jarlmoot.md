@@ -1,3 +1,100 @@
+# Varkul el Immutable 
+## Fjell (Mountain Rune)
+![Sala](https://themaudsaga.com/cdn/shop/files/u8257331639_An_ancient_frostbitten_stone_chamber_carved_deep__7914a245-2bd3-425c-bf59-862146afd520_3.png?v=1765910393&width=3840)
+
+_La cámara es un espacio colosal excavado en la roca viva de la montaña. Un círculo perfecto de piedra antigua, demasiado grande para haber sido construido por manos humanas. El aire es denso, pesado, como si la propia montaña respirara alrededor de los intrusos._
+
+_Tres grandes plataformas de piedra dominan la sala, dispuestas en triángulo. Cada una está marcada con runas desgastadas por el tiempo, como si hubieran soportado siglos de pruebas sin descanso. Bajo ellas, mecanismos colosales de cadenas y contrapesos se pierden en la oscuridad del suelo y el techo._
+
+_“La montaña no vence. Aguanta.”_
+
+### ESTRUCTURA DEL ENCUENTRO
+3 placas (combates simultáneos)
+- Placa I: [Otyugh](https://5e.tools/bestiary.html#otyugh_xmm)
+- Placa II: [Hobgoblin_Warrior](https://5e.tools/bestiary.html#hobgoblin%20warrior_xmm) / [Hobgoblin_Captain](https://5e.tools/bestiary.html#hobgoblin%20captain_xmm)
+- Placa III: [Wraith](https://5e.tools/bestiary.html#wraith_xmm)
+- Exterior:
+[Minotauros](https://5e.tools/bestiary.html#minotaur%20of%20baphomet_xmm) presionando a los personajes libres (2x player)
+Intentan romper concentración y estabilidad de placas
+Al morir reencarnan en [Minotauro_Esqueleto](https://5e.tools/bestiary.html#minotaur%20skeleton_xmm)
+
+### MECÁNICA DE PLACAS
+
+Cada placa funciona asi: 
+
+Un personaje (o varios) se posiciona sobre ella, mientras esté en combate dentro de la placa, el cuerpo está en “estado de concentración profunda” y entran en combate contra el enemigo correspondiente a su placa.
+
+Si tus puntos de vida se reducen a 0 mientras estas en estado de trance, pierdes la concentración y sales del trance forzadamente.
+
+Las 3 placas deben mantenerse estables durante 3 rondas completas consecutivas
+
+Si en cualquier ronda falla una placa el contador global se reinicia a 0
+
+Si una placa no se mantiene estable en una ronda,todos los personajes conectados a las placas reciben 3d10 daño psíquico
+
+## PLACA I — OTYUGH
+Presión física constante, inmovilidad forzada, suciedad, arrastre.
+
+“No te deja moverte. Solo resistir.”
+
+    “En los primeros días, no fueron ejércitos los que vinieron… sino el hambre.”
+
+    “Criaturas sin forma, devoradoras de piedra y hueso. Se arrastraban por las grietas de la montaña buscando su corazón.”
+
+    “Vosotros… sois la pared que no cedió.”
+
+    “Soportad como soportamos nosotros cuando la carne del mundo intentó tragarnos la roca.”
+
+## PLACA II — HOBGOBLINS
+Guerra disciplinada, presión táctica, caos organizado.
+
+“No puedes ganar rápido. Solo mantenerte firme.”
+
+    “Luego vinieron los que tenían orden.”
+
+    “Portaban disciplina donde no debería haberla habido. Marte en formación perfecta contra nuestras puertas.”
+
+    “Cada golpe era una estrategia. Cada retirada, una mentira.”
+
+    “Vosotros… sois la línea que no se rompió.”
+
+“Recordad la guerra que nunca terminó hasta que la montaña la olvidó.”
+
+## PLACA III — WRAITH
+Desesperación, frío emocional, pérdida de voluntad.
+
+“No es fuerza. Es voluntad.”
+
+    “Y después… vino el silencio.”
+
+    “No de ejércitos. No de hambre. Sino de lo que queda cuando todo nombre es olvidado.”
+
+    “Sombras que no atacan… sino que recuerdan lo que ya no eres.”
+
+    “Vosotros… sois el último pensamiento antes del invierno eterno.”
+
+    “Resistid lo que no se puede matar… solo olvidar.”
+
+## EXTERIOR — MINOTAUROS
+Interferencia física del sistema
+“El mundo exterior también pesa.”
+
+    “Vosotros, fuera del juicio… sois el eco de los que defendieron las murallas.”
+
+    “Los gigantes no caían solos. Ninguna fortaleza cae sola.”
+
+    “Recordad esto: lo que entra en el salón… nunca sale igual.”
+
+## Final
+
+Cuando las 3 placas completan 3 rondas estables:
+“La montaña deja de resistir… porque ya no necesita hacerlo.”
+
+los enemigos desaparecen
+los minotauros se detienen
+el suelo se hunde lentamente
+La runa de Fjell se activa.
+
 # DOD — Death
 
 Death
@@ -239,103 +336,3 @@ unidad
 
 Eso hace que las decisiones importen muchísimo más que “resolver rooms”.
 
-# Varkul el Immutable 
-## Fjell (Mountain Rune)
-[Sala](https://images.openai.com/static-rsc-4/wl57MVsWyqwW4lgXuGla5zgw2ZZbjZWkwDz6TDPIS0kaQThY3_6mJnC0lbiStNpSgx6KD_SHrgRPjehS-i7BzIQvJGD5_H9g4r9_hXMHCutgGXcI77eThnfFGcTtL_dZ1ZhzapaZxL_fscIhm58IUVXpqg8uCSd913cr_lke74HziPCmeR-o9Ur7VUTjjz0l?purpose=fullsize)
-
-“La montaña no vence. Aguanta.”
-
-
-La runa de Fjell se activa si:
-
-Las 3 placas se mantienen “estables” durante 3 rondas completas consecutivas
-
-Cada placa representa una prueba de resistencia en combate.
-
-### ESTRUCTURA DEL ENCUENTRO
-🔺 3 placas (combates simultáneos)
-- Placa I: [Otyugh](https://5e.tools/bestiary.html#otyugh_xmm)
-- Placa II: [Hobgoblin_Warrior](https://5e.tools/bestiary.html#hobgoblin%20warrior_xmm) / [Hobgoblin_Captain](https://5e.tools/bestiary.html#hobgoblin%20captain_xmm)
-- Placa III: [Wraith](https://5e.tools/bestiary.html#wraith_xmm)
-- Exterior:
-[Minotauros](https://5e.tools/bestiary.html#minotaur%20of%20baphomet_xmm) presionando a los personajes libres (2x player)
-Intentan romper concentración y estabilidad de placas
-Al morir reencarnan en [Minotauro_Esqueleto](https://5e.tools/bestiary.html#minotaur%20skeleton_xmm)
-
-### MECÁNICA DE PLACAS
-Cada placa funciona así:
-
-Un personaje (o varios) se posiciona sobre ella, mientras esté en combate dentro de la placa, el cuerpo está en “estado de concentración profunda”
-
-El combate se resuelve normalmente en turnos
-
-## Para activar la runa:
-
-Las 3 placas deben mantenerse estables durante 3 rondas completas consecutivas
-
-Si en cualquier ronda falla una placa el contador global se reinicia a 0
-
-Si una placa no se mantiene estable en una ronda,todos los personajes conectados a las placas reciben 3d10 daño psíquico
-
-## PLACA I — OTYUGH
-Presión física constante, inmovilidad forzada, suciedad, arrastre.
-
-“No te deja moverte. Solo resistir.”
-
-    “En los primeros días, no fueron ejércitos los que vinieron… sino el hambre.”
-
-    “Criaturas sin forma, devoradoras de piedra y hueso. Se arrastraban por las grietas de la montaña buscando su corazón.”
-
-    “Vosotros… sois la pared que no cedió.”
-
-    “Soportad como soportamos nosotros cuando la carne del mundo intentó tragarnos la roca.”
-
-## PLACA II — HOBGOBLINS
-Guerra disciplinada, presión táctica, caos organizado.
-
-“No puedes ganar rápido. Solo mantenerte firme.”
-
-    “Luego vinieron los que tenían orden.”
-
-    “Portaban disciplina donde no debería haberla habido. Marte en formación perfecta contra nuestras puertas.”
-
-    “Cada golpe era una estrategia. Cada retirada, una mentira.”
-
-    “Vosotros… sois la línea que no se rompió.”
-
-“Recordad la guerra que nunca terminó hasta que la montaña la olvidó.”
-
-## PLACA III — WRAITH
-Desesperación, frío emocional, pérdida de voluntad.
-
-“No es fuerza. Es voluntad.”
-
-    “Y después… vino el silencio.”
-
-    “No de ejércitos. No de hambre. Sino de lo que queda cuando todo nombre es olvidado.”
-
-    “Sombras que no atacan… sino que recuerdan lo que ya no eres.”
-
-    “Vosotros… sois el último pensamiento antes del invierno eterno.”
-
-    “Resistid lo que no se puede matar… solo olvidar.”
-
-## EXTERIOR — MINOTAUROS
-Interferencia física del sistema
-“El mundo exterior también pesa.”
-
-    “Vosotros, fuera del juicio… sois el eco de los que defendieron las murallas.”
-
-    “Los gigantes no caían solos. Ninguna fortaleza cae sola.”
-
-    “Recordad esto: lo que entra en el salón… nunca sale igual.”
-
-## Final
-
-Cuando las 3 placas completan 3 rondas estables:
-“La montaña deja de resistir… porque ya no necesita hacerlo.”
-
-los enemigos desaparecen
-los minotauros se detienen
-el suelo se hunde lentamente
-La runa de Fjell se activa.
