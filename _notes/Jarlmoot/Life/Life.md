@@ -9,12 +9,12 @@ Al activar la runa, se les retiran los dados d20.
 
 ## Sala principal
 
+![machineRoom](https://github.com/SrLumbreras/5eToolsHomebrew/blob/feature/notes/_notes/Jarlmoot/Life/machineRoom.jpg?raw=true)
+
 Al entrar, llegan a una enorme sala con suelo de madera oscura y paredes de ladrillo claro, iluminada tenuemente por faroles de aceite.
 
 En el centro hay una máquina de apariencia extremadamente compleja que parece no funcionar correctamente. En la pared del fondo hay una puerta cerrada, remachada en cobre.
 En las paredes, enormes carruajes tallados en piedra decoran la estancia.
-
-![Sala](_notes\Jarlmoot\Life\machineRoom.jpg)
 
 ---
 
@@ -45,6 +45,8 @@ Dentro del laberinto, los jugadores pueden encontrar el camino hacia la salida s
 ---
 
 ## Sala final
+
+![treeRoom](https://github.com/SrLumbreras/5eToolsHomebrew/blob/feature/notes/_notes/Jarlmoot/Life/treeRoom.jpg?raw=true)
 
 La gran sala es circular, con suelo de césped y coronada por un enorme árbol central de hojas doradas del que brotan incontables flores.
 El espacio parece estar al aire libre y está iluminado por una agradable luz solar.
