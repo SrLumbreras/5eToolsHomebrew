@@ -137,5 +137,5 @@ Los personajes deben decidir si despiertan a Wardsix y permiten que cumpla su mi
 
 Resultado de la prueba:
 
-Si destruyen el mecanismo y evitan que Wardsix ataque el pueblo enemigo, superan la prueba, pero Wardsix recibe daño al recuperar recuerdos de todas las órdenes y vidas que ha perdido.
-Si permiten que Wardsix conserve esos recuerdos falsos y arrase el pueblo, la prueba se considera un fracaso.
+Si permiten que Wardsix conserve esos recuerdos falsos y arrase el pueblo, superan la prueba, pero Wardsix recibe daño al irse a la guerra con el otro poblado.
+Si destruyen el mecanismo y evitan que Wardsix ataque el pueblo enemigo, la prueba se considera un fracaso.
