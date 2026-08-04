@@ -139,3 +139,11 @@ Resultado de la prueba:
 
 Si permiten que Wardsix conserve esos recuerdos falsos y arrase el pueblo, superan la prueba, pero Wardsix recibe daño al irse a la guerra con el otro poblado.
 Si destruyen el mecanismo y evitan que Wardsix ataque el pueblo enemigo, la prueba se considera un fracaso.
+
+**Resultado**
+
+Wardsix -> Corazon blanco
+Roblin -> Corazon negro
+Chester -> Corazon negro
+Thalia -> Corazon blanco
+Cassandra -> Corazon blancosnow in summer

@@ -136,3 +136,10 @@ La esfera anti Divina la tiene el clerigo de Tobias
 La esfera anti Primal la tiene el regimiento 115 (rota)
 La esfera anti Pacto la tiene el regimiento 115 (antiguamente de Anaar)
 La esfera anti Arcana esta en ??
+
+
+Bajar un poco la vida a ambos
+Hacer que Charon solo recupere 10pt de escudo, pierda 1 carga por cada vez que llegue su turno y cuando llegue a la 4 carga reinicia todo, y recibe el doble en el siguiente ataque que reciba
+La flecha tocha de Haumea recharge 5/6
+La AC de Charon bajarla a 23
+Nerfear la speed de Charon a 30 ft.
