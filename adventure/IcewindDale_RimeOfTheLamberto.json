@@ -555,7 +555,7 @@
 							"Frost giants who master rune magic are known as ice shapers, and their sheer power typically contributes to a meteoric rise in the giants' ordning. Many of them end up as jarls, leading their communities, or as advisers to jarls\u2014often the true power behind the throne. They are usually devoted to Thrym.",
 							"True to their name, these ice shapers manipulate the raw elemental energy of air and water to wield ice in both offense and defense. They summon ice elementals in the shape of wolves, cloak themselves in icy armor, and just as quickly turn that armor into a hail of deadly ice shards.",
 							"In ancient times, Hjoölvir, was well known in the Icewind Dale region, a frost giant of immense power, able to summon ice storms with a single thought. Her throne, hidden deep in the frozen expanses of Icewind Dale, was the heart of her dominion, where two wolves of elemental fury guarded her. Fearing her growing strength, humans devised a plan to imprison her. Using mirrors that distorted light and runes that dampened her magic, they lured Hjoölvir into a trap.",
-							"The dungeon holding Hjoölvir has remained intact due to the Twenty Stones of Thruun, a circle of &nbsp standing stones located in Dougan's Hole. Though these stones have held her for over a thousand years, the barrier is slowly weakening, and Hjoölvir's fury intensifies. When she breaks free, winter will descend upon the land once again."
+							"The dungeon holding Hjoölvir has remained intact due to the Twenty Stones of Thruun, a circle of standing stones located in Dougan's Hole. Though these stones have held her for over a thousand years, the barrier is slowly weakening, and Hjoölvir's fury intensifies. When she breaks free, winter will descend upon the land once again."
 						]
 					}
 				],
@@ -669,7 +669,15 @@
 				"stealth": "+7"
 			},
 			"resist": [
-				"bludgeoning, piercing, and slashing from nonmagical attacks"
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
 			],
 			"immune": [
 				"cold"
@@ -686,7 +694,6 @@
 				"Common"
 			],
 			"cr": "10",
-			"pb": 4,
 			"trait": [
 				{
 					"name": "Cold Regeneration",
@@ -832,18 +839,15 @@
 			"resist": [
 				"cold"
 			],
-			"immune": [],
 			"conditionImmune": [
 				"charmed"
 			],
-			"senses": [],
 			"passive": 17,
 			"languages": [
 				"Common",
 				"Celestial"
 			],
 			"cr": "5",
-			"pb": 3,
 			"trait": [
 				{
 					"name": "Divine Spellcasting",
@@ -900,22 +904,22 @@
 				"wisdom",
 				"constitution"
 			],
-			"actionTags": [
-				"Spellcasting"
-			],
 			"languageTags": [
 				"C",
 				"CE"
 			],
 			"miscTags": [
 				"MW",
-				"AoE"
+				"AOE"
 			],
 			"isNamedCreature": true,
 			"tokenHref": {
 				"type": "external",
 				"url": "https://raw.githubusercontent.com/SrLumbreras/5eToolsHomebrew/wip/_img/IDRotL/token/Eva_Perire.png"
-			}
+			},
+			"spellcastingTags": [
+				"CC"
+			]
 		},
 		{
 			"name": "Adan, Frost Disciple",
@@ -971,14 +975,11 @@
 			"resist": [
 				"cold"
 			],
-			"conditionImmune": [],
-			"senses": [],
 			"passive": 14,
 			"languages": [
 				"Common"
 			],
 			"cr": "5",
-			"pb": 3,
 			"trait": [
 				{
 					"name": "Frost-Forged Training",
@@ -1072,8 +1073,7 @@
 			],
 			"dmg1": "1d10",
 			"dmgType": "S",
-			"weapon": true,
-			"entries": []
+			"weapon": true
 		}
 	]
 }
