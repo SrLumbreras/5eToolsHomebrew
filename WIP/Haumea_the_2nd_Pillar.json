@@ -1,0 +1,198 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Haumea-WIP",
+				"abbreviation": "HAU-WIP",
+				"full": "Haumea, the 2nd Pillar (WIP)",
+				"version": "0.1.0",
+				"color": "1cceab",
+				"authors": [
+					"Lumbreras"
+				],
+				"convertedBy": [
+					"Lumbreras"
+				]
+			}
+		],
+		"edition": "classic",
+		"dateAdded": 1787323229,
+		"dateLastModified": 1787323229,
+		"status": "wip"
+	},
+	"monster": [
+		{
+			"name": "Haumea, the 2nd Pillar",
+			"source": "Haumea-WIP",
+			"page": 0,
+			"isNamedCreature": true,
+			"shortName": "Haumea",
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				16
+			],
+			"hp": {
+				"average": 210,
+				"formula": "20d12 + 80"
+			},
+			"speed": {
+				"walk": 50,
+				"fly": 25,
+				"canHover": true
+			},
+			"str": 12,
+			"dex": 24,
+			"con": 18,
+			"int": 16,
+			"wis": 20,
+			"cha": 18,
+			"save": {
+				"dex": "+12",
+				"con": "+9",
+				"wis": "+10",
+				"cha": "+9"
+			},
+			"skill": {
+				"arcana": "+8",
+				"history": "+8",
+				"perception": "+10"
+			},
+			"resist": [
+				"cold"
+			],
+			"immune": [
+				"lightning",
+				"thunder"
+			],
+			"senses": [
+				"darkvision 120 ft.",
+				"truesight 30 ft."
+			],
+			"passive": 20,
+			"languages": [
+				"Common",
+				"Celestial"
+			],
+			"cr": "13",
+			"trait": [
+				{
+					"name": "Illumination",
+					"entries": [
+						"Haumea sheds bright light in a 20-foot radius and dim light for an additional 20 feet."
+					]
+				},
+				{
+					"name": "Lightning Blood",
+					"entries": [
+						"A creature within 5 feet of Haumea takes 5 ({@damage 1d10}) lightning damage whenever it hits her with a melee attack that deals piercing or slashing damage."
+					]
+				},
+				{
+					"name": "Legendary Resistance (2/Day)",
+					"entries": [
+						"If Haumea fails a saving throw, she can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Haumea makes two attacks, using Arc Lightning or Thunderbolt in any combination."
+					]
+				},
+				{
+					"name": "Thunderbolt",
+					"entries": [
+						"{@atk rw} {@hit +12} to hit, range 500 ft., one target. {@h}20 ({@damage 2d12 + 7}) Lightning damage, and the target has the {@condition Blinded} and {@condition Deafened} conditions until the start of Haumea's next turn."
+					]
+				},
+				{
+					"name": "Arc Lightning (Recharge 5\u20136)",
+					"entries": [
+						"{@atk mw,rw} {@hit +12} to hit, reach 10 ft. or range 60 ft., one target. {@h}18 ({@damage 4d8}) Lightning damage. If the target is a creature, it can't take reactions until the start of its next turn, and lightning jumps from the target to another creature of Haumea's choice that she can see within 30 feet of the target. The second creature must succeed on a {@dc 18} Dexterity saving throw or take 18 ({@damage 4d8}) Lightning damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Teleport",
+					"entries": [
+						"Haumea teleports, along with any equipment she is wearing or carrying, up to 30 feet to an unoccupied space that she can see."
+					]
+				}
+			],
+			"legendaryActions": 2,
+			"legendary": [
+				{
+					"name": "Enhanced Rush",
+					"entries": [
+						"Haumea can use her Teleport bonus action."
+					]
+				},
+				{
+					"name": "Protect Me! (Costs 2 Actions)",
+					"entries": [
+						"Haumea can teleport Charon to an unoccupied space that she can see within 10 feet of her, provided that Charon is on the same plane of existence as her."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Haumea casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability ({@dc 18} spell save):"
+					],
+					"will": [
+						"{@spell detect magic}",
+						"{@spell light}"
+					],
+					"daily": {
+						"1": [
+							"{@spell control weather}"
+						]
+					},
+					"ability": "wis",
+					"displayAs": "action"
+				}
+			],
+			"environment": [
+				"arctic"
+			],
+			"traitTags": [
+				"Illumination",
+				"Legendary Resistances"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"senseTags": [
+				"D",
+				"U"
+			],
+			"languageTags": [
+				"C",
+				"CE"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"damageTags": [
+				"L"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"RCH"
+			]
+		}
+	]
+}
