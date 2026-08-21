@@ -911,7 +911,11 @@
 				"MW",
 				"AoE"
 			],
-			"isNamedCreature": true
+			"isNamedCreature": true,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/SrLumbreras/5eToolsHomebrew/wip/_img/IDRotL/token/Eva_Perire.png"
+			}
 		},
 		{
 			"name": "Adan, Frost Disciple",
@@ -1045,7 +1049,11 @@
 				"MW",
 				"MLW"
 			],
-			"isNamedCreature": true
+			"isNamedCreature": true,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/SrLumbreras/5eToolsHomebrew/wip/_img/IDRotL/token/Adan_Perire.png"
+			}
 		}
 	],
 	"baseitem": [
