@@ -7,8 +7,12 @@
 				"full": "Charon, the Protector (WIP)",
 				"version": "0.1.0",
 				"color": "1cceab",
-				"authors": ["Lumbreras"],
-				"convertedBy": ["Lumbreras"]
+				"authors": [
+					"Lumbreras"
+				],
+				"convertedBy": [
+					"Lumbreras"
+				]
 			}
 		],
 		"edition": "classic",
@@ -23,28 +27,68 @@
 			"page": 0,
 			"isNamedCreature": true,
 			"shortName": "Charon",
-			"size": ["M"],
+			"size": [
+				"M"
+			],
 			"type": "humanoid",
-			"alignment": ["L", "E"],
-			"ac": [{"ac": 23, "from": ["Unarmored Defense"]}],
-			"hp": {"average": 204, "formula": "24d8 + 96"},
-			"speed": {"walk": 30},
-			"str": 20, "dex": 12, "con": 18, "int": 10, "wis": 10, "cha": 18,
-			"save": {"wis": "+5", "cha": "+9"},
-			"skill": {"athletics": "+10", "deception": "+9", "intimidation": "+9"},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 23,
+					"from": [
+						"Unarmored Defense"
+					]
+				}
+			],
+			"hp": {
+				"average": 204,
+				"formula": "24d8 + 96"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 20,
+			"dex": 12,
+			"con": 18,
+			"int": 10,
+			"wis": 10,
+			"cha": 18,
+			"save": {
+				"wis": "+5",
+				"cha": "+9"
+			},
+			"skill": {
+				"athletics": "+10",
+				"deception": "+9",
+				"intimidation": "+9"
+			},
 			"resist": [
 				"fire",
 				"poison",
 				{
-					"resist": ["bludgeoning", "piercing", "slashing"],
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
 					"note": "from nonmagical attacks",
 					"cond": true
 				}
 			],
-			"conditionImmune": ["frightened"],
-			"senses": ["darkvision 60 ft. (can see invisible creatures out to the same range)"],
+			"conditionImmune": [
+				"frightened"
+			],
+			"senses": [
+				"darkvision 60 ft. (can see invisible creatures out to the same range)"
+			],
 			"passive": 10,
-			"languages": ["Common", "Celestial"],
+			"languages": [
+				"Common",
+				"Celestial"
+			],
 			"cr": "16",
 			"trait": [
 				{
@@ -61,10 +105,26 @@
 							"type": "list",
 							"style": "list-hang-notitle",
 							"items": [
-								{"type": "item", "name": "1st.", "entry": "The target must succeed on a {@dc 18} Strength saving throw or be pushed 15 ft. directly away from Charon."},
-								{"type": "item", "name": "2nd.", "entry": "The target must succeed on a {@dc 18} Dexterity saving throw or be knocked {@condition prone}."},
-								{"type": "item", "name": "3rd.", "entry": "The target must succeed on a {@dc 18} Constitution saving throw or be {@condition stunned} until the end of Charon's next turn."},
-								{"type": "item", "name": "4th: Quivering Palm.", "entry": "The target must make a {@dc 18} Constitution saving throw. On a failed save, the target is reduced to 0 hit points. On a successful save, the target takes 55 ({@damage 10d10}) fire damage."}
+								{
+									"type": "item",
+									"name": "1st.",
+									"entry": "The target must succeed on a {@dc 18} Strength saving throw or be pushed 15 ft. directly away from Charon."
+								},
+								{
+									"type": "item",
+									"name": "2nd.",
+									"entry": "The target must succeed on a {@dc 18} Dexterity saving throw or be knocked {@condition prone}."
+								},
+								{
+									"type": "item",
+									"name": "3rd.",
+									"entry": "The target must succeed on a {@dc 18} Constitution saving throw or be {@condition stunned} until the end of Charon's next turn."
+								},
+								{
+									"type": "item",
+									"name": "4th: Quivering Palm.",
+									"entry": "The target must make a {@dc 18} Constitution saving throw. On a failed save, the target is reduced to 0 hit points. On a successful save, the target takes 55 ({@damage 10d10}) fire damage."
+								}
 							]
 						}
 					]
@@ -119,14 +179,35 @@
 					]
 				}
 			],
-			"traitTags": ["Legendary Resistances"],
-			"actionTags": ["Multiattack"],
-			"senseTags": ["D"],
-			"languageTags": ["C", "CE"],
-			"damageTags": ["B", "F"],
-			"conditionInflict": ["prone", "stunned"],
-			"savingThrowForced": ["strength", "dexterity", "constitution"],
-			"miscTags": ["MW"]
+			"traitTags": [
+				"Legendary Resistances"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"CE"
+			],
+			"damageTags": [
+				"B",
+				"F"
+			],
+			"conditionInflict": [
+				"prone",
+				"stunned"
+			],
+			"savingThrowForced": [
+				"strength",
+				"dexterity",
+				"constitution"
+			],
+			"miscTags": [
+				"MW"
+			]
 		}
 	]
 }
