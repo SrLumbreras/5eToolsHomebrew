@@ -177,7 +177,7 @@
 			"uniqueId": "e9fcaa5d-8e09-4570-bb53-b2bb526e1ffd"
 		},
 		{
-			"name": "Adan Perire",
+			"name": "Adan, Frost Disciple",
 			"source": "IcewindDaleRimeoftheLamberto-WIP",
 			"size": [
 				"S"
@@ -197,35 +197,40 @@
 			],
 			"ac": [
 				{
-					"ac": 16,
+					"ac": 17,
 					"from": [
-						"{@item breastplate|xphb}"
+						"ice-tempered chain shirt"
 					]
 				}
 			],
 			"hp": {
-				"formula": "9d8 + 27",
-				"average": 67
+				"formula": "10d8 + 30",
+				"average": 75
 			},
 			"speed": {
 				"walk": 40
 			},
-			"str": 16,
-			"dex": 18,
+			"str": 18,
+			"dex": 16,
 			"con": 16,
 			"int": 10,
 			"wis": 14,
 			"cha": 12,
 			"save": {
-				"dex": "+7",
-				"str": "+6",
-				"cha": "+4"
+				"str": "+7",
+				"dex": "+6",
+				"con": "+6"
 			},
-			"conditionImmune": [
-				"charmed",
-				"frightened"
+			"skill": {
+				"athletics": "+7",
+				"acrobatics": "+6",
+				"perception": "+4",
+				"survival": "+4"
+			},
+			"resist": [
+				"cold"
 			],
-			"passive": 12,
+			"passive": 14,
 			"languages": [
 				"Common"
 			],
@@ -277,6 +282,10 @@
 				"name": "Adan, Frost Disciple",
 				"source": "Custom"
 			},
+			"damageTags": [
+				"S",
+				"C"
+			],
 			"damageTagsLegendary": [
 				"S",
 				"C"
@@ -293,29 +302,14 @@
 				"C"
 			],
 			"miscTags": [
-				"MW"
+				"MW",
+				"MLW"
 			],
 			"isNamedCreature": true,
-			"shortName": "Adan",
-			"senses": [
-				"darkvision 60 ft."
-			],
-			"senseTags": [
-				"D"
-			],
-			"skill": {
-				"survival": "+5",
-				"acrobatics": "+7",
-				"stealth": "+7"
-			},
-			"immune": [
-				"cold"
-			],
-			"damageTags": [
-				"C",
-				"S"
-			],
-			"uniqueId": "719628dd-6c5f-49be-9868-a9cf743985a0"
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/SrLumbreras/5eToolsHomebrew/wip/_img/IDRotL/token/Adan_Perire.png"
+			}
 		}
 	],
 	"makebrewCreatureTrait": [
