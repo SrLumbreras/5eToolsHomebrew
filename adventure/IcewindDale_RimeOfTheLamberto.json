@@ -912,7 +912,7 @@
 			"isNamedCreature": true,
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/SrLumbreras/5eToolsHomebrew/wip/_img/IDRotL/token/Eva_Perire.png"
+				"url": "https://raw.githubusercontent.com/SrLumbreras/5eToolsHomebrew/main/_img/IDRotL/token/Eva_Perire.png"
 			},
 			"spellcastingTags": [
 				"CC"
@@ -1047,7 +1047,7 @@
 			"isNamedCreature": true,
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/SrLumbreras/5eToolsHomebrew/wip/_img/IDRotL/token/Adan_Perire.png"
+				"url": "https://raw.githubusercontent.com/SrLumbreras/5eToolsHomebrew/main/_img/IDRotL/token/Adan_Perire.png"
 			}
 		},
 		{
@@ -1239,7 +1239,7 @@
 			"hasToken": true,
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/SrLumbreras/5eToolsHomebrew/wip/_img/IDRotL/token/Charon.png"
+				"url": "https://raw.githubusercontent.com/SrLumbreras/5eToolsHomebrew/main/_img/IDRotL/token/Charon.png"
 			}
 		},
 		{
@@ -1416,7 +1416,7 @@
 			"hasToken": true,
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/SrLumbreras/5eToolsHomebrew/wip/_img/IDRotL/token/Haumea.png"
+				"url": "https://raw.githubusercontent.com/SrLumbreras/5eToolsHomebrew/main/_img/IDRotL/token/Haumea.png"
 			}
 		}
 	],
