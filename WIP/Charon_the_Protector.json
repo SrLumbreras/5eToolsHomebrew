@@ -13,7 +13,7 @@
 		],
 		"edition": "classic",
 		"dateAdded": 1787312268,
-		"dateLastModified": 1787322505,
+		"dateLastModified": 1787322695,
 		"status": "wip"
 	},
 	"monster": [
@@ -64,7 +64,7 @@
 								{"type": "item", "name": "1 charge.", "entry": "The target must succeed on a {@dc 18} Strength saving throw or be pushed 15 ft. directly away from Charon."},
 								{"type": "item", "name": "2 charges.", "entry": "The target must succeed on a {@dc 18} Dexterity saving throw or be knocked {@condition prone}."},
 								{"type": "item", "name": "3 charges.", "entry": "The target must succeed on a {@dc 18} Constitution saving throw or be {@condition stunned} until the end of Charon's next turn."},
-								{"type": "item", "name": "4 charges.", "entry": "Instead of an additional effect, Charon's charges reset to 0, and the next attack that hits him before the start of his next turn is an automatic critical hit."}
+								{"type": "item", "name": "4 charges.", "entry": "The target must make a {@dc 18} Constitution saving throw. On a failed save, the target is reduced to 0 hit points. On a successful save, the target takes 55 ({@damage 10d10}) fire damage. Regardless of the result, Charon's charges reset to 0, and the next attack that hits him before the start of his next turn is an automatic critical hit."}
 							]
 						}
 					]
@@ -123,7 +123,7 @@
 			"actionTags": ["Multiattack"],
 			"senseTags": ["D"],
 			"languageTags": ["C", "CE"],
-			"damageTags": ["B"],
+			"damageTags": ["B", "F"],
 			"conditionInflict": ["prone", "stunned"],
 			"savingThrowForced": ["strength", "dexterity", "constitution"],
 			"miscTags": ["MW"]
