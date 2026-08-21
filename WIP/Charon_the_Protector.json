@@ -17,7 +17,7 @@
 		],
 		"edition": "classic",
 		"dateAdded": 1787312268,
-		"dateLastModified": 1787319600,
+		"dateLastModified": 1787322695,
 		"status": "wip"
 	},
 	"monster": [
@@ -94,37 +94,21 @@
 				{
 					"name": "Immovable Object",
 					"entries": [
-						"At the start of each of Charon's turns, he gains a fire shield granting him 10 temporary hit points, and the shield loses 1 charge (it starts with 4 charges). When the shield's charges are reduced to 0, it resets to 4 charges, and Charon takes double damage from the next attack that hits him."
+						"At the start of each of Charon's turns, he gains a fire shield granting him temporary hit points equal to 10 times his current number of Unstoppable Force charges (see below), and his number of Unstoppable Force charges then decreases by 1 (to a minimum of 0)."
 					]
 				},
 				{
 					"name": "Unstoppable Force",
 					"entries": [
-						"In response to being hit by a melee attack, Charon makes an Unarmed Strike attack back at the enemy that made the attack. Each time Charon attacks back, he can inflict extra effects on top of the damage:",
+						"Charon has a number of charges (maximum 4, see Immovable Object above for how they are also spent) that increases by 1, to that maximum, each time he takes damage. In response to being hit by a melee attack, Charon makes an Unarmed Strike attack back at the enemy that made the attack. Each time Charon attacks back this way, he inflicts an extra effect based on his current number of charges:",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
 							"items": [
-								{
-									"type": "item",
-									"name": "1st.",
-									"entry": "The target must succeed on a {@dc 18} Strength saving throw or be pushed 15 ft. directly away from Charon."
-								},
-								{
-									"type": "item",
-									"name": "2nd.",
-									"entry": "The target must succeed on a {@dc 18} Dexterity saving throw or be knocked {@condition prone}."
-								},
-								{
-									"type": "item",
-									"name": "3rd.",
-									"entry": "The target must succeed on a {@dc 18} Constitution saving throw or be {@condition stunned} until the end of Charon's next turn."
-								},
-								{
-									"type": "item",
-									"name": "4th: Quivering Palm.",
-									"entry": "The target must make a {@dc 18} Constitution saving throw. On a failed save, the target is reduced to 0 hit points. On a successful save, the target takes 55 ({@damage 10d10}) fire damage."
-								}
+								{"type": "item", "name": "1 charge.", "entry": "The target must succeed on a {@dc 18} Strength saving throw or be pushed 15 ft. directly away from Charon."},
+								{"type": "item", "name": "2 charges.", "entry": "The target must succeed on a {@dc 18} Dexterity saving throw or be knocked {@condition prone}."},
+								{"type": "item", "name": "3 charges.", "entry": "The target must succeed on a {@dc 18} Constitution saving throw or be {@condition stunned} until the end of Charon's next turn."},
+								{"type": "item", "name": "4 charges.", "entry": "The target must make a {@dc 18} Constitution saving throw. On a failed save, the target is reduced to 0 hit points. On a successful save, the target takes 55 ({@damage 10d10}) fire damage. Regardless of the result, Charon's charges reset to 0, and the next attack that hits him before the start of his next turn is an automatic critical hit."}
 							]
 						}
 					]
@@ -160,7 +144,7 @@
 				{
 					"name": "Aura of the Guardian",
 					"entries": [
-						"When Haumea takes damage, if Charon is within 30 feet of her, he can use his reaction to teleport within 5 ft. of the enemy and take the attack instead of her."
+						"When Haumea takes damage, if Charon is within 30 feet of Haumea or of the enemy that damaged her, he can use his reaction to teleport within 5 feet of Haumea or of the enemy (respectively) and take the attack instead of her."
 					]
 				}
 			],
