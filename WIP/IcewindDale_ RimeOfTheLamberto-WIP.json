@@ -17,7 +17,8 @@
 			}
 		],
 		"dateAdded": 1755096466,
-		"dateLastModified": 1755096466
+		"dateLastModified": 1755096466,
+		"edition": "classic"
 	},
 	"monster": [
 		{
@@ -82,7 +83,6 @@
 				"Common"
 			],
 			"cr": "10",
-			"pb": 4,
 			"trait": [
 				{
 					"name": "Cold Regeneration",
@@ -230,7 +230,6 @@
 				"Common"
 			],
 			"cr": "5",
-			"pb": 3,
 			"trait": [
 				{
 					"name": "Frost-Forged Training",

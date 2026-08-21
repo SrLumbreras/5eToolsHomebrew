@@ -17,7 +17,8 @@
 			}
 		],
 		"dateAdded": 1755096466,
-		"dateLastModified": 1755096466
+		"dateLastModified": 1755096466,
+		"edition": "classic"
 	},
 	"monster": [
 		{
@@ -79,7 +80,6 @@
 				"Common"
 			],
 			"cr": "5",
-			"pb": 3,
 			"trait": [
 				{
 					"name": "Cold Regeneration.",
@@ -158,8 +158,8 @@
 			},
 			"fluff": {
 				"entries": [
-					"Adan Perire is a disciplined human who grew up in Bryn Shander alongside his twin sister {@creature Eva Perire|IDRotL} under the guardianship of {@creature Sephek Kaltro|IDRotL}. From childhood he was immersed in the dogma of {@deity Tempus}, learning that strength, discipline, and conflict were the true measures of a life well lived. Though he never took holy vows, the war god’s creed is etched deeply into his character, shaping both his outlook and his methods.",
-					"At fourteen, Adan began serving as {@creature Sephek Kaltro|IDRotL}’s squire, accompanying him and {@creature Eva Perire|IDRotL} on mercenary contracts across Icewind Dale. In this role he maintained arms and armor, observed the art of battle, and tested his own skill in the field. Though trained in traditional swordsmanship, his path grew into a swift and pragmatic form of combat, blending the soldier’s endurance with the duelist’s precision, a style meant for those who value movement and timing as much as raw strength."
+					"Adan Perire is a disciplined human who grew up in Bryn Shander alongside his twin sister {@creature Eva Perire|IDRotL} under the guardianship of {@creature Sephek Kaltro|IDRotL}. From childhood he was immersed in the dogma of {@deity Tempus}, learning that strength, discipline, and conflict were the true measures of a life well lived. Though he never took holy vows, the war god's creed is etched deeply into his character, shaping both his outlook and his methods.",
+					"At fourteen, Adan began serving as {@creature Sephek Kaltro|IDRotL}'s squire, accompanying him and {@creature Eva Perire|IDRotL} on mercenary contracts across Icewind Dale. In this role he maintained arms and armor, observed the art of battle, and tested his own skill in the field. Though trained in traditional swordsmanship, his path grew into a swift and pragmatic form of combat, blending the soldier's endurance with the duelist's precision, a style meant for those who value movement and timing as much as raw strength."
 				],
 				"images": [
 					{

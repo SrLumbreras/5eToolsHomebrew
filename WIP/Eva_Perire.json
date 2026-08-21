@@ -17,7 +17,8 @@
 			}
 		],
 		"dateAdded": 1755096466,
-		"dateLastModified": 1755096466
+		"dateLastModified": 1755096466,
+		"edition": "classic"
 	},
 	"monster": [
 		{
@@ -85,7 +86,6 @@
 				"Common"
 			],
 			"cr": "5",
-			"pb": 3,
 			"trait": [
 				{
 					"name": "Aura of Winter",
@@ -122,9 +122,6 @@
 			"savingThrowForcedLegendary": [
 				"wisdom",
 				"constitution"
-			],
-			"actionTags": [
-				"Spellcasting"
 			],
 			"languageTags": [
 				"CE",
