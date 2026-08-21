@@ -555,7 +555,7 @@
 							"Frost giants who master rune magic are known as ice shapers, and their sheer power typically contributes to a meteoric rise in the giants' ordning. Many of them end up as jarls, leading their communities, or as advisers to jarls\u2014often the true power behind the throne. They are usually devoted to Thrym.",
 							"True to their name, these ice shapers manipulate the raw elemental energy of air and water to wield ice in both offense and defense. They summon ice elementals in the shape of wolves, cloak themselves in icy armor, and just as quickly turn that armor into a hail of deadly ice shards.",
 							"In ancient times, Hjoölvir, was well known in the Icewind Dale region, a frost giant of immense power, able to summon ice storms with a single thought. Her throne, hidden deep in the frozen expanses of Icewind Dale, was the heart of her dominion, where two wolves of elemental fury guarded her. Fearing her growing strength, humans devised a plan to imprison her. Using mirrors that distorted light and runes that dampened her magic, they lured Hjoölvir into a trap.",
-							"The dungeon holding Hjoölvir has remained intact due to the Twenty Stones of Thruun, a circle of &nbsp standing stones located in Dougan's Hole. Though these stones have held her for over a thousand years, the barrier is slowly weakening, and Hjoölvir's fury intensifies. When she breaks free, winter will descend upon the land once again."
+							"The dungeon holding Hjoölvir has remained intact due to the Twenty Stones of Thruun, a circle of standing stones located in Dougan's Hole. Though these stones have held her for over a thousand years, the barrier is slowly weakening, and Hjoölvir's fury intensifies. When she breaks free, winter will descend upon the land once again."
 						]
 					}
 				],
@@ -669,7 +669,15 @@
 				"stealth": "+7"
 			},
 			"resist": [
-				"bludgeoning, piercing, and slashing from nonmagical attacks"
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
 			],
 			"immune": [
 				"cold"
@@ -686,7 +694,6 @@
 				"Common"
 			],
 			"cr": "10",
-			"pb": 4,
 			"trait": [
 				{
 					"name": "Cold Regeneration",
@@ -832,18 +839,15 @@
 			"resist": [
 				"cold"
 			],
-			"immune": [],
 			"conditionImmune": [
 				"charmed"
 			],
-			"senses": [],
 			"passive": 17,
 			"languages": [
 				"Common",
 				"Celestial"
 			],
 			"cr": "5",
-			"pb": 3,
 			"trait": [
 				{
 					"name": "Divine Spellcasting",
@@ -882,10 +886,7 @@
 				"arctic",
 				"underground"
 			],
-			"token": {
-				"name": "Eva, Winter Acolyte",
-				"source": "Custom"
-			},
+			"hasToken": true,
 			"damageTags": [
 				"B",
 				"R",
@@ -900,18 +901,22 @@
 				"wisdom",
 				"constitution"
 			],
-			"actionTags": [
-				"Spellcasting"
-			],
 			"languageTags": [
 				"C",
 				"CE"
 			],
 			"miscTags": [
 				"MW",
-				"AoE"
+				"AOE"
 			],
-			"isNamedCreature": true
+			"isNamedCreature": true,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/SrLumbreras/5eToolsHomebrew/wip/_img/IDRotL/token/Eva_Perire.png"
+			},
+			"spellcastingTags": [
+				"CC"
+			]
 		},
 		{
 			"name": "Adan, Frost Disciple",
@@ -967,14 +972,11 @@
 			"resist": [
 				"cold"
 			],
-			"conditionImmune": [],
-			"senses": [],
 			"passive": 14,
 			"languages": [
 				"Common"
 			],
 			"cr": "5",
-			"pb": 3,
 			"trait": [
 				{
 					"name": "Frost-Forged Training",
@@ -1018,10 +1020,7 @@
 			"environment": [
 				"arctic"
 			],
-			"token": {
-				"name": "Adan, Frost Disciple",
-				"source": "Custom"
-			},
+			"hasToken": true,
 			"damageTags": [
 				"S",
 				"C"
@@ -1045,7 +1044,380 @@
 				"MW",
 				"MLW"
 			],
-			"isNamedCreature": true
+			"isNamedCreature": true,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/SrLumbreras/5eToolsHomebrew/wip/_img/IDRotL/token/Adan_Perire.png"
+			}
+		},
+		{
+			"name": "Charon, the Protector",
+			"source": "IcewindDaleRimeoftheLamberto",
+			"isNamedCreature": true,
+			"shortName": "Charon",
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 23,
+					"from": [
+						"Unarmored Defense"
+					]
+				}
+			],
+			"hp": {
+				"average": 204,
+				"formula": "24d8 + 96"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 20,
+			"dex": 12,
+			"con": 18,
+			"int": 10,
+			"wis": 10,
+			"cha": 18,
+			"save": {
+				"wis": "+5",
+				"cha": "+9"
+			},
+			"skill": {
+				"athletics": "+10",
+				"deception": "+9",
+				"intimidation": "+9"
+			},
+			"resist": [
+				"fire",
+				"poison",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"conditionImmune": [
+				"frightened"
+			],
+			"senses": [
+				"darkvision 60 ft. (can see invisible creatures out to the same range)"
+			],
+			"passive": 10,
+			"languages": [
+				"Common",
+				"Celestial"
+			],
+			"cr": "16",
+			"trait": [
+				{
+					"name": "Immovable Object",
+					"entries": [
+						"At the start of each of Charon's turns, he gains a fire shield granting him temporary hit points equal to 10 times his current number of Unstoppable Force charges (see below), and his number of Unstoppable Force charges then decreases by 1 (to a minimum of 0)."
+					]
+				},
+				{
+					"name": "Unstoppable Force",
+					"entries": [
+						"Charon has a number of charges (maximum 4, see Immovable Object above for how they are also spent) that increases by 1, to that maximum, each time he takes damage. In response to being hit by a melee attack, Charon makes an Unarmed Strike attack back at the enemy that made the attack. Each time Charon attacks back this way, he inflicts an extra effect based on his current number of charges:",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "1 charge.",
+									"entry": "The target must succeed on a {@dc 18} Strength saving throw or be pushed 15 ft. directly away from Charon."
+								},
+								{
+									"type": "item",
+									"name": "2 charges.",
+									"entry": "The target must succeed on a {@dc 18} Dexterity saving throw or be knocked {@condition prone}."
+								},
+								{
+									"type": "item",
+									"name": "3 charges.",
+									"entry": "The target must succeed on a {@dc 18} Constitution saving throw or be {@condition stunned} until the end of Charon's next turn."
+								},
+								{
+									"type": "item",
+									"name": "4 charges.",
+									"entry": "The target must make a {@dc 18} Constitution saving throw. On a failed save, the target is reduced to 0 hit points. On a successful save, the target takes 55 ({@damage 10d10}) fire damage. Regardless of the result, Charon's charges reset to 0, and the next attack that hits him before the start of his next turn is an automatic critical hit."
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Legendary Resistance (2/Day)",
+					"entries": [
+						"If Charon fails a saving throw, he can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Charon attacks three times using his unarmed strike."
+					]
+				},
+				{
+					"name": "Unarmed Strike",
+					"entries": [
+						"{@atk mw} {@hit +12} to hit, reach 5 ft., one target. {@h}12 ({@damage 1d10 + 7}) bludgeoning, magic damage."
+					]
+				},
+				{
+					"name": "Wholeness of Body (1/Day)",
+					"entries": [
+						"Charon regains 60 hit points."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Aura of the Guardian",
+					"entries": [
+						"When {@creature Haumea, the 2nd Pillar|IcewindDaleRimeoftheLamberto|Haumea} takes damage, if Charon is within 30 feet of Haumea or of the enemy that damaged her, he can use his reaction to teleport within 5 feet of Haumea or of the enemy (respectively) and take the attack instead of her."
+					]
+				}
+			],
+			"legendaryActions": 2,
+			"legendary": [
+				{
+					"name": "True Protector",
+					"entries": [
+						"Charon restores his reaction."
+					]
+				},
+				{
+					"name": "Enhanced Rush",
+					"entries": [
+						"Charon moves up to his speed without provoking opportunity attacks."
+					]
+				}
+			],
+			"traitTags": [
+				"Legendary Resistances"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"CE"
+			],
+			"damageTags": [
+				"B",
+				"F"
+			],
+			"conditionInflict": [
+				"prone",
+				"stunned"
+			],
+			"savingThrowForced": [
+				"strength",
+				"dexterity",
+				"constitution"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"hasToken": true,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/SrLumbreras/5eToolsHomebrew/wip/_img/IDRotL/token/Charon.png"
+			}
+		},
+		{
+			"name": "Haumea, the 2nd Pillar",
+			"source": "IcewindDaleRimeoftheLamberto",
+			"isNamedCreature": true,
+			"shortName": "Haumea",
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				16
+			],
+			"hp": {
+				"average": 210,
+				"formula": "20d12 + 80"
+			},
+			"speed": {
+				"walk": 50,
+				"fly": 25,
+				"canHover": true
+			},
+			"str": 12,
+			"dex": 24,
+			"con": 18,
+			"int": 16,
+			"wis": 20,
+			"cha": 18,
+			"save": {
+				"dex": "+12",
+				"con": "+9",
+				"wis": "+10",
+				"cha": "+9"
+			},
+			"skill": {
+				"arcana": "+8",
+				"history": "+8",
+				"perception": "+10"
+			},
+			"resist": [
+				"cold"
+			],
+			"immune": [
+				"lightning",
+				"thunder"
+			],
+			"senses": [
+				"darkvision 120 ft.",
+				"truesight 30 ft."
+			],
+			"passive": 20,
+			"languages": [
+				"Common",
+				"Celestial"
+			],
+			"cr": "13",
+			"trait": [
+				{
+					"name": "Illumination",
+					"entries": [
+						"Haumea sheds bright light in a 20-foot radius and dim light for an additional 20 feet."
+					]
+				},
+				{
+					"name": "Lightning Blood",
+					"entries": [
+						"A creature within 5 feet of Haumea takes 5 ({@damage 1d10}) lightning damage whenever it hits her with a melee attack that deals piercing or slashing damage."
+					]
+				},
+				{
+					"name": "Legendary Resistance (2/Day)",
+					"entries": [
+						"If Haumea fails a saving throw, she can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Haumea makes two attacks, using Arc Lightning or Thunderbolt in any combination."
+					]
+				},
+				{
+					"name": "Thunderbolt",
+					"entries": [
+						"{@atk rw} {@hit +12} to hit, range 500 ft., one target. {@h}20 ({@damage 2d12 + 7}) Lightning damage, and the target has the {@condition Blinded} and {@condition Deafened} conditions until the start of Haumea's next turn."
+					]
+				},
+				{
+					"name": "Arc Lightning (Recharge 5\u20136)",
+					"entries": [
+						"{@atk mw,rw} {@hit +12} to hit, reach 10 ft. or range 60 ft., one target. {@h}18 ({@damage 4d8}) Lightning damage. If the target is a creature, it can't take reactions until the start of its next turn, and lightning jumps from the target to another creature of Haumea's choice that she can see within 30 feet of the target. The second creature must succeed on a {@dc 18} Dexterity saving throw or take 18 ({@damage 4d8}) Lightning damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Teleport",
+					"entries": [
+						"Haumea teleports, along with any equipment she is wearing or carrying, up to 30 feet to an unoccupied space that she can see."
+					]
+				}
+			],
+			"legendaryActions": 2,
+			"legendary": [
+				{
+					"name": "Enhanced Rush",
+					"entries": [
+						"Haumea can use her Teleport bonus action."
+					]
+				},
+				{
+					"name": "Protect Me! (Costs 2 Actions)",
+					"entries": [
+						"Haumea can teleport {@creature Charon, the Protector|IcewindDaleRimeoftheLamberto|Charon} to an unoccupied space that she can see within 10 feet of her, provided that Charon is on the same plane of existence as her."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Haumea casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability ({@dc 18} spell save):"
+					],
+					"will": [
+						"{@spell detect magic}",
+						"{@spell light}"
+					],
+					"daily": {
+						"1": [
+							"{@spell control weather}"
+						]
+					},
+					"ability": "wis",
+					"displayAs": "action"
+				}
+			],
+			"environment": [
+				"arctic"
+			],
+			"traitTags": [
+				"Illumination",
+				"Legendary Resistances"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"senseTags": [
+				"D",
+				"U"
+			],
+			"languageTags": [
+				"C",
+				"CE"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"damageTags": [
+				"L"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"RCH"
+			],
+			"hasToken": true,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/SrLumbreras/5eToolsHomebrew/wip/_img/IDRotL/token/Haumea.png"
+			}
 		}
 	],
 	"baseitem": [
@@ -1064,8 +1436,7 @@
 			],
 			"dmg1": "1d10",
 			"dmgType": "S",
-			"weapon": true,
-			"entries": []
+			"weapon": true
 		}
 	]
 }
