@@ -886,10 +886,7 @@
 				"arctic",
 				"underground"
 			],
-			"token": {
-				"name": "Eva, Winter Acolyte",
-				"source": "Custom"
-			},
+			"hasToken": true,
 			"damageTags": [
 				"B",
 				"R",
@@ -1023,10 +1020,7 @@
 			"environment": [
 				"arctic"
 			],
-			"token": {
-				"name": "Adan, Frost Disciple",
-				"source": "Custom"
-			},
+			"hasToken": true,
 			"damageTags": [
 				"S",
 				"C"
