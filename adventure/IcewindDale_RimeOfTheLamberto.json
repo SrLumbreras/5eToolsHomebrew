@@ -17,7 +17,7 @@
 			}
 		],
 		"dateAdded": 1755096466,
-		"dateLastModified": 1755096466,
+		"dateLastModified": 1787840688,
 		"edition": "classic"
 	},
 	"monster": [
@@ -435,15 +435,15 @@
 			],
 			"ac": [
 				{
-					"ac": 16,
+					"ac": 19,
 					"from": [
 						"natural armor"
 					]
 				}
 			],
 			"hp": {
-				"formula": "35d12 + 140",
-				"average": 367
+				"formula": "28d12 + 112",
+				"average": 294
 			},
 			"speed": {
 				"walk": 40
@@ -498,7 +498,7 @@
 				{
 					"name": "Greataxe",
 					"entries": [
-						"{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}22 ({@damage 3d10 + 6}) slashing damage plus 9 ({@damage 2d8}) cold damage."
+						"{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}22 ({@damage 3d10 + 6}) slashing damage plus 4 ({@damage 1d8}) cold damage."
 					]
 				},
 				{
@@ -510,7 +510,7 @@
 				{
 					"name": "Ice Wolves (Requires Frost Rune)",
 					"entries": [
-						"Hjoölvir magically summons {@dice 1d4} wolves made of ice (use the {@creature winter wolf} stat block in the Monster Manual to represent them, but they are Elementals instead of Monstrosities). The wolves appear in unoccupied spaces Hjoölvir can see within 30 feet of herself. The wolves take their turn immediately after Hjoölvir on the same initiative count, and they obey Hjoölvir's commands. The wolves gain a +6 bonus to their attack and damage rolls while they are within 30 feet of Hjoölvir. The wolves disappear after 1 minute, when Hjoölvir dies, or when Hjoölvir uses this action again."
+						"Hjoölvir magically summons two wolves made of ice in unoccupied spaces she can see within 30 feet of herself. Any Ice Wolves she summoned previously disappear immediately. Each wolf has the same statistics as a {@creature winter wolf}, but it gains a +3 bonus to its attack and damage rolls while within 30 feet of Hjoölvir. The wolves take their turn immediately after Hjoölvir in the initiative order and obey her commands. The wolves disappear after 1 minute, when Hjoölvir dies, or when she uses this action again."
 					]
 				}
 			],
@@ -579,23 +579,12 @@
 			"senseTags": [
 				"U"
 			],
-			"resist": [
-				{
-					"resist": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks",
-					"cond": true
-				}
-			],
 			"isNamedCreature": true,
 			"legendary": [
 				{
 					"name": "Greataxe Attack",
 					"entries": [
-						"Hjoölvir makes a Greataxe attack."
+						"Hjoölvir makes a Greataxe attack. She can't take this action again until the start of her next turn."
 					]
 				},
 				{
@@ -605,9 +594,9 @@
 					]
 				},
 				{
-					"name": "Absorb elemental (Requires Frost Rune) (Costs 2 Actions)",
+					"name": "Absorb Elemental (Requires Frost Rune)",
 					"entries": [
-						"If an Ice Wolf is within 30 feet of Hjoölvir, she can magically absorb it, taking its remaining hit points (up to half its maximum HP, rounded up) and making the Ice Wolf disappear."
+						"If an Ice Wolf is within 30 feet of Hjoölvir, she magically absorbs it, regaining hit points equal to half the wolf's remaining hit points (rounded up), and the wolf disappears."
 					]
 				}
 			],
@@ -622,7 +611,8 @@
 			"savingThrowForced": [
 				"constitution",
 				"dexterity"
-			]
+			],
+			"initiative": 0
 		},
 		{
 			"name": "Sephek Kaltro",
