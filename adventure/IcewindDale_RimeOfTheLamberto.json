@@ -17,7 +17,7 @@
 			}
 		],
 		"dateAdded": 1755096466,
-		"dateLastModified": 1755096466,
+		"dateLastModified": 1787840688,
 		"edition": "classic"
 	},
 	"monster": [
@@ -435,15 +435,15 @@
 			],
 			"ac": [
 				{
-					"ac": 16,
+					"ac": 19,
 					"from": [
 						"natural armor"
 					]
 				}
 			],
 			"hp": {
-				"formula": "35d12 + 140",
-				"average": 367
+				"formula": "28d12 + 112",
+				"average": 294
 			},
 			"speed": {
 				"walk": 40
@@ -498,7 +498,7 @@
 				{
 					"name": "Greataxe",
 					"entries": [
-						"{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}22 ({@damage 3d10 + 6}) slashing damage plus 9 ({@damage 2d8}) cold damage."
+						"{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}22 ({@damage 3d10 + 6}) slashing damage plus 4 ({@damage 1d8}) cold damage."
 					]
 				},
 				{
@@ -510,7 +510,7 @@
 				{
 					"name": "Ice Wolves (Requires Frost Rune)",
 					"entries": [
-						"Hjoölvir magically summons {@dice 1d4} wolves made of ice (use the {@creature winter wolf} stat block in the Monster Manual to represent them, but they are Elementals instead of Monstrosities). The wolves appear in unoccupied spaces Hjoölvir can see within 30 feet of herself. The wolves take their turn immediately after Hjoölvir on the same initiative count, and they obey Hjoölvir's commands. The wolves gain a +6 bonus to their attack and damage rolls while they are within 30 feet of Hjoölvir. The wolves disappear after 1 minute, when Hjoölvir dies, or when Hjoölvir uses this action again."
+						"Hjoölvir magically summons two wolves made of ice in unoccupied spaces she can see within 30 feet of herself. Any Ice Wolves she summoned previously disappear immediately. Each wolf has the same statistics as a {@creature winter wolf}, but it gains a +3 bonus to its attack and damage rolls while within 30 feet of Hjoölvir. The wolves take their turn immediately after Hjoölvir in the initiative order and obey her commands. The wolves disappear after 1 minute, when Hjoölvir dies, or when she uses this action again."
 					]
 				}
 			],
@@ -579,23 +579,12 @@
 			"senseTags": [
 				"U"
 			],
-			"resist": [
-				{
-					"resist": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks",
-					"cond": true
-				}
-			],
 			"isNamedCreature": true,
 			"legendary": [
 				{
 					"name": "Greataxe Attack",
 					"entries": [
-						"Hjoölvir makes a Greataxe attack."
+						"Hjoölvir makes a Greataxe attack. She can't take this action again until the start of her next turn."
 					]
 				},
 				{
@@ -605,9 +594,9 @@
 					]
 				},
 				{
-					"name": "Absorb elemental (Requires Frost Rune) (Costs 2 Actions)",
+					"name": "Absorb Elemental (Requires Frost Rune)",
 					"entries": [
-						"If an Ice Wolf is within 30 feet of Hjoölvir, she can magically absorb it, taking its remaining hit points (up to half its maximum HP, rounded up) and making the Ice Wolf disappear."
+						"If an Ice Wolf is within 30 feet of Hjoölvir, she magically absorbs it, regaining hit points equal to half the wolf's remaining hit points (rounded up), and the wolf disappears."
 					]
 				}
 			],
@@ -622,7 +611,8 @@
 			"savingThrowForced": [
 				"constitution",
 				"dexterity"
-			]
+			],
+			"initiative": 0
 		},
 		{
 			"name": "Sephek Kaltro",
@@ -1417,6 +1407,219 @@
 			"tokenHref": {
 				"type": "external",
 				"url": "https://raw.githubusercontent.com/SrLumbreras/5eToolsHomebrew/main/_img/IDRotL/token/Haumea.png"
+			}
+		},
+		{
+			"name": "Anaar (Sunmaster)",
+			"source": "IcewindDaleRimeoftheLamberto",
+			"page": 0,
+			"shortName": "Anaar",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"Human"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"{@item plate armor|xphb}",
+						"{@item shield|xphb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 198,
+				"formula": "21d8 + 104"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 12,
+			"con": 18,
+			"int": 10,
+			"wis": 20,
+			"cha": 12,
+			"save": {
+				"con": "+8",
+				"wis": "+9"
+			},
+			"skill": {
+				"athletics": "+8",
+				"insight": "+9",
+				"persuasion": "+5",
+				"religion": "+4"
+			},
+			"passive": 15,
+			"initiative": 1,
+			"languages": [
+				"Common",
+				"Celestial",
+				"Elvish",
+				"Dwarvish"
+			],
+			"cr": "10",
+			"isNamedCreature": true,
+			"trait": [
+				{
+					"name": "Legendary Resistance (1/Day)",
+					"entries": [
+						"If the sunmaster fails a saving throw, she can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Action Surge (1/Day)",
+					"entries": [
+						"On her turn, the sunmaster can take one additional action."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The sunmaster makes three Lightbringer attacks."
+					]
+				},
+				{
+					"name": "Lightbringer",
+					"entries": [
+						"{@atkr m} {@hit +9}, reach 5 ft. {@h}8 ({@damage 1d6 + 5}) Bludgeoning damage. If the target is an Undead creature and Lightbringer is glowing, the sunmaster deals an extra 3 ({@damage 1d6}) Radiant damage."
+					]
+				},
+				{
+					"name": "Channel Divinity: Radiance of the Dawn (1/Day)",
+					"entries": [
+						"Any magical darkness in a 30-foot Emanation originating from the sunmaster is dispelled. {@actSave con} {@dc 17}, each enemy in the emanation. {@actSaveFail} 44 ({@damage 8d10}) Radiant damage. {@actSaveSuccess} Half damage. A creature that has Total Cover from the sunmaster is unaffected."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Sun Strike",
+					"entries": [
+						"Immediately after the sunmaster hits a creature with a weapon attack, she can trigger this Bonus Action. The target takes an extra 9 ({@damage 2d8}) Radiant damage and ignites with radiant light. At the start of each of its turns, the ignited target takes 4 ({@damage 1d8}) Radiant damage and then makes a Constitution saving throw against {@dc 17}, ending the ignition on itself on a success. The ignition also ends after 1 minute."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Warding Flare (3/Day)",
+					"entries": [
+						"{@actTrigger} A creature within 30 feet of the sunmaster is attacked by a creature she can see. {@actResponse} The sunmaster imposes Disadvantage on the attack roll."
+					]
+				}
+			],
+			"legendaryActions": 1,
+			"legendaryHeader": [
+				"Legendary Action Uses: 1. Immediately after another creature's turn, the sunmaster can expend her use to take one of the following actions. She regains her use at the start of her turn."
+			],
+			"legendary": [
+				{
+					"name": "Lightbringer",
+					"entries": [
+						"The sunmaster makes one Lightbringer attack."
+					]
+				},
+				{
+					"name": "Move",
+					"entries": [
+						"The sunmaster moves up to her Speed without provoking Opportunity Attacks."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"The sunmaster casts one of the following spells, requiring no Material components, using Wisdom as the spellcasting ability (spell save {@dc 17}):"
+					],
+					"will": [
+						"{@spell guidance|xphb}",
+						"{@spell light|xphb}",
+						"{@spell thaumaturgy|xphb}"
+					],
+					"daily": {
+						"2e": [
+							"{@spell healing word|xphb}",
+							"{@spell shield of faith|xphb}"
+						],
+						"1e": [
+							"{@spell fireball|xphb}",
+							"{@spell wall of fire|xphb}",
+							"{@spell summon celestial|xphb}"
+						]
+					},
+					"ability": "wis"
+				}
+			],
+			"environment": [
+				"arctic"
+			],
+			"traitTags": [
+				"Legendary Resistances"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"CE",
+				"E",
+				"D"
+			],
+			"spellcastingTags": [
+				"CC"
+			],
+			"damageTags": [
+				"B",
+				"R"
+			],
+			"savingThrowForced": [
+				"constitution"
+			],
+			"miscTags": [
+				"MW",
+				"MLW",
+				"AOE"
+			],
+			"isNpc": true,
+			"hasToken": true,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/SrLumbreras/5eToolsHomebrew/main/_img/IDRotL/token/Anaar.png"
+			},
+			"hasFluff": true,
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"Sunmasters were members of the Brotherhood of the Glorious Sun, a sect within the church of Lathander that believed that the Morninglord was a reincarnation of Amaunator and destined to transform into the Yellow God at some point in history.",
+							"Anaar is a human cleric from Marsember and sunmaster of Amaunator, she runs the Shrine of Amaunator located in Bryn Shander. When Anaar arrived to the city, she began organizing a torchbearing service, employing orphans, to light the ways of citizens moving about in the dark. Her torchbearers often brought her news of unlawful things occurring in the darkness, which she sought to deal with.",
+							"She calls Amaunator \"the Morninglord,\" a name that southerners use to describe Lathander, a god of the dawn and rebirth. Anaar views Lathander as a usurper of Amaunator's light and doesn't like it when people confuse the two deities."
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/SrLumbreras/5eToolsHomebrew/main/_homebrew_images/Anaar/Anaar.png"
+						}
+					}
+				]
 			}
 		}
 	],
