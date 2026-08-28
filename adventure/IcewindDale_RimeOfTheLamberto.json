@@ -1520,9 +1520,6 @@
 				}
 			],
 			"legendaryActions": 1,
-			"legendaryHeader": [
-				"Legendary Action Uses: 1. Immediately after another creature's turn, the sunmaster can expend her use to take one of the following actions. She regains her use at the start of her turn."
-			],
 			"legendary": [
 				{
 					"name": "Lightbringer",
