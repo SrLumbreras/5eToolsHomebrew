@@ -1378,7 +1378,7 @@
 				{
 					"name": "Arc Lightning",
 					"entries": [
-						"{@atkr m,r} {@hit +11}, reach 10 ft. or range 60 ft. {@h}18 ({@damage 4d8}) Lightning damage. If the target is a creature, it can't take reactions until the start of its next turn, and lightning jumps from the target to another creature of Haumea's choice that she can see within 30 feet of the target. The second creature must succeed on a {@dc 19} Dexterity saving throw or take 18 ({@damage 4d8}) Lightning damage."
+						"{@atkr m,r} {@hit +11}, reach 10 ft. or range 30 ft. {@h}18 ({@damage 4d8}) Lightning damage. If the target is a creature, it can't take reactions until the start of its next turn, and lightning jumps from the target to another creature of Haumea's choice that she can see within 30 feet of the target. The second creature must succeed on a {@dc 19} Dexterity saving throw or take 18 ({@damage 4d8}) Lightning damage."
 					]
 				},
 				{
@@ -1399,9 +1399,9 @@
 			"legendaryActions": 2,
 			"legendary": [
 				{
-					"name": "Teleport",
+					"name": "Arc Lightning",
 					"entries": [
-						"Haumea teleports, along with any equipment she is wearing or carrying, up to 30 feet to an unoccupied space she can see."
+						"Haumea makes one Arc Lightning attack."
 					]
 				},
 				{
