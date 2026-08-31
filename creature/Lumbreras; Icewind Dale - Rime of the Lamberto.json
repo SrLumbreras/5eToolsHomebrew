@@ -1141,6 +1141,7 @@
 				"intimidation": "+9"
 			},
 			"resist": [
+				"cold",
 				"fire",
 				"poison"
 			],
