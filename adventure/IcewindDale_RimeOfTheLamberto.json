@@ -18,7 +18,7 @@
 		],
 		"dateAdded": 1755096466,
 		"dateLastModified": 1787840688,
-		"edition": "classic"
+		"edition": "one"
 	},
 	"monster": [
 		{
@@ -44,7 +44,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"{@item leather armor|phb}"
+						"{@item leather armor|xphb}"
 					]
 				}
 			],
@@ -79,7 +79,7 @@
 				{
 					"name": "Snow Camouflage",
 					"entries": [
-						"The hunter has advantage on Dexterity (Stealth) checks made to hide in snowy terrain."
+						"The hunter has Advantage on Dexterity (Stealth) checks made to hide in snowy terrain."
 					]
 				}
 			],
@@ -87,25 +87,25 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The hunter makes two Longbow or Shortsword attacks."
+						"The hunter makes two attacks, using Longbow or Shortsword in any combination."
 					]
 				},
 				{
 					"name": "Longbow",
 					"entries": [
-						"{@atk rw} {@hit +5} to hit, range 150/600 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage."
+						"{@atkr r} {@hit +5}, range 150/600 ft. {@h}7 ({@damage 1d8 + 3}) Piercing damage."
 					]
 				},
 				{
 					"name": "Shortsword",
 					"entries": [
-						"{@atk mw} {@hit +5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+						"{@atkr m} {@hit +5}, reach 5 ft. {@h}6 ({@damage 1d6 + 3}) Piercing damage."
 					]
 				}
 			],
 			"attachedItems": [
-				"longbow|phb",
-				"shortsword|phb"
+				"longbow|xphb",
+				"shortsword|xphb"
 			],
 			"actionTags": [
 				"Multiattack"
@@ -146,7 +146,7 @@
 				{
 					"name": "Spear the Helpless (2/Day)",
 					"entries": [
-						"Whenever a creature within 60 feet of the hunter becomes {@condition restrained}, the hunter can make a ranged attack against it."
+						"{@actTrigger} A creature within 60 feet of the hunter gains the {@condition Restrained} condition. {@actResponse} The hunter makes a ranged attack against that creature."
 					]
 				}
 			],
@@ -180,8 +180,8 @@
 				{
 					"ac": 18,
 					"from": [
-						"{@item chain mail|phb}",
-						"{@item shield|phb}"
+						"{@item chain mail|xphb}",
+						"{@item shield|xphb}"
 					]
 				}
 			],
@@ -211,7 +211,7 @@
 				{
 					"name": "Formation Tactics",
 					"entries": [
-						"The soldier has advantage on saving throws against being {@condition charmed}, {@condition frightened}, {@condition grappled}, or {@condition restrained} while it is within 5 feet of at least one ally."
+						"The soldier has Advantage on saving throws against the {@condition Charmed}, {@condition Frightened}, {@condition Grappled}, and {@condition Restrained} conditions while it is within 5 feet of at least one ally."
 					]
 				}
 			],
@@ -219,12 +219,12 @@
 				{
 					"name": "Spear",
 					"entries": [
-						"{@atk mw,rw} {@hit +3} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage, or 6 ({@damage 1d8 + 2}) slashing damage if used with two hands."
+						"{@atkr m,r} {@hit +3}, reach 5 ft. or range 20/60 ft. {@h}5 ({@damage 1d6 + 2}) Piercing damage, or 6 ({@damage 1d8 + 2}) Slashing damage if used with two hands."
 					]
 				}
 			],
 			"attachedItems": [
-				"spear|phb"
+				"spear|xphb"
 			],
 			"actionTags": [
 				"Multiattack"
@@ -269,7 +269,7 @@
 				{
 					"name": "Backstab",
 					"entries": [
-						"When a creature provokes an opportunity attack from the soldier, he can inflict the target the {@condition prone} condition before making a melee spear attack."
+						"{@actTrigger} A creature provokes an Opportunity Attack from the soldier. {@actResponse} The soldier gives the target the {@condition Prone} condition before making a melee Spear attack against it."
 					]
 				}
 			],
@@ -351,7 +351,7 @@
 				{
 					"name": "Berserk",
 					"entries": [
-						"Whenever the shadow starts its turn with 60 hit points or fewer, roll a {@dice d6}. On a 6, the shadow goes berserk. On each of its turns while berserk, the shadow attacks the nearest creature it can see. If no creature is near enough to move to and attack, the shadow attacks an object, with preference for an object smaller than itself. Once the shadow goes berserk, it continues to do so until it is destroyed or regains all its hit points."
+						"Whenever the shadow starts its turn with 60 Hit Points or fewer, roll a {@dice d6}. On a 6, the shadow goes berserk. On each of its turns while berserk, the shadow attacks the nearest creature it can see. If no creature is near enough to move to and attack, the shadow attacks an object, with preference for an object smaller than itself. Once the shadow goes berserk, it continues to do so until it is destroyed or regains all its Hit Points."
 					]
 				},
 				{
@@ -363,7 +363,7 @@
 				{
 					"name": "Magic Resistance",
 					"entries": [
-						"The shadow has advantage on saving throws against spells and other magical effects."
+						"The shadow has Advantage on saving throws against spells and other magical effects."
 					]
 				},
 				{
@@ -377,19 +377,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The shadow makes two slam attacks."
+						"The shadow makes two Slam attacks."
 					]
 				},
 				{
 					"name": "Slam",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d10 + 4}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 15} Constitution saving throw or have its hit point maximum reduced by an amount equal to the damage taken. The target dies if this attack reduces its hit point maximum to 0. The reduction lasts until removed by the  {@spell greater restoration} spell or other magic."
+						"{@atkr m} {@hit 7}, reach 5 ft. {@h}15 ({@damage 2d10 + 4}) Bludgeoning damage. If the target is a creature, {@actSave con} {@dc 15}, the target. {@actSaveFail} The target's Hit Point maximum decreases by an amount equal to the damage taken. The target dies if this reduces its Hit Point maximum to 0. The reduction lasts until removed by the {@spell greater restoration|xphb} spell or other magic."
 					]
 				},
 				{
 					"name": "Haste {@recharge 5}",
 					"entries": [
-						"Until the end of its next turn, the shadow magically gains a +2 bonus to its AC, has advantage on Dexterity saving throws, and can use its slam attack as a bonus action."
+						"Until the end of its next turn, the shadow magically gains a +2 bonus to its AC, has Advantage on Dexterity saving throws, and can use its Slam attack as a Bonus Action."
 					]
 				}
 			],
@@ -477,8 +477,8 @@
 				{
 					"name": "Frost Rune",
 					"entries": [
-						"Hjoölvir has a frost rune inscribed on a chunk of ice or some other object in her possession. While holding or wearing the object bearing the rune, Hjoölvir can use her Ice Wolves action and Ice Armor reaction.",
-						"The object bearing the rune has AC 16; 40 hit points; and immunity to necrotic, poison, and psychic damage. The object regains all its hit points at the end of every turn, but it turns to dust if reduced to 0 hit points or when Hjoölvir dies. If the rune is destroyed, Hjoölvir can inscribe a frost rune on an object in her possession when she finishes a short or long rest."
+						"Hjoölvir has a frost rune inscribed on a chunk of ice or another object in her possession. While holding or wearing that object, she can use her Ice Wolves action and Ice Armor reaction.",
+						"The object has AC 16, 40 Hit Points, and immunity to Necrotic, Poison, and Psychic damage. It regains all its Hit Points at the end of each of Hjoölvir's turns, but it turns to dust if reduced to 0 Hit Points or when Hjoölvir dies. If the rune is destroyed, Hjoölvir can inscribe a new one on an object in her possession when she finishes a Short Rest or Long Rest."
 					]
 				},
 				{
@@ -492,25 +492,25 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Hjoölvir makes three attacks using Greataxe, Freezing Ray, or a combination of them."
+						"Hjoölvir makes three attacks, using Greataxe or Freezing Ray in any combination."
 					]
 				},
 				{
 					"name": "Greataxe",
 					"entries": [
-						"{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}22 ({@damage 3d10 + 6}) slashing damage plus 4 ({@damage 1d8}) cold damage."
+						"{@atkr m} {@hit 12}, reach 10 ft. {@h}22 ({@damage 3d10 + 6}) Slashing damage plus 4 ({@damage 1d8}) Cold damage."
 					]
 				},
 				{
 					"name": "Freezing Ray",
 					"entries": [
-						"{@atk rs} {@hit 10} to hit, range 120 ft., one target. {@h}17 ({@damage 3d8 + 4}) cold damage, and the target must make a {@dc 18} Constitution saving throw. On a failed save, the target has the {@condition restrained} condition until the end of its next turn. On a successful save, the target's speed is reduced by 10 feet until the end of its next turn."
+						"{@atkr r} {@hit 10}, range 120 ft. {@h}17 ({@damage 3d8 + 4}) Cold damage, and the target makes a {@dc 18} Constitution saving throw. {@actSaveFail} The target has the {@condition Restrained} condition until the end of its next turn. {@actSaveSuccess} The target's Speed decreases by 10 feet until the end of its next turn."
 					]
 				},
 				{
 					"name": "Ice Wolves (Requires Frost Rune)",
 					"entries": [
-						"Hjoölvir magically summons two wolves made of ice in unoccupied spaces she can see within 30 feet of herself. Any Ice Wolves she summoned previously disappear immediately. Each wolf has the same statistics as a {@creature winter wolf}, but it gains a +3 bonus to its attack and damage rolls while within 30 feet of Hjoölvir. The wolves take their turn immediately after Hjoölvir in the initiative order and obey her commands. The wolves disappear after 1 minute, when Hjoölvir dies, or when she uses this action again."
+						"Hjoölvir magically summons two wolves made of ice in unoccupied spaces she can see within 30 feet of herself. Any Ice Wolves she summoned previously disappear immediately. Each wolf has the same statistics as a {@creature winter wolf|xmm}, but it gains a +3 bonus to its attack and damage rolls while within 30 feet of Hjoölvir. The wolves take their turn immediately after Hjoölvir in the initiative order and obey her commands. The wolves disappear after 1 minute, when Hjoölvir dies, or when she uses this action again."
 					]
 				}
 			],
@@ -518,12 +518,12 @@
 				{
 					"name": "Ice Armor (Requires Frost Rune)",
 					"entries": [
-						"When a creature Hjoölvir can see makes an attack roll against her, the giant can form a coat of ice around herself, granting her a +6 bonus to her AC against that attack. After the attack hits or misses, the ice shatters, and each creature within 5 feet of Hjoölvir must succeed on a {@dc 18} Dexterity saving throw or take 13 ({@damage 3d8}) cold damage."
+						"{@actTrigger} A creature Hjoölvir can see makes an attack roll against her. {@actResponse} Hjoölvir forms a coat of ice around herself, gaining a +6 bonus to her AC against that attack, possibly causing it to miss. After the attack hits or misses, the ice shatters, and each creature in a 5-foot Emanation originating from Hjoölvir must succeed on a {@dc 18} Dexterity saving throw or take 13 ({@damage 3d8}) Cold damage."
 					]
 				}
 			],
 			"attachedItems": [
-				"greataxe|phb"
+				"greataxe|xphb"
 			],
 			"traitTags": [
 				"Legendary Resistances"
@@ -590,13 +590,13 @@
 				{
 					"name": "Enhanced Rush",
 					"entries": [
-						"Hjoölvir moves up to her speed without provoking attacks of opportunity."
+						"Hjoölvir moves up to her Speed without provoking Opportunity Attacks."
 					]
 				},
 				{
 					"name": "Absorb Elemental (Requires Frost Rune)",
 					"entries": [
-						"If an Ice Wolf is within 30 feet of Hjoölvir, she magically absorbs it, regaining hit points equal to half the wolf's remaining hit points (rounded up), and the wolf disappears."
+						"If an Ice Wolf is within 30 feet of Hjoölvir, she magically absorbs it, regaining Hit Points equal to half the wolf's remaining Hit Points (rounded up), and the wolf disappears."
 					]
 				}
 			],
@@ -688,21 +688,13 @@
 				{
 					"name": "Cold Regeneration",
 					"entries": [
-						"If the temperature around him is 0°F (-18°C) or lower, Sephek regains 15 hit points at the start of his turn. If he takes fire damage, this trait doesn't function at the start of his next turn. Sephek dies only if he starts his turn with 0 hit points and doesn't regenerate."
-					]
-				},
-				{
-					"name": "Innate Spellcasting",
-					"entries": [
-						"Sephek's innate spellcasting ability is Charisma (spell save DC 17, +9 to hit with spell attacks). He can innately cast the following spells, requiring no components:",
-						"• 3/day each: {@spell misty step}, {@spell ice knife}, {@spell armor of agathys} (at 5th level, 25 temp HP, 25 cold damage)",
-						"• 1/day each: {@spell cone of cold}, {@spell hold person}"
+						"If the temperature around him is 0°F (-18°C) or lower, Sephek regains 15 Hit Points at the start of his turn. If he takes Fire damage, this trait doesn't function at the start of his next turn. Sephek dies only if he starts his turn with 0 Hit Points and doesn't regenerate."
 					]
 				},
 				{
 					"name": "Frozen Predator",
 					"entries": [
-						"Sephek has advantage on attack rolls against any creature that hasn't taken a turn yet in combat."
+						"Sephek has Advantage on attack rolls against any creature that hasn't taken a turn yet in combat."
 					]
 				}
 			],
@@ -710,25 +702,25 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Sephek makes three attacks with his Ice Longsword or Ice Dagger in any combination."
+						"Sephek makes three attacks, using Ice Longsword or Ice Dagger in any combination."
 					]
 				},
 				{
 					"name": "Ice Longsword",
 					"entries": [
-						"{@atk mw} {@hit +9} to hit, reach 5 ft., one target. {@h}12 ({@damage 1d8 + 8}) slashing damage, or 13 ({@damage 1d10 + 8}) slashing damage if wielded with two hands, plus 10 ({@damage 3d6}) cold damage."
+						"{@atkr m} {@hit +9}, reach 5 ft. {@h}12 ({@damage 1d8 + 8}) Slashing damage, or 13 ({@damage 1d10 + 8}) Slashing damage if wielded with two hands, plus 10 ({@damage 3d6}) Cold damage."
 					]
 				},
 				{
 					"name": "Ice Dagger",
 					"entries": [
-						"{@atk rw} {@hit +9} to hit, range 20/60 ft., one target. {@h}9 ({@damage 1d4 + 7}) piercing damage plus 10 ({@damage 3d6}) cold damage. On a hit, the target's speed is reduced by 10 ft. until the end of Sephek's next turn."
+						"{@atkr r} {@hit +9}, range 20/60 ft. {@h}9 ({@damage 1d4 + 7}) Piercing damage plus 10 ({@damage 3d6}) Cold damage. The target's Speed decreases by 10 feet until the end of Sephek's next turn."
 					]
 				},
 				{
-					"name": "Frostwind Slash (Recharge 5\u20136)",
+					"name": "Frostwind Slash {@recharge 5}",
 					"entries": [
-						"Sephek swings his longsword in a freezing arc. All creatures in a 15-ft. cone must make a DC 17 Constitution saving throw, taking 31 ({@damage 7d8}) cold damage on a failed save, or half as much on a success."
+						"Sephek swings his longsword in a freezing arc. {@actSave con} {@dc 17}, each creature in a 15-foot Cone. {@actSaveFail} 31 ({@damage 7d8}) Cold damage. {@actSaveSuccess} Half damage."
 					]
 				}
 			],
@@ -736,7 +728,7 @@
 				{
 					"name": "Frozen Riposte",
 					"entries": [
-						"When a creature within 5 ft. of Sephek misses him with a melee attack, Sephek can make one Ice Longsword attack against that creature."
+						"{@actTrigger} A creature within 5 feet of Sephek misses him with a melee attack. {@actResponse} Sephek makes one Ice Longsword attack against that creature."
 					]
 				}
 			],
@@ -774,7 +766,28 @@
 			"senseTags": [
 				"D"
 			],
-			"isNamedCreature": true
+			"isNamedCreature": true,
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Sephek's spellcasting ability is Charisma (spell save DC 17, +9 to hit with spell attacks). He can innately cast the following spells, requiring no spell components:"
+					],
+					"daily": {
+						"3e": [
+							"{@spell misty step|xphb}",
+							"{@spell ice knife|xphb}",
+							"{@spell armor of agathys|xphb} (at 5th level, 25 Temporary Hit Points, 25 Cold damage)"
+						],
+						"1e": [
+							"{@spell cone of cold|xphb}",
+							"{@spell hold person|xphb}"
+						]
+					},
+					"ability": "cha"
+				}
+			]
 		},
 		{
 			"name": "Eva, Winter Acolyte",
@@ -840,21 +853,9 @@
 			"cr": "5",
 			"trait": [
 				{
-					"name": "Divine Spellcasting",
-					"entries": [
-						"Eva is a 9th-level spellcaster. Her spellcasting ability is Wisdom (spell save DC 15, +7 to hit with spell attacks). She has the following cleric spells prepared:",
-						"• Cantrips (at will): {@spell thaumaturgy}, {@spell guidance}, {@spell sacred flame}, {@spell spare the dying}",
-						"• 1st level (4 slots): {@spell bless}, {@spell cure wounds}, {@spell command}",
-						"• 2nd level (3 slots): {@spell hold person}, {@spell spiritual weapon}",
-						"• 3rd level (3 slots): {@spell bestow curse}, {@spell dispel magic}, {@spell spirit guardians}",
-						"• 4th level (3 slots): {@spell banishment}, {@spell guardian of faith}",
-						"• 5th level (1 slot): {@spell flame strike}"
-					]
-				},
-				{
 					"name": "Aura of Winter",
 					"entries": [
-						"Allies within 10 ft. of Eva gain resistance to fire damage. Enemies that start their turn within 10 ft. of her must succeed on a DC 15 Constitution saving throw or have their speed reduced by 10 ft. until the start of their next turn."
+						"Allies within 10 feet of Eva have resistance to Fire damage. Enemies that start their turn within 10 feet of her must succeed on a DC 15 Constitution saving throw or have their Speed decrease by 10 feet until the start of their next turn."
 					]
 				}
 			],
@@ -862,13 +863,13 @@
 				{
 					"name": "Mace",
 					"entries": [
-						"{@atk mw} {@hit +3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage."
+						"{@atkr m} {@hit +3}, reach 5 ft. {@h}4 ({@damage 1d6 + 1}) Bludgeoning damage."
 					]
 				},
 				{
 					"name": "Channel Divinity (1/Short Rest)",
 					"entries": [
-						"Eva can use her Channel Divinity to either Turn Undead (as per cleric rules) or invoke a chilling blessing, causing up to 3 creatures of her choice within 30 ft. to regain 15 hit points."
+						"Eva can use her Channel Divinity to either take the Turn Undead action or invoke a chilling blessing, causing up to three creatures of her choice within 30 feet to regain 15 Hit Points."
 					]
 				}
 			],
@@ -906,6 +907,62 @@
 			},
 			"spellcastingTags": [
 				"CC"
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Eva's spellcasting ability is Wisdom (spell save DC 15, +7 to hit with spell attacks). She has the following cleric spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell thaumaturgy|xphb}",
+								"{@spell guidance|xphb}",
+								"{@spell sacred flame|xphb}",
+								"{@spell spare the dying|xphb}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell bless|xphb}",
+								"{@spell cure wounds|xphb}",
+								"{@spell command|xphb}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell hold person|xphb}",
+								"{@spell spiritual weapon|xphb}"
+							]
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"{@spell bestow curse|xphb}",
+								"{@spell dispel magic|xphb}",
+								"{@spell spirit guardians|xphb}"
+							]
+						},
+						"4": {
+							"slots": 3,
+							"spells": [
+								"{@spell banishment|xphb}",
+								"{@spell guardian of faith|xphb}"
+							]
+						},
+						"5": {
+							"slots": 1,
+							"spells": [
+								"{@spell flame strike|xphb}"
+							]
+						}
+					},
+					"ability": "wis"
+				}
 			]
 		},
 		{
@@ -971,19 +1028,19 @@
 				{
 					"name": "Frost-Forged Training",
 					"entries": [
-						"Adan's melee weapon attacks deal an extra 7 ({@damage 2d6}) cold damage."
+						"Adan's melee weapon attacks deal an extra 7 ({@damage 2d6}) Cold damage."
 					]
 				},
 				{
 					"name": "Icebound Agility",
 					"entries": [
-						"Adan can Dash or Disengage as a bonus action on each of his turns."
+						"Adan can take the Dash or Disengage action as a Bonus Action on each of his turns."
 					]
 				},
 				{
 					"name": "Winter's Tenacity",
 					"entries": [
-						"Once per day, when Adan would be reduced to 0 hit points, he can instead drop to 1 hit point."
+						"Once per day, when Adan would be reduced to 0 Hit Points, he can instead drop to 1 Hit Point."
 					]
 				}
 			],
@@ -991,19 +1048,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Adan makes three melee attacks with his Frost Blades."
+						"Adan makes three Frost Blades attacks."
 					]
 				},
 				{
 					"name": "Frost Blades",
 					"entries": [
-						"{@atk mw} {@hit +7} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) slashing damage plus 7 ({@damage 2d6}) cold damage."
+						"{@atkr m} {@hit +7}, reach 5 ft. {@h}9 ({@damage 1d8 + 5}) Slashing damage plus 7 ({@damage 2d6}) Cold damage."
 					]
 				},
 				{
-					"name": "Glacial Dash (Recharge 5\u20136)",
+					"name": "Glacial Dash {@recharge 5}",
 					"entries": [
-						"Adan moves up to his speed without provoking opportunity attacks. At any point during this movement, he can make one Frost Blades attack against up to three different creatures (one attack per creature)."
+						"Adan moves up to his Speed without provoking Opportunity Attacks. At any point during this movement, he can make one Frost Blades attack against up to three different creatures (one attack per creature)."
 					]
 				}
 			],
@@ -1104,7 +1161,7 @@
 				{
 					"name": "Immovable Object",
 					"entries": [
-						"At the start of each of Charon's turns, he gains temporary hit points equal to 10 times his number of Unstoppable Force charges (see below), and that number then decreases by 1 (to a minimum of 0)."
+						"At the start of each of Charon's turns, he gains Temporary Hit Points equal to 10 times his number of Unstoppable Force charges (see below), and that number then decreases by 1 (to a minimum of 0)."
 					]
 				},
 				{
@@ -1118,22 +1175,22 @@
 								{
 									"type": "item",
 									"name": "1 charge.",
-									"entry": "The target must succeed on a {@dc 18} Strength saving throw or be pushed 15 ft. directly away from Charon."
+									"entry": "The target must succeed on a {@dc 18} Strength saving throw or be pushed up to 15 feet straight away from Charon."
 								},
 								{
 									"type": "item",
 									"name": "2 charges.",
-									"entry": "The target must succeed on a {@dc 18} Dexterity saving throw or be knocked {@condition prone}."
+									"entry": "The target must succeed on a {@dc 18} Dexterity saving throw or have the {@condition Prone} condition."
 								},
 								{
 									"type": "item",
 									"name": "3 charges.",
-									"entry": "The target must succeed on a {@dc 18} Constitution saving throw or be {@condition stunned} until the end of Charon's next turn."
+									"entry": "The target must succeed on a {@dc 18} Constitution saving throw or have the {@condition Stunned} condition until the end of Charon's next turn."
 								},
 								{
 									"type": "item",
 									"name": "4 charges.",
-									"entry": "The target must make a {@dc 18} Constitution saving throw. On a failed save, the target is reduced to 0 hit points. On a successful save, the target takes 55 ({@damage 10d10}) fire damage. Regardless of the result, Charon's charges reset to 0, and the next attack that hits him before the start of his next turn is an automatic critical hit."
+									"entry": "The target must make a {@dc 18} Constitution saving throw. {@actSaveFail} The target is reduced to 0 Hit Points. {@actSaveSuccess} The target takes 55 ({@damage 10d10}) Fire damage. Regardless of the result, Charon's charges reset to 0, and the next attack that hits him before the start of his next turn is an automatic Critical Hit."
 								}
 							]
 						}
@@ -1150,19 +1207,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Charon attacks three times using his unarmed strike."
+						"Charon makes three Unarmed Strike attacks."
 					]
 				},
 				{
 					"name": "Unarmed Strike",
 					"entries": [
-						"{@atk mw} {@hit +12} to hit, reach 5 ft., one target. {@h}12 ({@damage 1d10 + 7}) bludgeoning damage."
+						"{@atkr m} {@hit +12}, reach 5 ft. {@h}12 ({@damage 1d10 + 7}) Bludgeoning damage."
 					]
 				},
 				{
 					"name": "Wholeness of Body (1/Day)",
 					"entries": [
-						"Charon regains 60 hit points."
+						"Charon regains 60 Hit Points."
 					]
 				}
 			],
@@ -1170,7 +1227,7 @@
 				{
 					"name": "Aura of the Guardian",
 					"entries": [
-						"When an attack roll hits {@creature Haumea, the 2nd Pillar|IcewindDaleRimeoftheLamberto|Haumea} while Charon is within 30 feet of Haumea or of the attacker, Charon can use his reaction to teleport to a space within 5 feet of Haumea or of the attacker (whichever applies), and the triggering attack hits him instead of Haumea."
+						"{@actTrigger} An attack roll hits {@creature Haumea, the 2nd Pillar|IcewindDaleRimeoftheLamberto|Haumea} while Charon is within 30 feet of Haumea or of the attacker. {@actResponse} Charon teleports to a space within 5 feet of Haumea or of the attacker (whichever applies), and the triggering attack hits him instead of Haumea."
 					]
 				}
 			],
@@ -1185,7 +1242,7 @@
 				{
 					"name": "Enhanced Rush",
 					"entries": [
-						"Charon moves up to his speed without provoking opportunity attacks."
+						"Charon moves up to his Speed without provoking Opportunity Attacks."
 					]
 				}
 			],
@@ -1301,7 +1358,7 @@
 				{
 					"name": "Lightning Blood",
 					"entries": [
-						"A creature within 5 feet of Haumea takes 5 ({@damage 1d10}) lightning damage whenever it hits her with a melee attack that deals piercing or slashing damage."
+						"A creature within 5 feet of Haumea takes 5 ({@damage 1d10}) Lightning damage whenever it hits her with a melee attack that deals Piercing or Slashing damage."
 					]
 				},
 				{
@@ -1321,13 +1378,13 @@
 				{
 					"name": "Arc Lightning",
 					"entries": [
-						"{@atk mw,rw} {@hit +11} to hit, reach 10 ft. or range 60 ft., one target. {@h}18 ({@damage 4d8}) Lightning damage. If the target is a creature, it can't take reactions until the start of its next turn, and lightning jumps from the target to another creature of Haumea's choice that she can see within 30 feet of the target. The second creature must succeed on a {@dc 19} Dexterity saving throw or take 18 ({@damage 4d8}) Lightning damage."
+						"{@atkr m,r} {@hit +11}, reach 10 ft. or range 60 ft. {@h}18 ({@damage 4d8}) Lightning damage. If the target is a creature, it can't take reactions until the start of its next turn, and lightning jumps from the target to another creature of Haumea's choice that she can see within 30 feet of the target. The second creature must succeed on a {@dc 19} Dexterity saving throw or take 18 ({@damage 4d8}) Lightning damage."
 					]
 				},
 				{
 					"name": "Thunderbolt",
 					"entries": [
-						"{@atk rw} {@hit +11} to hit, range 500 ft., one target. {@h}20 ({@damage 2d12 + 7}) Lightning damage, and the target has the {@condition Blinded} and {@condition Deafened} conditions until the start of Haumea's next turn."
+						"{@atkr r} {@hit +11}, range 500 ft. {@h}20 ({@damage 2d12 + 7}) Lightning damage, and the target has the {@condition Blinded} and {@condition Deafened} conditions until the start of Haumea's next turn."
 					]
 				}
 			],
@@ -1359,15 +1416,15 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Haumea casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability ({@dc 17} spell save):"
+						"Haumea casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save {@dc 17}):"
 					],
 					"will": [
-						"{@spell detect magic}",
-						"{@spell light}"
+						"{@spell detect magic|xphb}",
+						"{@spell light|xphb}"
 					],
 					"daily": {
 						"1": [
-							"{@spell control weather}"
+							"{@spell control weather|xphb}"
 						]
 					},
 					"ability": "wis",
