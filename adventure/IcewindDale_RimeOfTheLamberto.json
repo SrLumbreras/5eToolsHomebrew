@@ -1249,8 +1249,8 @@
 				16
 			],
 			"hp": {
-				"average": 210,
-				"formula": "20d12 + 80"
+				"average": 200,
+				"formula": "20d8 + 110"
 			},
 			"speed": {
 				"walk": 50,
@@ -1264,15 +1264,15 @@
 			"wis": 20,
 			"cha": 18,
 			"save": {
-				"dex": "+12",
-				"con": "+9",
-				"wis": "+10",
-				"cha": "+9"
+				"dex": "+11",
+				"con": "+8",
+				"wis": "+9",
+				"cha": "+8"
 			},
 			"skill": {
-				"arcana": "+8",
-				"history": "+8",
-				"perception": "+10"
+				"arcana": "+7",
+				"history": "+7",
+				"perception": "+9"
 			},
 			"resist": [
 				"cold"
@@ -1285,19 +1285,13 @@
 				"darkvision 120 ft.",
 				"truesight 30 ft."
 			],
-			"passive": 20,
+			"passive": 19,
 			"languages": [
 				"Common",
 				"Celestial"
 			],
-			"cr": "13",
+			"cr": "11",
 			"trait": [
-				{
-					"name": "Illumination",
-					"entries": [
-						"Haumea sheds bright light in a 20-foot radius and dim light for an additional 20 feet."
-					]
-				},
 				{
 					"name": "Lightning Blood",
 					"entries": [
@@ -1319,15 +1313,15 @@
 					]
 				},
 				{
-					"name": "Thunderbolt",
+					"name": "Arc Lightning",
 					"entries": [
-						"{@atk rw} {@hit +12} to hit, range 500 ft., one target. {@h}20 ({@damage 2d12 + 7}) Lightning damage, and the target has the {@condition Blinded} and {@condition Deafened} conditions until the start of Haumea's next turn."
+						"{@atk mw,rw} {@hit +11} to hit, reach 10 ft. or range 60 ft., one target. {@h}18 ({@damage 4d8}) Lightning damage. If the target is a creature, it can't take reactions until the start of its next turn, and lightning jumps from the target to another creature of Haumea's choice that she can see within 30 feet of the target. The second creature must succeed on a {@dc 19} Dexterity saving throw or take 18 ({@damage 4d8}) Lightning damage."
 					]
 				},
 				{
-					"name": "Arc Lightning (Recharge 5\u20136)",
+					"name": "Thunderbolt",
 					"entries": [
-						"{@atk mw,rw} {@hit +12} to hit, reach 10 ft. or range 60 ft., one target. {@h}18 ({@damage 4d8}) Lightning damage. If the target is a creature, it can't take reactions until the start of its next turn, and lightning jumps from the target to another creature of Haumea's choice that she can see within 30 feet of the target. The second creature must succeed on a {@dc 18} Dexterity saving throw or take 18 ({@damage 4d8}) Lightning damage."
+						"{@atk rw} {@hit +11} to hit, range 500 ft., one target. {@h}20 ({@damage 2d12 + 7}) Lightning damage, and the target has the {@condition Blinded} and {@condition Deafened} conditions until the start of Haumea's next turn."
 					]
 				}
 			],
@@ -1342,15 +1336,15 @@
 			"legendaryActions": 2,
 			"legendary": [
 				{
-					"name": "Enhanced Rush",
+					"name": "Teleport",
 					"entries": [
-						"Haumea can use her Teleport bonus action."
+						"Haumea teleports, along with any equipment she is wearing or carrying, up to 30 feet to an unoccupied space she can see."
 					]
 				},
 				{
-					"name": "Protect Me! (Costs 2 Actions)",
+					"name": "Protect Me!",
 					"entries": [
-						"Haumea can teleport {@creature Charon, the Protector|IcewindDaleRimeoftheLamberto|Charon} to an unoccupied space that she can see within 10 feet of her, provided that Charon is on the same plane of existence as her."
+						"Haumea teleports {@creature Charon, the Protector|IcewindDaleRimeoftheLamberto|Charon} to an unoccupied space she can see within 10 feet of herself, provided that Charon is on the same plane of existence as her. Haumea can't take this action again until the start of her next turn."
 					]
 				}
 			],
@@ -1359,7 +1353,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Haumea casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability ({@dc 18} spell save):"
+						"Haumea casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability ({@dc 17} spell save):"
 					],
 					"will": [
 						"{@spell detect magic}",
@@ -1378,7 +1372,6 @@
 				"arctic"
 			],
 			"traitTags": [
-				"Illumination",
 				"Legendary Resistances"
 			],
 			"actionTags": [
@@ -1407,6 +1400,19 @@
 			"tokenHref": {
 				"type": "external",
 				"url": "https://raw.githubusercontent.com/SrLumbreras/5eToolsHomebrew/wip/_img/IDRotL/token/Haumea.png"
+			},
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/SrLumbreras/5eToolsHomebrew/wip/_homebrew_images/Charon_%26_Harumea/Charon_%26_Harumea.png"
+						}
+					}
+				]
 			}
 		},
 		{
