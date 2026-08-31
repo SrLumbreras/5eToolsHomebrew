@@ -1062,8 +1062,8 @@
 				}
 			],
 			"hp": {
-				"average": 204,
-				"formula": "24d8 + 96"
+				"average": 224,
+				"formula": "24d8 + 116"
 			},
 			"speed": {
 				"walk": 30
@@ -1085,40 +1085,32 @@
 			},
 			"resist": [
 				"fire",
-				"poison",
-				{
-					"resist": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks",
-					"cond": true
-				}
+				"poison"
 			],
 			"conditionImmune": [
 				"frightened"
 			],
 			"senses": [
-				"darkvision 60 ft. (can see invisible creatures out to the same range)"
+				"darkvision 120 ft.",
+				"truesight 30 ft."
 			],
 			"passive": 10,
 			"languages": [
 				"Common",
 				"Celestial"
 			],
-			"cr": "16",
+			"cr": "13",
 			"trait": [
 				{
 					"name": "Immovable Object",
 					"entries": [
-						"At the start of each of Charon's turns, he gains a fire shield granting him temporary hit points equal to 10 times his current number of Unstoppable Force charges (see below), and his number of Unstoppable Force charges then decreases by 1 (to a minimum of 0)."
+						"At the start of each of Charon's turns, he gains temporary hit points equal to 10 times his number of Unstoppable Force charges (see below), and that number then decreases by 1 (to a minimum of 0)."
 					]
 				},
 				{
 					"name": "Unstoppable Force",
 					"entries": [
-						"Charon has a number of charges (maximum 4, see Immovable Object above for how they are also spent) that increases by 1, to that maximum, each time he takes damage. In response to being hit by a melee attack, Charon makes an Unarmed Strike attack back at the enemy that made the attack. Each time Charon attacks back this way, he inflicts an extra effect based on his current number of charges:",
+						"Charon has a number of Unstoppable Force charges (maximum 4, see Immovable Object above for how they are also spent) that increases by 1, to that maximum, each time he takes damage. Immediately after being hit by a melee attack, Charon makes an Unarmed Strike attack against the attacker; this doesn't require his reaction. Each time Charon attacks this way, the attack has an additional effect based on his current number of charges:",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
@@ -1148,7 +1140,7 @@
 					]
 				},
 				{
-					"name": "Legendary Resistance (2/Day)",
+					"name": "Legendary Resistance (1/Day)",
 					"entries": [
 						"If Charon fails a saving throw, he can choose to succeed instead."
 					]
@@ -1164,7 +1156,7 @@
 				{
 					"name": "Unarmed Strike",
 					"entries": [
-						"{@atk mw} {@hit +12} to hit, reach 5 ft., one target. {@h}12 ({@damage 1d10 + 7}) bludgeoning, magic damage."
+						"{@atk mw} {@hit +12} to hit, reach 5 ft., one target. {@h}12 ({@damage 1d10 + 7}) bludgeoning damage."
 					]
 				},
 				{
@@ -1178,11 +1170,11 @@
 				{
 					"name": "Aura of the Guardian",
 					"entries": [
-						"When {@creature Haumea, the 2nd Pillar|IcewindDaleRimeoftheLamberto|Haumea} takes damage, if Charon is within 30 feet of Haumea or of the enemy that damaged her, he can use his reaction to teleport within 5 feet of Haumea or of the enemy (respectively) and take the attack instead of her."
+						"When an attack roll hits {@creature Haumea, the 2nd Pillar|IcewindDaleRimeoftheLamberto|Haumea} while Charon is within 30 feet of Haumea or of the attacker, Charon can use his reaction to teleport to a space within 5 feet of Haumea or of the attacker (whichever applies), and the triggering attack hits him instead of Haumea."
 					]
 				}
 			],
-			"legendaryActions": 2,
+			"legendaryActions": 1,
 			"legendary": [
 				{
 					"name": "True Protector",
@@ -1204,7 +1196,8 @@
 				"Multiattack"
 			],
 			"senseTags": [
-				"D"
+				"D",
+				"U"
 			],
 			"languageTags": [
 				"C",
