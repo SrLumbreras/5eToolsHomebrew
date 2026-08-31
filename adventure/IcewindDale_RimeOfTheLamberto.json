@@ -1223,6 +1223,19 @@
 			"tokenHref": {
 				"type": "external",
 				"url": "https://raw.githubusercontent.com/SrLumbreras/5eToolsHomebrew/wip/_img/IDRotL/token/Charon.png"
+			},
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/SrLumbreras/5eToolsHomebrew/wip/_homebrew_images/Charon_%26_Harumea/Charon_%26_Harumea.png"
+						}
+					}
+				]
 			}
 		},
 		{
