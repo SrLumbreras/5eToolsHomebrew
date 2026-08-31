@@ -58,6 +58,7 @@ const _ALLOWLIST_DIRS = new Set([
 	"HHH",
 	"HiVE",
 	"HoE",
+	"IDRotL",
 	"JBoE",
 	"JennysHomebrewStuff",
 	"KftGV_CC",
