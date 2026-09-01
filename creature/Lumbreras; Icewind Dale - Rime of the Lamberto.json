@@ -1162,7 +1162,7 @@
 				{
 					"name": "Immovable Object",
 					"entries": [
-						"At the start of each of Charon's turns, he gains Temporary Hit Points equal to 10 times his number of Unstoppable Force charges (see below), and that number then decreases by 1 (to a minimum of 0)."
+						"At the start of each of Charon's turns, if he has any Unstoppable Force charges (see below), he gains 10 Temporary Hit Points, and that number then decreases by 1."
 					]
 				},
 				{
@@ -1191,7 +1191,7 @@
 								{
 									"type": "item",
 									"name": "4 charges.",
-									"entry": "The target must make a {@dc 18} Constitution saving throw. {@actSaveFail} The target is reduced to 0 Hit Points. {@actSaveSuccess} The target takes 55 ({@damage 10d10}) Fire damage. Regardless of the result, Charon's charges reset to 0, and the next attack that hits him before the start of his next turn is an automatic Critical Hit."
+									"entry": "This attack has reach 10 feet instead of 5 feet. The target must make a {@dc 18} Constitution saving throw. {@actSaveFail} The target is reduced to 0 Hit Points. {@actSaveSuccess} The target takes 55 ({@damage 10d10}) Fire damage. Regardless of the result, Charon's charges reset to 0, and the next attack that hits him before the start of his next turn is an automatic Critical Hit."
 								}
 							]
 						}
