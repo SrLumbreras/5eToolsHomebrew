@@ -1373,7 +1373,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Haumea makes two attacks, using Arc Lightning or Thunderbolt in any combination."
+						"Haumea makes two Arc Lightning attacks."
 					]
 				},
 				{
@@ -1383,7 +1383,7 @@
 					]
 				},
 				{
-					"name": "Thunderbolt",
+					"name": "Thunderbolt {@recharge 5}",
 					"entries": [
 						"{@atkr r} {@hit +11}, range 500 ft. {@h}20 ({@damage 2d12 + 7}) Lightning damage, and the target has the {@condition Blinded} and {@condition Deafened} conditions until the start of Haumea's next turn."
 					]
