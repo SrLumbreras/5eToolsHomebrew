@@ -1755,13 +1755,13 @@
 				{
 					"name": "Rage (3/Day)",
 					"entries": [
-						"At the start of her first turn in a fight, Yggdra enters a rage: she gains 20 ({@damage 4d6 + 6}) Temporary Hit Points, her Speed increases by 10 feet, and she has Resistance to Bludgeoning, Piercing, and Slashing damage until the fight ends. Then, at the start of each of her turns while raging, she can choose another creature within 15 feet of her; that creature gains 14 ({@damage 4d6}) Temporary Hit Points."
+						"At the start of her first turn in a fight, Yggdra enters a rage: she gains 24 ({@damage 4d8 + 6}) Temporary Hit Points, her Speed increases by 10 feet, and she has Resistance to Bludgeoning, Piercing, and Slashing damage until the fight ends. Then, at the start of each of her turns while raging, she can choose another creature within 15 feet of her; that creature gains 18 ({@damage 4d8}) Temporary Hit Points."
 					]
 				},
 				{
 					"name": "Relentless Rage (3/Day)",
 					"entries": [
-						"If Yggdra drops to 0 Hit Points while raging and isn't killed outright, she can make a {@dc 10} Constitution Saving Throw. On a success, her Hit Points instead become 24 ({@damage 3d8 + 10})."
+						"If Yggdra drops to 0 Hit Points while raging and isn't killed outright, she can make a {@dc 12} Constitution Saving Throw. On a success, her Hit Points instead become 24 ({@damage 4d8 + 6})."
 					]
 				}
 			],
