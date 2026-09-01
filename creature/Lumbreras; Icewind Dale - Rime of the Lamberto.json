@@ -1781,7 +1781,7 @@
 				{
 					"name": "Wither and Bloom (3/Day)",
 					"entries": [
-						"{@actSave con} {@dc 17}, each creature Yggdra chooses in a 10-foot-radius Sphere centered on a point within 60 feet. {@actSaveFail} 24 ({@damage 7d6}) Necrotic damage. {@actSaveSuccess} Half damage. Nonmagical plants in the Sphere wither. One creature in the Sphere can spend and roll one of its unspent Hit Dice, regaining a number of Hit Points equal to the roll plus Yggdra's Constitution modifier."
+						"{@actSave con} {@dc 17}, each creature Yggdra chooses in a 10-foot-radius Sphere centered on a point within 60 feet. {@actSaveFail} 21 ({@damage 6d6}) Necrotic damage. {@actSaveSuccess} Half damage. Nonmagical plants in the Sphere wither. One creature in the Sphere can spend and roll up to five of its unspent Hit Dice, regaining a number of Hit Points equal to the roll plus Yggdra's Constitution modifier."
 					]
 				}
 			],
