@@ -1839,7 +1839,7 @@
 			"hasToken": true,
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/SrLumbreras/5eToolsHomebrew/main/_homebrew_images/Yggdra%20Arlaggath/Yggdra%20Arlaggath.png"
+				"url": "https://raw.githubusercontent.com/SrLumbreras/5eToolsHomebrew/refs/heads/main/_img/IDRotL/token/Yggdra%20Arlaggath.png"
 			},
 			"hasFluff": true,
 			"hasFluffImages": true,
