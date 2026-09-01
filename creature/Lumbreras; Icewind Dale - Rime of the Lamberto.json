@@ -1919,23 +1919,47 @@
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Info",
+					"name": "Heavy",
 					"entries": [
-						"Ebonrose is a glaive whose haft is a living branch grafted from Yggdrasil itself, its head unfurling in thorned black petals like a rose in eternal bloom. It was given to Yggdra Arlaggath by the World Tree in recognition of her unbroken vigil over Easthaven.",
-						"The weapon answers fully only to a bearer whose fury is tempered by devotion to something greater than themselves; in less devoted hands it still functions as a fine magic glaive, but none of the tales told of it are theirs to claim."
+						"You have Disadvantage on attack rolls with a Heavy weapon if it's a Melee weapon and your Strength score isn't at least 13 or if it's a Ranged weapon and your Dexterity score isn't at least 13."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Reach",
+					"entries": [
+						"A Reach weapon adds 5 feet to your reach when you attack with it, as well as when determining your reach for Opportunity Attacks with it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Two-Handed",
+					"entries": [
+						"A Two-Handed weapon requires two hands when you attack with it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mastery: Graze",
+					"entries": [
+						"If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Wither and Bloom (3/Day)",
 					"entries": [
-						"Ebonrose lets its bearer channel the World Tree's power. You can use an action to cast {@spell wither and bloom|wbtw} from Ebonrose as a 6th-level spell (spell save DC 17), requiring no material components. You can use this property a total of three times, and Ebonrose regains all expended uses at dawn."
+						"Ebonrose lets its bearer channel the World Tree's power. You can use an action to cast {@spell wither and bloom|scc} from Ebonrose as a 6th-level spell (spell save DC 17), requiring no material components. You can use this property a total of three times, and Ebonrose regains all expended uses at dawn."
 					]
 				}
 			],
 			"hasFluff": true,
 			"hasFluffImages": true,
 			"fluff": {
+				"entries": [
+					"Ebonrose is a glaive whose haft is a living branch grafted from Yggdrasil itself, its head unfurling in thorned black petals like a rose in eternal bloom. It was given to Yggdra Arlaggath by the World Tree in recognition of her unbroken vigil over Easthaven.",
+					"The weapon answers fully only to a bearer whose fury is tempered by devotion to something greater than themselves; in less devoted hands it still functions as a fine magic glaive, but none of the tales told of it are theirs to claim."
+				],
 				"images": [
 					{
 						"type": "image",
