@@ -903,7 +903,7 @@
 			"isNamedCreature": true,
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/SrLumbreras/5eToolsHomebrew/main/_img/IDRotL/token/Eva_Perire.png"
+				"url": "https://github.com/SrLumbreras/5eToolsHomebrew/releases/download/assets-tokens/Eva_Perire.webp"
 			},
 			"spellcastingTags": [
 				"CC"
@@ -1094,7 +1094,7 @@
 			"isNamedCreature": true,
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/SrLumbreras/5eToolsHomebrew/main/_img/IDRotL/token/Adan_Perire.png"
+				"url": "https://github.com/SrLumbreras/5eToolsHomebrew/releases/download/assets-tokens/Adan_Perire.webp"
 			}
 		},
 		{
@@ -1280,7 +1280,7 @@
 			"hasToken": true,
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/SrLumbreras/5eToolsHomebrew/main/_img/IDRotL/token/Charon.png"
+				"url": "https://github.com/SrLumbreras/5eToolsHomebrew/releases/download/assets-tokens/Charon.webp"
 			},
 			"hasFluff": true,
 			"hasFluffImages": true,
@@ -1290,7 +1290,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/SrLumbreras/5eToolsHomebrew/main/_homebrew_images/Charon_%26_Harumea/Charon_%26_Harumea.png"
+							"url": "https://github.com/SrLumbreras/5eToolsHomebrew/releases/download/assets-homebrew-images/Charon_and_Harumea.webp"
 						}
 					}
 				]
@@ -1463,7 +1463,7 @@
 			"hasToken": true,
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/SrLumbreras/5eToolsHomebrew/main/_img/IDRotL/token/Haumea.png"
+				"url": "https://github.com/SrLumbreras/5eToolsHomebrew/releases/download/assets-tokens/Haumea.webp"
 			},
 			"hasFluff": true,
 			"hasFluffImages": true,
@@ -1473,7 +1473,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/SrLumbreras/5eToolsHomebrew/main/_homebrew_images/Charon_%26_Harumea/Charon_%26_Harumea.png"
+							"url": "https://github.com/SrLumbreras/5eToolsHomebrew/releases/download/assets-homebrew-images/Charon_and_Harumea.webp"
 						}
 					}
 				]
@@ -1664,7 +1664,7 @@
 			"hasToken": true,
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/SrLumbreras/5eToolsHomebrew/main/_img/IDRotL/token/Anaar.png"
+				"url": "https://github.com/SrLumbreras/5eToolsHomebrew/releases/download/assets-tokens/Anaar.webp"
 			},
 			"hasFluff": true,
 			"fluff": {
@@ -1683,7 +1683,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/SrLumbreras/5eToolsHomebrew/main/_homebrew_images/Anaar/Anaar.png"
+							"url": "https://github.com/SrLumbreras/5eToolsHomebrew/releases/download/assets-homebrew-images/Anaar.webp"
 						}
 					}
 				]
@@ -1839,7 +1839,7 @@
 			"hasToken": true,
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/SrLumbreras/5eToolsHomebrew/refs/heads/main/_img/IDRotL/token/Yggdra%20Arlaggath.png"
+				"url": "https://github.com/SrLumbreras/5eToolsHomebrew/releases/download/assets-tokens/Yggdra_Arlaggath.webp"
 			},
 			"hasFluff": true,
 			"hasFluffImages": true,
@@ -1866,7 +1866,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/SrLumbreras/5eToolsHomebrew/main/_homebrew_images/Yggdra%20Arlaggath/Yggdra%20Arlaggath.png"
+							"url": "https://github.com/SrLumbreras/5eToolsHomebrew/releases/download/assets-homebrew-images/Yggdra_Arlaggath.webp"
 						}
 					}
 				]
@@ -1937,7 +1937,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/SrLumbreras/5eToolsHomebrew/main/_homebrew_images/Yggdra%20Arlaggath/Yggdra%20Arlaggath.png"
+							"url": "https://github.com/SrLumbreras/5eToolsHomebrew/releases/download/assets-homebrew-images/Yggdra_Arlaggath.webp"
 						}
 					}
 				]
