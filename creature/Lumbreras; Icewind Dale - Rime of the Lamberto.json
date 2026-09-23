@@ -1871,6 +1871,227 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Sabrae Lylyl",
+			"source": "IcewindDaleRimeoftheLamberto",
+			"page": 0,
+			"isNamedCreature": true,
+			"shortName": "Sabrae",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"Drow"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				17
+			],
+			"hp": {
+				"average": 95,
+				"formula": "10d8 + 50"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 19,
+			"dex": 13,
+			"con": 16,
+			"int": 10,
+			"wis": 14,
+			"cha": 12,
+			"save": {
+				"str": "+7",
+				"con": "+6"
+			},
+			"skill": {
+				"athletics": "+7",
+				"intimidation": "+4",
+				"perception": "+5"
+			},
+			"gear": [
+				"splint armor|xphb",
+				"Scarfall|IcewindDaleRimeoftheLamberto",
+				"spear|xphb"
+			],
+			"senses": [
+				"blindsight 10 ft.",
+				"darkvision 60 ft."
+			],
+			"passive": 15,
+			"languages": [
+				"Common",
+				"Elvish",
+				"Undercommon"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"Sabrae has Advantage on saving throws against being {@condition Charmed}, and magic can't put her to sleep."
+					]
+				},
+				{
+					"name": "Sunlight Sensitivity",
+					"entries": [
+						"While in sunlight, Sabrae has Disadvantage on attack rolls and on Wisdom ({@skill Perception}) checks that rely on sight."
+					]
+				},
+				{
+					"name": "Improved Critical",
+					"entries": [
+						"Sabrae's weapon attacks score a Critical Hit on a roll of 19 or 20."
+					]
+				},
+				{
+					"name": "Legendary Resistance (1/Day)",
+					"entries": [
+						"If Sabrae fails a saving throw, she can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Sabrae makes two attacks, using Scarfall or Spear in any combination."
+					]
+				},
+				{
+					"name": "Scarfall",
+					"entries": [
+						"{@atkr m} {@hit 7}, reach 10 ft. {@h}9 ({@damage 1d10 + 4}) Slashing damage. Hit Points lost to this attack can be restored only by a Short or Long Rest.",
+						"Once per turn on a hit, Sabrae can wound the target (maximum three Wounds at a time). At the start of its turns, a wounded creature takes {@damage 1d4} Necrotic damage per Wound, then makes a {@dc 15} Constitution saving throw, ending all its Wounds on a success. A creature within 5 feet of it can instead take an action to make a {@dc 15} Wisdom ({@skill Medicine}) check to end them."
+					]
+				},
+				{
+					"name": "Spear",
+					"entries": [
+						"{@atkr m,r} {@hit 7}, reach 5 ft. or range 20/60 ft. {@h}7 ({@damage 1d6 + 4}) Piercing damage."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Sabrae casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 12}):"
+					],
+					"will": [
+						"{@spell dancing lights|xphb}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell darkness|xphb}",
+							"{@spell faerie fire|xphb}",
+							"{@spell levitate|xphb} (self only)"
+						]
+					},
+					"ability": "cha",
+					"displayAs": "action"
+				}
+			],
+			"bonus": [
+				{
+					"name": "Action Surge (1/Day)",
+					"entries": [
+						"Sabrae takes one additional action on her turn."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"{@actTrigger} Sabrae is hit by a melee attack roll while holding a weapon. {@actResponse} Sabrae adds 3 to her AC against that attack, possibly causing it to miss."
+					]
+				}
+			],
+			"legendaryActions": 1,
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"Sabrae makes one Scarfall or Spear attack."
+					]
+				},
+				{
+					"name": "Move",
+					"entries": [
+						"Sabrae moves up to her Speed without provoking Opportunity Attacks."
+					]
+				}
+			],
+			"traitTags": [
+				"Fey Ancestry",
+				"Legendary Resistances",
+				"Sunlight Sensitivity"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Parry"
+			],
+			"senseTags": [
+				"B",
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"E",
+				"U"
+			],
+			"damageTags": [
+				"N",
+				"P",
+				"S"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"savingThrowForced": [
+				"constitution"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RCH",
+				"RW",
+				"THW"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"fluff": {
+				"entries": [
+					"Sabrae Lylyl is a commander of House Lylyl, a drow noble family whose soldiers answer to her without question. Disciplined and unforgiving, she leads from the front line, and her enemies learn to fear the ash-grey scars her family blade leaves behind.",
+					"She carries {@item Scarfall|IcewindDaleRimeoftheLamberto} as both a badge of rank and a promise: House Lylyl grants the scythe only to those who can make an enemy suffer long after the battle ends."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://github.com/SrLumbreras/5eToolsHomebrew/releases/download/assets-homebrew-images/Sabrae_Lylyl.webp"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://github.com/SrLumbreras/5eToolsHomebrew/releases/download/assets-homebrew-images/Lylyl_crest.webp"
+						},
+						"title": "Crest of House Lylyl"
+					}
+				]
+			}
 		}
 	],
 	"baseitem": [
