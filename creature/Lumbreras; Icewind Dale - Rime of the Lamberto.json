@@ -628,16 +628,11 @@
 				"E"
 			],
 			"ac": [
-				{
-					"ac": 17,
-					"from": [
-						"ice-bound leather armor"
-					]
-				}
+				17
 			],
 			"hp": {
-				"formula": "21d8 + 105",
-				"average": 200
+				"formula": "15d8 + 95",
+				"average": 162
 			},
 			"speed": {
 				"walk": 40
@@ -658,17 +653,6 @@
 				"survival": "+8",
 				"stealth": "+7"
 			},
-			"resist": [
-				{
-					"resist": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks",
-					"cond": true
-				}
-			],
 			"immune": [
 				"cold"
 			],
@@ -683,18 +667,24 @@
 			"languages": [
 				"Common"
 			],
-			"cr": "10",
+			"cr": "11",
 			"trait": [
 				{
 					"name": "Cold Regeneration",
 					"entries": [
-						"If the temperature around him is 0°F (-18°C) or lower, Sephek regains 15 Hit Points at the start of his turn. If he takes Fire damage, this trait doesn't function at the start of his next turn. Sephek dies only if he starts his turn with 0 Hit Points and doesn't regenerate."
+						"While the temperature around him is 0°F (\u221218°C) or lower, Sephek regains 10 Hit Points at the start of each of his turns. If Sephek takes Fire damage, this trait doesn't function on his next turn. Sephek dies only if he starts his turn with 0 Hit Points and doesn't regenerate."
 					]
 				},
 				{
 					"name": "Frozen Predator",
 					"entries": [
-						"Sephek has Advantage on attack rolls against any creature that hasn't taken a turn yet in combat."
+						"Sephek has Advantage on attack rolls against any creature that hasn't taken a turn yet in the combat."
+					]
+				},
+				{
+					"name": "Legendary Resistance (1/Day)",
+					"entries": [
+						"If Sephek fails a saving throw, he can choose to succeed instead."
 					]
 				}
 			],
@@ -702,25 +692,25 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Sephek makes three attacks, using Ice Longsword or Ice Dagger in any combination."
+						"Sephek makes three attacks, using Ice Longsword or Ice Knife in any combination."
 					]
 				},
 				{
 					"name": "Ice Longsword",
 					"entries": [
-						"{@atkr m} {@hit +9}, reach 5 ft. {@h}12 ({@damage 1d8 + 8}) Slashing damage, or 13 ({@damage 1d10 + 8}) Slashing damage if wielded with two hands, plus 10 ({@damage 3d6}) Cold damage."
+						"{@atkr m} {@hit 9}, reach 5 ft. {@h}9 ({@damage 1d8 + 5}) Slashing damage plus 7 ({@damage 2d6}) Cold damage."
 					]
 				},
 				{
-					"name": "Ice Dagger",
+					"name": "Ice Knife",
 					"entries": [
-						"{@atkr r} {@hit +9}, range 20/60 ft. {@h}9 ({@damage 1d4 + 7}) Piercing damage plus 10 ({@damage 3d6}) Cold damage. The target's Speed decreases by 10 feet until the end of Sephek's next turn."
+						"{@atkr r} {@hit 9}, range 60 ft. {@h}9 ({@damage 1d8 + 5}) Piercing damage. {@hom}{@actSave dex} {@dc 17}, the target and each other creature in a 5-foot Emanation originating from the target. {@actSaveFail} 7 ({@damage 2d6}) Cold damage."
 					]
 				},
 				{
 					"name": "Frostwind Slash {@recharge 5}",
 					"entries": [
-						"Sephek swings his longsword in a freezing arc. {@actSave con} {@dc 17}, each creature in a 15-foot Cone. {@actSaveFail} 31 ({@damage 7d8}) Cold damage. {@actSaveSuccess} Half damage."
+						"{@actSave con} {@dc 17}, each creature in a 60-foot Cone. {@actSaveFail} 36 ({@damage 8d8}) Cold damage. {@actSaveSuccess} Half damage."
 					]
 				}
 			],
@@ -740,17 +730,14 @@
 				"source": "IDRotF"
 			},
 			"damageTags": [
-				"S",
+				"C",
 				"P",
-				"C"
+				"S"
 			],
 			"damageTagsLegendary": [
 				"C",
-				"S",
-				"P"
-			],
-			"savingThrowForcedLegendary": [
-				"constitution"
+				"P",
+				"S"
 			],
 			"actionTags": [
 				"Multiattack"
@@ -759,9 +746,10 @@
 				"C"
 			],
 			"miscTags": [
+				"AOE",
+				"MLW",
 				"MW",
-				"RW",
-				"MLW"
+				"RW"
 			],
 			"senseTags": [
 				"D"
@@ -769,24 +757,65 @@
 			"isNamedCreature": true,
 			"spellcasting": [
 				{
-					"name": "Innate Spellcasting",
+					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Sephek's spellcasting ability is Charisma (spell save DC 17, +9 to hit with spell attacks). He can innately cast the following spells, requiring no spell components:"
+						"Sephek casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 17}):"
 					],
 					"daily": {
 						"3e": [
-							"{@spell misty step|xphb}",
-							"{@spell ice knife|xphb}",
-							"{@spell armor of agathys|xphb} (at 5th level, 25 Temporary Hit Points, 25 Cold damage)"
+							"{@spell armor of agathys|xphb} (level 5 version)"
 						],
 						"1e": [
-							"{@spell cone of cold|xphb}",
 							"{@spell hold person|xphb}"
 						]
 					},
-					"ability": "cha"
+					"ability": "cha",
+					"displayAs": "action"
 				}
+			],
+			"bonus": [
+				{
+					"name": "Misty Step (3/Day)",
+					"entries": [
+						"Sephek casts {@spell misty step|xphb}, using the same spellcasting ability as Spellcasting."
+					]
+				}
+			],
+			"legendaryActions": 1,
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"Sephek makes one Ice Longsword or Ice Knife attack."
+					]
+				},
+				{
+					"name": "Move",
+					"entries": [
+						"Sephek moves up to his Speed without provoking Opportunity Attacks."
+					]
+				}
+			],
+			"damageTagsSpell": [
+				"C"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"dexterity"
+			],
+			"savingThrowForcedSpell": [
+				"wisdom"
+			],
+			"conditionInflictSpell": [
+				"paralyzed"
+			],
+			"traitTags": [
+				"Legendary Resistances",
+				"Regeneration"
+			],
+			"spellcastingTags": [
+				"I"
 			]
 		},
 		{
