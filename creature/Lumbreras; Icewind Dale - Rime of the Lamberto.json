@@ -1967,8 +1967,8 @@
 				"Cleave|XPHB"
 			],
 			"entries": [
-				"Hit Points a creature loses to damage from Scarfall, including the Necrotic damage of its Wounds below, can be restored only by finishing a Short or Long Rest, not by Regeneration, magic, or any other means.",
-				"Once per turn, when you hit a creature with an attack using Scarfall, you can wound it (maximum three Wounds at a time). At the start of each of the wounded creature's turns, it takes Necrotic damage equal to 1d4 per Wound, then it must succeed on a DC 15 Constitution saving throw or keep all its Wounds; on a success, all its Wounds end. Alternatively, a creature within 5 feet of the wounded creature can take an action to make a DC 15 Wisdom (Medicine) check, ending all its Wounds on a success."
+				"Hit Points a creature loses to damage from Scarfall can be restored only by finishing a Short or Long Rest.",
+				"Once per turn on a hit, you can wound the target (maximum three Wounds at a time). At the start of its turns, a wounded creature takes 1d4 Necrotic damage per Wound, then makes a DC 15 Constitution saving throw, ending all its Wounds on a success. A creature within 5 feet of it can instead take an action to make a DC 15 Wisdom (Medicine) check to end them."
 			],
 			"hasFluff": true,
 			"fluff": {
