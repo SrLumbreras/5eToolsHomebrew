@@ -13,7 +13,7 @@ prosa** ("...must succeed on a {@dc 18} Dexterity saving throw or take 13
 completo. Es una preferencia de redacción explícita de Raul (2026-08-31): no
 la "corrijas" al formato partido si vuelves a tocar esta reacción.
 
-## Sephek Kaltro / Eva, Winter Acolyte — spellcasting
+## Eva, Winter Acolyte — spellcasting
 
 Su spellcasting se reestructuró de texto suelto con viñetas a la estructura
 `spellcasting` propia del esquema de 5e.tools, pero **conservando los mismos
