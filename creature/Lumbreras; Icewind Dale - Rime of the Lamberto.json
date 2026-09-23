@@ -17,7 +17,7 @@
 			}
 		],
 		"dateAdded": 1755096466,
-		"dateLastModified": 1790170074,
+		"dateLastModified": 1790171471,
 		"edition": "one"
 	},
 	"monster": [
@@ -2057,6 +2057,11 @@
 				"MW",
 				"RCH"
 			],
+			"hasToken": true,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://github.com/SrLumbreras/5eToolsHomebrew/releases/download/assets-tokens/Sabrae_Lylyl.webp"
+			},
 			"hasFluff": true,
 			"hasFluffImages": true,
 			"fluff": {
