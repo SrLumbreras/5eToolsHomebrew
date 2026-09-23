@@ -10,8 +10,17 @@ https://github.com/5etools-mirror-3/5etools-src/tree/main/data
 ## Estructura del repositorio
 
 Ramas:
-- **main**: rama única con todo el contenido consolidado. Es la que se apunta desde 5e.tools (Homebrew > Custom URL) para cargar el contenido.
-- **wip**: rama de trabajo para nuevas fichas/monstruos/notas antes de pasarlos a `main`. Se mergea a `main` cuando el contenido está listo.
+- **main**: única rama permanente, con todo el contenido consolidado. Es la que se apunta desde 5e.tools (Homebrew > Custom URL) para cargar el contenido. Nunca se comitea directamente en ella.
+- **Una rama corta por petición**, creada desde `main` actualizado y con nombre `<tipo>/<nombre>` en minúsculas, sin tildes ni espacios, con guiones:
+  - `pnj/<nombre>`: PNJs y monstruos (si llevan un objeto exclusivo, va en la misma rama).
+  - `item/<nombre>`: objetos, armas, baseitems.
+  - `spell/<nombre>`: hechizos.
+  - `fix/<qué>`: retoques a algo ya existente.
+  - `notes/<qué>`: cambios solo en `_notes/`.
+- Cada rama se integra en `main` con una PR usando **squash and merge** y después se borra. Una rama ya mergeada no se reutiliza: para la siguiente petición se crea otra desde `main`.
+- Todo el contenido de campaña vive en un solo JSON y lo nuevo se añade al final de cada array. Si hay dos ramas abiertas a la vez, la segunda en mergearse chocará en ese punto: antes de su PR se actualiza con `main` y el conflicto se resuelve quedándose con las dos entradas.
+- La antigua rama `wip` ya no se usa.
+- Tras mergear, en 5e.tools hay que borrar el brew y volver a cargarlo: los ficheros cargados no se actualizan solos.
 
 Carpetas relevantes en `main`:
 - `creature/`: contenido de campaña terminado (monstruos, PNJs, objetos base...), en formato homebrew válido para 5e.tools. Sigue el convenio del repo oficial de homebrew (`TheGiddyLimit/homebrew`): un fichero por fuente, nombrado `Autor; Descripción.json`, ubicado en la carpeta del tipo de contenido principal — el fichero puede incluir varios props (`monster`, `baseitem`, etc.) a la vez.
