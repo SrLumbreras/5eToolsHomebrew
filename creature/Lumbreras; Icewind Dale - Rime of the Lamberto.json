@@ -692,7 +692,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Sephek makes three attacks, using Ice Longsword or Ice Dagger in any combination."
+						"Sephek makes three attacks, using Ice Longsword or Ice Knife in any combination."
 					]
 				},
 				{
@@ -702,15 +702,15 @@
 					]
 				},
 				{
-					"name": "Ice Dagger",
+					"name": "Ice Knife",
 					"entries": [
-						"{@atkr m,r} {@hit 9}, reach 5 ft. or range 20/60 ft. {@h}7 ({@damage 1d4 + 5}) Piercing damage plus 7 ({@damage 2d6}) Cold damage, and the target's Speed decreases by 10 feet until the end of Sephek's next turn."
+						"{@atkr r} {@hit 9}, range 60 ft. {@h}9 ({@damage 1d8 + 5}) Piercing damage. {@hom}{@actSave dex} {@dc 17}, the target and each other creature in a 5-foot Emanation originating from the target. {@actSaveFail} 7 ({@damage 2d6}) Cold damage."
 					]
 				},
 				{
 					"name": "Frostwind Slash {@recharge 5}",
 					"entries": [
-						"{@actSave con} {@dc 17}, each creature in a 30-foot Cone. {@actSaveFail} 40 ({@damage 9d8}) Cold damage. {@actSaveSuccess} Half damage."
+						"{@actSave con} {@dc 17}, each creature in a 60-foot Cone. {@actSaveFail} 36 ({@damage 8d8}) Cold damage. {@actSaveSuccess} Half damage."
 					]
 				}
 			],
@@ -749,8 +749,7 @@
 				"AOE",
 				"MLW",
 				"MW",
-				"RW",
-				"THW"
+				"RW"
 			],
 			"senseTags": [
 				"D"
@@ -761,15 +760,13 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Sephek casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 17}, {@hit 9} to hit with spell attacks):"
+						"Sephek casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 17}):"
 					],
 					"daily": {
 						"3e": [
-							"{@spell armor of agathys|xphb} (level 5 version)",
-							"{@spell ice knife|xphb}"
+							"{@spell armor of agathys|xphb} (level 5 version)"
 						],
 						"1e": [
-							"{@spell cone of cold|xphb}",
 							"{@spell hold person|xphb}"
 						]
 					},
@@ -790,7 +787,7 @@
 				{
 					"name": "Attack",
 					"entries": [
-						"Sephek makes one Ice Longsword or Ice Dagger attack."
+						"Sephek makes one Ice Longsword or Ice Knife attack."
 					]
 				},
 				{
@@ -804,10 +801,10 @@
 				"C"
 			],
 			"savingThrowForced": [
-				"constitution"
+				"constitution",
+				"dexterity"
 			],
 			"savingThrowForcedSpell": [
-				"constitution",
 				"wisdom"
 			],
 			"conditionInflictSpell": [
