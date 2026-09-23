@@ -17,7 +17,7 @@
 			}
 		],
 		"dateAdded": 1755096466,
-		"dateLastModified": 1788263553,
+		"dateLastModified": 1790171471,
 		"edition": "one"
 	},
 	"monster": [
@@ -552,7 +552,7 @@
 					{
 						"type": "entries",
 						"entries": [
-							"Frost giants who master rune magic are known as ice shapers, and their sheer power typically contributes to a meteoric rise in the giants' ordning. Many of them end up as jarls, leading their communities, or as advisers to jarls\u2014often the true power behind the throne. They are usually devoted to Thrym.",
+							"Frost giants who master rune magic are known as ice shapers, and their sheer power typically contributes to a meteoric rise in the giants' ordning. Many of them end up as jarls, leading their communities, or as advisers to jarls—often the true power behind the throne. They are usually devoted to Thrym.",
 							"True to their name, these ice shapers manipulate the raw elemental energy of air and water to wield ice in both offense and defense. They summon ice elementals in the shape of wolves, cloak themselves in icy armor, and just as quickly turn that armor into a hail of deadly ice shards.",
 							"In ancient times, Hjoölvir, was well known in the Icewind Dale region, a frost giant of immense power, able to summon ice storms with a single thought. Her throne, hidden deep in the frozen expanses of Icewind Dale, was the heart of her dominion, where two wolves of elemental fury guarded her. Fearing her growing strength, humans devised a plan to imprison her. Using mirrors that distorted light and runes that dampened her magic, they lured Hjoölvir into a trap.",
 							"The dungeon holding Hjoölvir has remained intact due to the Twenty Stones of Thruun, a circle of standing stones located in Dougan's Hole. Though these stones have held her for over a thousand years, the barrier is slowly weakening, and Hjoölvir's fury intensifies. When she breaks free, winter will descend upon the land once again."
@@ -1871,6 +1871,222 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Sabrae Lylyl",
+			"source": "IcewindDaleRimeoftheLamberto",
+			"page": 0,
+			"isNamedCreature": true,
+			"shortName": "Sabrae",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"Drow"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				17
+			],
+			"hp": {
+				"average": 95,
+				"formula": "10d8 + 50"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 19,
+			"dex": 13,
+			"con": 16,
+			"int": 10,
+			"wis": 14,
+			"cha": 12,
+			"save": {
+				"str": "+7",
+				"con": "+6"
+			},
+			"skill": {
+				"athletics": "+7",
+				"intimidation": "+4",
+				"perception": "+5"
+			},
+			"gear": [
+				"splint armor|xphb",
+				"Scarfall|IcewindDaleRimeoftheLamberto"
+			],
+			"senses": [
+				"blindsight 10 ft.",
+				"darkvision 60 ft."
+			],
+			"passive": 15,
+			"languages": [
+				"Common",
+				"Elvish",
+				"Undercommon"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"Sabrae has Advantage on saving throws against being {@condition Charmed}, and magic can't put her to sleep."
+					]
+				},
+				{
+					"name": "Sunlight Sensitivity",
+					"entries": [
+						"While in sunlight, Sabrae has Disadvantage on attack rolls and on Wisdom ({@skill Perception}) checks that rely on sight."
+					]
+				},
+				{
+					"name": "Improved Critical",
+					"entries": [
+						"Sabrae's weapon attacks score a Critical Hit on a roll of 19 or 20."
+					]
+				},
+				{
+					"name": "Legendary Resistance (1/Day)",
+					"entries": [
+						"If Sabrae fails a saving throw, she can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Sabrae makes two Scarfall attacks."
+					]
+				},
+				{
+					"name": "Scarfall",
+					"entries": [
+						"{@atkr m} {@hit 7}, reach 10 ft. {@h}9 ({@damage 1d10 + 4}) Slashing damage. Hit Points lost to this attack can be restored only by a Short or Long Rest.",
+						"Once per turn on a hit, Sabrae can wound the target (maximum three Wounds at a time). At the start of its turns, a wounded creature takes {@damage 1d4} Necrotic damage per Wound, then makes a {@dc 15} Constitution saving throw, ending all its Wounds on a success. A creature within 5 feet of it can instead take an action to make a {@dc 15} Wisdom ({@skill Medicine}) check to end them."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Sabrae casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 12}):"
+					],
+					"will": [
+						"{@spell dancing lights|xphb}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell darkness|xphb}",
+							"{@spell faerie fire|xphb}",
+							"{@spell levitate|xphb} (self only)"
+						]
+					},
+					"ability": "cha",
+					"displayAs": "action"
+				}
+			],
+			"bonus": [
+				{
+					"name": "Action Surge (1/Day)",
+					"entries": [
+						"Sabrae takes one additional action on her turn."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"{@actTrigger} Sabrae is hit by a melee attack roll while holding a weapon. {@actResponse} Sabrae adds 3 to her AC against that attack, possibly causing it to miss."
+					]
+				}
+			],
+			"legendaryActions": 1,
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"Sabrae makes one Scarfall attack."
+					]
+				},
+				{
+					"name": "Move",
+					"entries": [
+						"Sabrae moves up to her Speed without provoking Opportunity Attacks."
+					]
+				}
+			],
+			"traitTags": [
+				"Fey Ancestry",
+				"Legendary Resistances",
+				"Sunlight Sensitivity"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Parry"
+			],
+			"senseTags": [
+				"B",
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"E",
+				"U"
+			],
+			"damageTags": [
+				"N",
+				"S"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"savingThrowForced": [
+				"constitution"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RCH"
+			],
+			"hasToken": true,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://github.com/SrLumbreras/5eToolsHomebrew/releases/download/assets-tokens/Sabrae_Lylyl.webp"
+			},
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"fluff": {
+				"entries": [
+					"Sabrae Lylyl is a commander of House Lylyl, a drow noble family whose soldiers answer to her without question. Disciplined and unforgiving, she leads from the front line, and her enemies learn to fear the ash-grey scars her family blade leaves behind.",
+					"She carries {@item Scarfall|IcewindDaleRimeoftheLamberto} as both a badge of rank and a promise: House Lylyl grants the scythe only to those who can make an enemy suffer long after the battle ends."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://github.com/SrLumbreras/5eToolsHomebrew/releases/download/assets-homebrew-images/Sabrae_Lylyl.webp"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://github.com/SrLumbreras/5eToolsHomebrew/releases/download/assets-homebrew-images/Lylyl_crest.webp"
+						},
+						"title": "Crest of House Lylyl"
+					}
+				]
+			}
 		}
 	],
 	"baseitem": [
@@ -1883,9 +2099,12 @@
 			"value": 2000,
 			"weaponCategory": "martial",
 			"property": [
-				"H",
-				"R",
-				"2H"
+				"H|XPHB",
+				"R|XPHB",
+				"2H|XPHB"
+			],
+			"mastery": [
+				"Cleave|XPHB"
 			],
 			"dmg1": "1d10",
 			"dmgType": "S",
@@ -1940,6 +2159,38 @@
 							"url": "https://github.com/SrLumbreras/5eToolsHomebrew/releases/download/assets-homebrew-images/Yggdra_Arlaggath.webp"
 						}
 					}
+				]
+			}
+		},
+		{
+			"name": "Scarfall",
+			"source": "IcewindDaleRimeoftheLamberto",
+			"page": 0,
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 6,
+			"weaponCategory": "martial",
+			"property": [
+				"H|XPHB",
+				"R|XPHB",
+				"2H|XPHB"
+			],
+			"dmg1": "1d10",
+			"dmgType": "S",
+			"reach": 10,
+			"mastery": [
+				"Cleave|XPHB"
+			],
+			"entries": [
+				"Hit Points a creature loses to damage from Scarfall can be restored only by finishing a Short or Long Rest.",
+				"Once per turn on a hit, you can wound the target (maximum three Wounds at a time). At the start of its turns, a wounded creature takes 1d4 Necrotic damage per Wound, then makes a DC 15 Constitution saving throw, ending all its Wounds on a success. A creature within 5 feet of it can instead take an action to make a DC 15 Wisdom (Medicine) check to end them."
+			],
+			"hasFluff": true,
+			"fluff": {
+				"entries": [
+					"Scarfall is a drow scythe forged in the Lylyl family's ancestral halls, its blackened blade said to leave wounds that scar over ash-grey and never quite heal clean, like snow that falls and never fully melts.",
+					"House Lylyl grants the weapon only to commanders who have proven they can make an enemy suffer long after the battle ends. Sabrae Lylyl carries it as both a badge of rank and a promise: those who survive its first cut rarely walk away whole."
 				]
 			}
 		}
