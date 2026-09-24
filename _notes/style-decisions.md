@@ -20,10 +20,13 @@ conservando los hechizos y slots clásicos. **El 2026-09-24 Raul decidió
 pasarlo al formato 2024 sin slots**, con acción de Spellcasting por
 frecuencia y lista recortada al tope de nivel 3 propio de un CR 5:
 At Will *Command, Spare the Dying, Thaumaturgy*; 2/Day Each *Bless, Hold
-Person*; 1/Day Each *Bestow Curse, Dispel Magic, Spirit Guardians*. El daño
+Person*; 1/Day Each *Dispel Magic, Sending, Spirit Guardians, Warding
+Bond*. El daño
 fiable va en el ataque propio **Rime Flare** (patrón 2024 de "ataque firma en
 vez de cantrip"). Se quitaron Guidance, Sacred Flame, Cure Wounds, Spiritual
-Weapon, Banishment, Guardian of Faith y Flame Strike. Si alguna vez vuelve un
+Weapon, Banishment, Guardian of Faith y Flame Strike. Después se cambió
+Bestow Curse por **Warding Bond** (sinergia con su gemelo Adan) y se añadió
+**Sending**, que no pesa en combate pero es importante para la campaña. Si alguna vez vuelve un
 hechizo de nivel 4+, hay que revisar el CR.
 
 Al pasar a no muerta, su Channel Divinity se quedó solo con la curación

@@ -933,9 +933,10 @@
 							"{@spell hold person|xphb}"
 						],
 						"1e": [
-							"{@spell bestow curse|xphb}",
 							"{@spell dispel magic|xphb}",
-							"{@spell spirit guardians|xphb}"
+							"{@spell sending|xphb}",
+							"{@spell spirit guardians|xphb}",
+							"{@spell warding bond|xphb}"
 						]
 					},
 					"ability": "wis",
