@@ -885,8 +885,7 @@
 				{
 					"name": "Aura of Winter",
 					"entries": [
-						"Eva emits biting cold in a 10-foot Emanation while she isn't {@condition Incapacitated|XPHB}. Her allies in that area have Resistance to Fire damage.",
-						"{@actSave con} {@dc 15}, each enemy that starts its turn in the Emanation. {@actSaveFail} The target's Speed decreases by 10 feet until the start of its next turn."
+						"Eva emits biting cold in a 10-foot Emanation while she isn't {@condition Incapacitated|XPHB}. Her allies in that area have Resistance to Fire damage."
 					]
 				},
 				{
