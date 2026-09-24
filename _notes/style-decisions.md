@@ -13,11 +13,18 @@ prosa** ("...must succeed on a {@dc 18} Dexterity saving throw or take 13
 completo. Es una preferencia de redacción explícita de Raul (2026-08-31): no
 la "corrijas" al formato partido si vuelves a tocar esta reacción.
 
-## Eva, Winter Acolyte — spellcasting
+## Eva Elohim (antes "Eva, Winter Acolyte") — spellcasting
 
-Su spellcasting se reestructuró de texto suelto con viñetas a la estructura
-`spellcasting` propia del esquema de 5e.tools, pero **conservando los mismos
-hechizos y slots de siempre** (2026-08-31). No se rediseñó al estilo 2024
-"sin slots" (At Will / X-Day Each con lista recortada) — eso implica decidir
-qué hechizos se quedan fuera, y sigue pendiente como decisión de contenido de
-Raul si algún día lo pide explícitamente.
+El 2026-08-31 su spellcasting pasó a la estructura `spellcasting` de 5e.tools
+conservando los hechizos y slots clásicos. **El 2026-09-24 Raul decidió
+pasarlo al formato 2024 sin slots**, con acción de Spellcasting por
+frecuencia y lista recortada al tope de nivel 3 propio de un CR 5:
+At Will *Command, Spare the Dying, Thaumaturgy*; 2/Day Each *Bless, Hold
+Person*; 1/Day Each *Bestow Curse, Dispel Magic, Spirit Guardians*. El daño
+fiable va en el ataque propio **Rime Flare** (patrón 2024 de "ataque firma en
+vez de cantrip"). Se quitaron Guidance, Sacred Flame, Cure Wounds, Spiritual
+Weapon, Banishment, Guardian of Faith y Flame Strike. Si alguna vez vuelve un
+hechizo de nivel 4+, hay que revisar el CR.
+
+Al pasar a no muerta, su Channel Divinity se quedó solo con la curación
+(acción **Chilling Blessing (1/Day)**); se quitó Turn Undead.
