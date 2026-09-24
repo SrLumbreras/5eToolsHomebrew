@@ -654,11 +654,14 @@
 				"stealth": "+7"
 			},
 			"immune": [
-				"cold"
+				"cold",
+				"poison"
 			],
 			"conditionImmune": [
 				"charmed",
-				"frightened"
+				"exhaustion",
+				"frightened",
+				"poisoned"
 			],
 			"senses": [
 				"darkvision 60 ft."
@@ -740,7 +743,8 @@
 				"S"
 			],
 			"actionTags": [
-				"Multiattack"
+				"Multiattack",
+				"Teleport"
 			],
 			"languageTags": [
 				"C"
@@ -776,9 +780,9 @@
 			],
 			"bonus": [
 				{
-					"name": "Misty Step (3/Day)",
+					"name": "Whiteout Step (3/Day)",
 					"entries": [
-						"Sephek casts {@spell misty step|xphb}, using the same spellcasting ability as Spellcasting."
+						"Sephek teleports up to 30 feet to an unoccupied space he can see."
 					]
 				}
 			],
@@ -995,35 +999,24 @@
 			]
 		},
 		{
-			"name": "Adan, Frost Disciple",
+			"name": "Adan Elohim",
 			"source": "IcewindDaleRimeoftheLamberto",
 			"size": [
 				"S"
 			],
 			"type": {
-				"type": "humanoid",
-				"tags": [
-					{
-						"tag": "Human",
-						"prefix": "Child"
-					}
-				]
+				"type": "undead"
 			},
 			"alignment": [
 				"N",
 				"E"
 			],
 			"ac": [
-				{
-					"ac": 17,
-					"from": [
-						"ice-tempered chain shirt"
-					]
-				}
+				16
 			],
 			"hp": {
-				"formula": "10d8 + 30",
-				"average": 75
+				"formula": "12d6 + 36",
+				"average": 78
 			},
 			"speed": {
 				"walk": 40
@@ -1040,36 +1033,34 @@
 				"con": "+6"
 			},
 			"skill": {
-				"athletics": "+7",
 				"acrobatics": "+6",
-				"perception": "+4",
-				"survival": "+4"
+				"athletics": "+7",
+				"perception": "+5",
+				"survival": "+5"
 			},
-			"resist": [
-				"cold"
+			"immune": [
+				"cold",
+				"poison"
 			],
-			"passive": 14,
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"poisoned"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 15,
 			"languages": [
 				"Common"
 			],
 			"cr": "5",
 			"trait": [
 				{
-					"name": "Frost-Forged Training",
+					"name": "Cold Regeneration",
 					"entries": [
-						"Adan's melee weapon attacks deal an extra 7 ({@damage 2d6}) Cold damage."
-					]
-				},
-				{
-					"name": "Icebound Agility",
-					"entries": [
-						"Adan can take the Dash or Disengage action as a Bonus Action on each of his turns."
-					]
-				},
-				{
-					"name": "Winter's Tenacity",
-					"entries": [
-						"Once per day, when Adan would be reduced to 0 Hit Points, he can instead drop to 1 Hit Point."
+						"While the temperature around him is 0°F (\u221218°C) or lower, Adan regains 10 Hit Points at the start of each of his turns. If Adan takes Fire damage, this trait doesn't function on his next turn. Adan dies only if he starts his turn with 0 Hit Points and doesn't regenerate."
 					]
 				}
 			],
@@ -1083,13 +1074,21 @@
 				{
 					"name": "Frost Blades",
 					"entries": [
-						"{@atkr m} {@hit +7}, reach 5 ft. {@h}9 ({@damage 1d8 + 5}) Slashing damage plus 7 ({@damage 2d6}) Cold damage."
+						"{@atkr m} {@hit 7}, reach 5 ft. {@h}7 ({@damage 1d6 + 4}) Slashing damage plus 3 ({@damage 1d6}) Cold damage."
 					]
 				},
 				{
 					"name": "Glacial Dash {@recharge 5}",
 					"entries": [
-						"Adan moves up to his Speed without provoking Opportunity Attacks. At any point during this movement, he can make one Frost Blades attack against up to three different creatures (one attack per creature)."
+						"Adan moves up to his Speed without provoking Opportunity Attacks. At any point during this movement, he can make one Frost Blades attack against each of up to three different creatures. Each of these attacks deals an extra 7 ({@damage 2d6}) Cold damage on a hit, and the target's Speed is 0 until the start of Adan's next turn."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Icebound Agility",
+					"entries": [
+						"Adan takes the {@action Dash|XPHB} or {@action Disengage|XPHB} action."
 					]
 				}
 			],
@@ -1098,17 +1097,8 @@
 			],
 			"hasToken": true,
 			"damageTags": [
-				"S",
-				"C"
-			],
-			"damageTagsLegendary": [
-				"S",
-				"C"
-			],
-			"savingThrowForcedLegendary": [
-				"strength",
-				"constitution",
-				"dexterity"
+				"C",
+				"S"
 			],
 			"actionTags": [
 				"Multiattack"
@@ -1119,6 +1109,12 @@
 			"miscTags": [
 				"MW",
 				"MLW"
+			],
+			"senseTags": [
+				"D"
+			],
+			"traitTags": [
+				"Regeneration"
 			],
 			"isNamedCreature": true,
 			"tokenHref": {
