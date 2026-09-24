@@ -885,8 +885,7 @@
 				{
 					"name": "Aura of Winter",
 					"entries": [
-						"Eva emits biting cold in a 10-foot Emanation while she isn't {@condition Incapacitated|XPHB}. Her allies in that area have Resistance to Fire damage.",
-						"{@actSave con} {@dc 15}, each enemy that starts its turn in the Emanation. {@actSaveFail} The target's Speed decreases by 10 feet until the start of its next turn."
+						"Eva emits biting cold in a 10-foot Emanation while she isn't {@condition Incapacitated|XPHB}. She and her allies in that area have Resistance to Fire damage."
 					]
 				},
 				{
@@ -974,13 +973,23 @@
 			"spellcastingTags": [
 				"I"
 			],
-			"savingThrowForced": [
-				"constitution"
-			],
 			"isNamedCreature": true,
 			"tokenHref": {
 				"type": "external",
 				"url": "https://github.com/SrLumbreras/5eToolsHomebrew/releases/download/assets-tokens/Eva_Perire.webp"
+			},
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://github.com/SrLumbreras/5eToolsHomebrew/releases/download/assets-homebrew-images/Eva_Elohim.webp"
+						}
+					}
+				]
 			}
 		},
 		{
@@ -1105,6 +1114,19 @@
 			"tokenHref": {
 				"type": "external",
 				"url": "https://github.com/SrLumbreras/5eToolsHomebrew/releases/download/assets-tokens/Adan_Perire.webp"
+			},
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://github.com/SrLumbreras/5eToolsHomebrew/releases/download/assets-homebrew-images/Adan_Elohim.webp"
+						}
+					}
+				]
 			}
 		},
 		{
