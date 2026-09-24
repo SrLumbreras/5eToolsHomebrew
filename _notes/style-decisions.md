@@ -13,11 +13,7 @@ prosa** ("...must succeed on a {@dc 18} Dexterity saving throw or take 13
 completo. Es una preferencia de redacción explícita de Raul (2026-08-31): no
 la "corrijas" al formato partido si vuelves a tocar esta reacción.
 
-## Eva, Winter Acolyte — spellcasting
+## Eva Elohim — Sending
 
-Su spellcasting se reestructuró de texto suelto con viñetas a la estructura
-`spellcasting` propia del esquema de 5e.tools, pero **conservando los mismos
-hechizos y slots de siempre** (2026-08-31). No se rediseñó al estilo 2024
-"sin slots" (At Will / X-Day Each con lista recortada) — eso implica decidir
-qué hechizos se quedan fuera, y sigue pendiente como decisión de contenido de
-Raul si algún día lo pide explícitamente.
+Tiene *Sending* aunque no se use en combate: es importante para la campaña.
+No lo quites al rebalancear.

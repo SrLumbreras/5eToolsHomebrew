@@ -823,35 +823,24 @@
 			]
 		},
 		{
-			"name": "Eva, Winter Acolyte",
+			"name": "Eva Elohim",
 			"source": "IcewindDaleRimeoftheLamberto",
 			"size": [
 				"S"
 			],
 			"type": {
-				"type": "humanoid",
-				"tags": [
-					{
-						"tag": "Human",
-						"prefix": "Child"
-					}
-				]
+				"type": "undead"
 			},
 			"alignment": [
 				"N",
 				"E"
 			],
 			"ac": [
-				{
-					"ac": 16,
-					"from": [
-						"blessing of the frost"
-					]
-				}
+				16
 			],
 			"hp": {
-				"formula": "10d8 + 20",
-				"average": 65
+				"formula": "13d6 + 26",
+				"average": 71
 			},
 			"speed": {
 				"walk": 30
@@ -863,22 +852,30 @@
 			"wis": 18,
 			"cha": 16,
 			"save": {
+				"dex": "+5",
 				"wis": "+7",
 				"cha": "+6"
 			},
 			"skill": {
-				"religion": "+4",
 				"insight": "+7",
 				"medicine": "+7",
-				"persuasion": "+6"
+				"persuasion": "+6",
+				"religion": "+4"
 			},
-			"resist": [
-				"cold"
+			"immune": [
+				"cold",
+				"poison"
 			],
 			"conditionImmune": [
-				"charmed"
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"poisoned"
 			],
-			"passive": 17,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
 			"languages": [
 				"Common",
 				"Celestial"
@@ -888,22 +885,63 @@
 				{
 					"name": "Aura of Winter",
 					"entries": [
-						"Allies within 10 feet of Eva have resistance to Fire damage. Enemies that start their turn within 10 feet of her must succeed on a DC 15 Constitution saving throw or have their Speed decrease by 10 feet until the start of their next turn."
+						"Eva emits biting cold in a 10-foot Emanation while she isn't {@condition Incapacitated|XPHB}. Her allies in that area have Resistance to Fire damage.",
+						"{@actSave con} {@dc 15}, each enemy that starts its turn in the Emanation. {@actSaveFail} The target's Speed decreases by 10 feet until the start of its next turn."
+					]
+				},
+				{
+					"name": "Cold Regeneration",
+					"entries": [
+						"While the temperature around her is 0°F (\u221218°C) or lower, Eva regains 10 Hit Points at the start of each of her turns. If Eva takes Fire damage, this trait doesn't function on her next turn. Eva dies only if she starts her turn with 0 Hit Points and doesn't regenerate."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Mace",
+					"name": "Multiattack",
 					"entries": [
-						"{@atkr m} {@hit +3}, reach 5 ft. {@h}4 ({@damage 1d6 + 1}) Bludgeoning damage."
+						"Eva makes two Rime Flare attacks."
 					]
 				},
 				{
-					"name": "Channel Divinity (1/Short Rest)",
+					"name": "Rime Flare",
 					"entries": [
-						"Eva can use her Channel Divinity to either take the Turn Undead action or invoke a chilling blessing, causing up to three creatures of her choice within 30 feet to regain 15 Hit Points."
+						"{@atkr m,r} {@hit 7}, reach 5 ft. or range 60 ft. {@h}15 ({@damage 2d10 + 4}) Cold damage."
 					]
+				},
+				{
+					"name": "Chilling Blessing (2/Day)",
+					"entries": [
+						"Eva chooses up to three creatures she can see within 30 feet of herself. Each target regains 15 ({@dice 2d10 + 4}) Hit Points."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Eva casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 15}):"
+					],
+					"will": [
+						"{@spell command|xphb}",
+						"{@spell spare the dying|xphb}",
+						"{@spell thaumaturgy|xphb}"
+					],
+					"daily": {
+						"2e": [
+							"{@spell bless|xphb}",
+							"{@spell hold person|xphb}"
+						],
+						"1e": [
+							"{@spell dispel magic|xphb}",
+							"{@spell sending|xphb}",
+							"{@spell spirit guardians|xphb}",
+							"{@spell warding bond|xphb}"
+						]
+					},
+					"ability": "wis",
+					"displayAs": "action"
 				}
 			],
 			"environment": [
@@ -912,91 +950,38 @@
 			],
 			"hasToken": true,
 			"damageTags": [
-				"B",
-				"R",
-				"F"
+				"C"
 			],
-			"damageTagsLegendary": [
-				"B",
-				"R",
-				"F"
-			],
-			"savingThrowForcedLegendary": [
-				"wisdom",
-				"constitution"
+			"actionTags": [
+				"Multiattack"
 			],
 			"languageTags": [
 				"C",
 				"CE"
 			],
 			"miscTags": [
-				"MW",
-				"AOE"
+				"AOE",
+				"HPR",
+				"MA",
+				"RA"
+			],
+			"senseTags": [
+				"D"
+			],
+			"traitTags": [
+				"Regeneration"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"savingThrowForced": [
+				"constitution"
 			],
 			"isNamedCreature": true,
 			"tokenHref": {
 				"type": "external",
 				"url": "https://github.com/SrLumbreras/5eToolsHomebrew/releases/download/assets-tokens/Eva_Perire.webp"
-			},
-			"spellcastingTags": [
-				"CC"
-			],
-			"spellcasting": [
-				{
-					"name": "Spellcasting",
-					"type": "spellcasting",
-					"headerEntries": [
-						"Eva's spellcasting ability is Wisdom (spell save DC 15, +7 to hit with spell attacks). She has the following cleric spells prepared:"
-					],
-					"spells": {
-						"0": {
-							"spells": [
-								"{@spell thaumaturgy|xphb}",
-								"{@spell guidance|xphb}",
-								"{@spell sacred flame|xphb}",
-								"{@spell spare the dying|xphb}"
-							]
-						},
-						"1": {
-							"slots": 4,
-							"spells": [
-								"{@spell bless|xphb}",
-								"{@spell cure wounds|xphb}",
-								"{@spell command|xphb}"
-							]
-						},
-						"2": {
-							"slots": 3,
-							"spells": [
-								"{@spell hold person|xphb}",
-								"{@spell spiritual weapon|xphb}"
-							]
-						},
-						"3": {
-							"slots": 3,
-							"spells": [
-								"{@spell bestow curse|xphb}",
-								"{@spell dispel magic|xphb}",
-								"{@spell spirit guardians|xphb}"
-							]
-						},
-						"4": {
-							"slots": 3,
-							"spells": [
-								"{@spell banishment|xphb}",
-								"{@spell guardian of faith|xphb}"
-							]
-						},
-						"5": {
-							"slots": 1,
-							"spells": [
-								"{@spell flame strike|xphb}"
-							]
-						}
-					},
-					"ability": "wis"
-				}
-			]
+			}
 		},
 		{
 			"name": "Adan Elohim",
