@@ -885,7 +885,7 @@
 				{
 					"name": "Aura of Winter",
 					"entries": [
-						"Eva emits biting cold in a 10-foot Emanation while she isn't {@condition Incapacitated|XPHB}. Her allies in that area have Resistance to Fire damage."
+						"Eva emits biting cold in a 10-foot Emanation while she isn't {@condition Incapacitated|XPHB}. She and her allies in that area have Resistance to Fire damage."
 					]
 				},
 				{
