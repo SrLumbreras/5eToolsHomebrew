@@ -988,14 +988,6 @@
 							"type": "external",
 							"url": "https://github.com/SrLumbreras/5eToolsHomebrew/releases/download/assets-homebrew-images/Eva_Elohim.webp"
 						}
-					},
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://github.com/SrLumbreras/5eToolsHomebrew/releases/download/assets-homebrew-images/Easthaven_crest.webp"
-						},
-						"title": "Crest of Easthaven"
 					}
 				]
 			}
@@ -1133,14 +1125,6 @@
 							"type": "external",
 							"url": "https://github.com/SrLumbreras/5eToolsHomebrew/releases/download/assets-homebrew-images/Adan_Elohim.webp"
 						}
-					},
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://github.com/SrLumbreras/5eToolsHomebrew/releases/download/assets-homebrew-images/Easthaven_crest.webp"
-						},
-						"title": "Crest of Easthaven"
 					}
 				]
 			}
