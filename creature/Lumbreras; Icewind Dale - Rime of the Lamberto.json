@@ -654,11 +654,14 @@
 				"stealth": "+7"
 			},
 			"immune": [
-				"cold"
+				"cold",
+				"poison"
 			],
 			"conditionImmune": [
 				"charmed",
-				"frightened"
+				"exhaustion",
+				"frightened",
+				"poisoned"
 			],
 			"senses": [
 				"darkvision 60 ft."
@@ -1035,11 +1038,14 @@
 				"survival": "+5"
 			},
 			"immune": [
-				"cold"
+				"cold",
+				"poison"
 			],
 			"conditionImmune": [
 				"charmed",
-				"frightened"
+				"exhaustion",
+				"frightened",
+				"poisoned"
 			],
 			"senses": [
 				"darkvision 60 ft."
