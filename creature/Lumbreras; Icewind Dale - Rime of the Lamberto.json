@@ -743,7 +743,8 @@
 				"S"
 			],
 			"actionTags": [
-				"Multiattack"
+				"Multiattack",
+				"Teleport"
 			],
 			"languageTags": [
 				"C"
@@ -781,7 +782,7 @@
 				{
 					"name": "Misty Step (3/Day)",
 					"entries": [
-						"Sephek casts {@spell misty step|xphb}, using the same spellcasting ability as Spellcasting."
+						"Sephek teleports up to 30 feet to an unoccupied space he can see."
 					]
 				}
 			],
