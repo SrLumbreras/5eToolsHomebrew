@@ -27,4 +27,4 @@ Weapon, Banishment, Guardian of Faith y Flame Strike. Si alguna vez vuelve un
 hechizo de nivel 4+, hay que revisar el CR.
 
 Al pasar a no muerta, su Channel Divinity se quedó solo con la curación
-(acción **Chilling Blessing (1/Day)**); se quitó Turn Undead.
+(acción **Chilling Blessing (2/Day)**); se quitó Turn Undead.

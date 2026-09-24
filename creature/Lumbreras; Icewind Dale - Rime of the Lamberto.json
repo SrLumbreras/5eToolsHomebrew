@@ -909,7 +909,7 @@
 					]
 				},
 				{
-					"name": "Chilling Blessing (1/Day)",
+					"name": "Chilling Blessing (2/Day)",
 					"entries": [
 						"Eva chooses up to three creatures she can see within 30 feet of herself. Each target regains 15 ({@dice 2d10 + 4}) Hit Points."
 					]
