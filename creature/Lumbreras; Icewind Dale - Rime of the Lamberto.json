@@ -1079,7 +1079,7 @@
 				{
 					"name": "Glacial Dash {@recharge 5}",
 					"entries": [
-						"Adan moves up to his Speed without provoking Opportunity Attacks. At any point during this movement, he can make one Frost Blades attack against each of up to three different creatures."
+						"Adan moves up to his Speed without provoking Opportunity Attacks. At any point during this movement, he can make one Frost Blades attack against each of up to three different creatures. Each of these attacks deals an extra 7 ({@damage 2d6}) Cold damage on a hit, and the target's Speed is 0 until the start of Adan's next turn."
 					]
 				}
 			],
