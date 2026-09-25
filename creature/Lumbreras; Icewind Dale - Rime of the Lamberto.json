@@ -2537,6 +2537,162 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Copper Knobberknocker",
+			"source": "IcewindDaleRimeoftheLamberto",
+			"page": 0,
+			"isNamedCreature": true,
+			"shortName": "Copper",
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"lycanthrope"
+				]
+			},
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				15
+			],
+			"hp": {
+				"average": 104,
+				"formula": "19d6 + 38"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"initiative": {
+				"proficiency": 1
+			},
+			"str": 10,
+			"dex": 18,
+			"con": 14,
+			"int": 11,
+			"wis": 12,
+			"cha": 8,
+			"skill": {
+				"perception": "+4",
+				"stealth": "+7"
+			},
+			"senses": [
+				"Darkvision 60 ft."
+			],
+			"passive": 14,
+			"languages": [
+				"Common",
+				"Gnomish (can't speak in rat form)"
+			],
+			"cr": "5",
+			"gear": [
+				"hand crossbow|xphb"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Copper makes three attacks, using Scratch or Hand Crossbow in any combination. He can replace one attack with a Bite attack."
+					]
+				},
+				{
+					"name": "Bite (Rat or Hybrid Form Only)",
+					"entries": [
+						"{@atkr m} {@hit 7}, reach 5 ft. {@h}13 ({@damage 2d8 + 4}) Piercing damage. If the target is a Humanoid, it is subjected to the following effect. {@actSave con} {@dc 13}. {@actSaveFail} The target is cursed. If the cursed target drops to 0 {@variantrule Hit Points|XPHB}, it instead becomes a {@creature Wererat|XMM} under the DM's control and has 10 {@variantrule Hit Points|XPHB}. {@actSaveSuccess} The target is immune to Copper's curse for 24 hours."
+					]
+				},
+				{
+					"name": "Scratch",
+					"entries": [
+						"{@atkr m} {@hit 7}, reach 5 ft. {@h}11 ({@damage 2d6 + 4}) Slashing damage."
+					]
+				},
+				{
+					"name": "Hand Crossbow (Humanoid or Hybrid Form Only)",
+					"entries": [
+						"{@atkr r} {@hit 7}, range 30/120 ft. {@h}11 ({@damage 2d6 + 4}) Piercing damage."
+					]
+				},
+				{
+					"name": "Rat Swarm {@recharge 5}",
+					"entries": [
+						"{@actSave dex} {@dc 15}, each creature in a 10-foot-radius Sphere centered on a point Copper can see within 60 feet. {@actSaveFail} 17 ({@damage 5d6}) Piercing damage, and the target's {@variantrule Speed|XPHB} is halved until the end of its next turn. {@actSaveSuccess} Half damage only."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Nimble Escape",
+					"entries": [
+						"Copper takes the {@action Disengage|XPHB} or {@action Hide|XPHB} action."
+					]
+				},
+				{
+					"name": "Shape-Shift",
+					"entries": [
+						"Copper shape-shifts into a Small rat-humanoid hybrid or a Tiny rat, or he returns to his true gnome form. His game statistics, other than his size, are the same in each form. Any equipment he is wearing or carrying isn't transformed."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"urban"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"CS",
+				"G"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"CUR",
+				"MA",
+				"RA",
+				"RNG"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"dexterity"
+			],
+			"isNpc": true,
+			"hasToken": true,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://github.com/SrLumbreras/5eToolsHomebrew/releases/download/assets-tokens/Copper_Knobberknocker.webp"
+			},
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"fluff": {
+				"entries": [
+					"Copper Knobberknocker is a rock gnome wererat who lives in the attic of the Shrine of Amaunator in Bryn Shander, where he begrudgingly helps with services and chores.",
+					"{@creature Anaar (Sunmaster)|IcewindDaleRimeoftheLamberto|Anaar} and he argue incessantly about the true identity of the Morninglord: Copper defends {@deity Lathander|Faerûnian|FRHoF} as the real incarnation of the deity, while Anaar defends her beliefs in {@deity Amaunator|Faerûnian|FRHoF}.",
+					"Copper walks around in a fuzzy suit and hood that he made himself; although it's quite warm, it makes him look like a teddy bear."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://github.com/SrLumbreras/5eToolsHomebrew/releases/download/assets-homebrew-images/Copper_Knobberknocker.webp"
+						}
+					}
+				]
+			}
 		}
 	],
 	"baseitem": [
