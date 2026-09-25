@@ -238,32 +238,9 @@
 				"MLW",
 				"THW"
 			],
-			"hasFluff": true,
 			"token": {
 				"name": "Soldier",
 				"source": "GGR"
-			},
-			"fluff": {
-				"name": "Soldier",
-				"source": "GGR",
-				"entries": [
-					{
-						"type": "entries",
-						"entries": [
-							{
-								"type": "entries",
-								"entries": [
-									{
-										"type": "entries",
-										"entries": [
-											"Soldiers are found in many of Ravnica's guilds. The soldier stat block represents a typical member of the rank and file, though weaponry and armor can vary."
-										]
-									}
-								]
-							}
-						]
-					}
-				]
 			},
 			"reaction": [
 				{
@@ -428,7 +405,12 @@
 			"size": [
 				"H"
 			],
-			"type": "giant",
+			"type": {
+				"type": "giant",
+				"tags": [
+					"frost giant ice shaper"
+				]
+			},
 			"alignment": [
 				"N",
 				"E"
@@ -552,10 +534,10 @@
 					{
 						"type": "entries",
 						"entries": [
-							"Frost giants who master rune magic are known as ice shapers, and their sheer power typically contributes to a meteoric rise in the giants' ordning. Many of them end up as jarls, leading their communities, or as advisers to jarls\u2014often the true power behind the throne. They are usually devoted to Thrym.",
+							"Frost giants who master rune magic are known as ice shapers, and their sheer power typically contributes to a meteoric rise in the giants' ordning. Many of them end up as jarls, leading their communities, or as advisers to jarls\u2014often the true power behind the throne. They are usually devoted to {@deity Thrym|Nonhuman|PHB}.",
 							"True to their name, these ice shapers manipulate the raw elemental energy of air and water to wield ice in both offense and defense. They summon ice elementals in the shape of wolves, cloak themselves in icy armor, and just as quickly turn that armor into a hail of deadly ice shards.",
-							"In ancient times, Hjoölvir, was well known in the Icewind Dale region, a frost giant of immense power, able to summon ice storms with a single thought. Her throne, hidden deep in the frozen expanses of Icewind Dale, was the heart of her dominion, where two wolves of elemental fury guarded her. Fearing her growing strength, humans devised a plan to imprison her. Using mirrors that distorted light and runes that dampened her magic, they lured Hjoölvir into a trap.",
-							"The dungeon holding Hjoölvir has remained intact due to the Twenty Stones of Thruun, a circle of standing stones located in Dougan's Hole. Though these stones have held her for over a thousand years, the barrier is slowly weakening, and Hjoölvir's fury intensifies. When she breaks free, winter will descend upon the land once again."
+							"In ancient times, Hjoölvir, was well known in the Icewind Dale region, a frost giant ice shaper of immense power, able to summon ice storms with a single thought. Her throne, hidden deep in the frozen expanses of Icewind Dale, was the heart of her dominion, where two wolves of elemental fury guarded her. Fearing her growing strength, humans devised a plan to imprison her. Using mirrors that distorted light and runes that dampened her magic, they lured Hjoölvir into a trap.",
+							"The dungeon holding Hjoölvir has remained intact due to the {@adventure Twenty Stones of Thruun|IDRotF|6|Location in Dougan's Hole}, a circle of standing stones located in {@adventure Dougan's Hole|IDRotF|6}. Though these stones have held her for over a thousand years, the barrier is slowly weakening, and Hjoölvir's fury intensifies. When she breaks free, winter will descend upon the land once again."
 						]
 					}
 				],
@@ -826,8 +808,8 @@
 			"fluff": {
 				"entries": [
 					"Sephek Kaltro is a well-built man in his thirties. He has an olive complexion, dark hair pulled back in a ponytail, and no facial or body hair. He is dressed in a stylish vest with matching pants and boots, similar in style to those worn by mariners of the southern Sword Coast, but wears no armor or cold weather clothing and doesn't appear to be armed. His most striking feature is his eyes, which are as blue as a frozen lake.",
-					"A paladin of Tempus, Sephek had been the caretaker of Easthaven's orphanage for fifteen years. He briefly fought with the 1st Regiment in its campaign to bring down {@deity Auril|Faerûnian|FRHoF}, but had to step away to defend Easthaven before Yggdra rose as the town's protector.",
-					"During a journey with {@creature Adan Elohim|IcewindDaleRimeoftheLamberto|Adan} and {@creature Eva Elohim|IcewindDaleRimeoftheLamberto|Eva}, all three were killed by Orin Kelek, a cleric of {@deity Auril|Faerûnian|FRHoF}, who then raised them to serve both Orin himself and the Frostmaiden. Together, they will become known as the \"Drow Killers,\" responsible for massacring multiple drow populations across Ten-Towns on Orin's orders."
+					"A paladin of {@deity Tempus|Faerûnian|FRHoF}, Sephek had been the caretaker of {@adventure Easthaven|IDRotF|7}'s orphanage for fifteen years. He briefly fought with the 1st Regiment in its campaign to bring down {@deity Auril|Faerûnian|FRHoF}, but had to step away to defend Easthaven before {@creature Yggdra Arlaggath|IcewindDaleRimeoftheLamberto|Yggdra} rose as the town's protector.",
+					"During a journey with {@creature Adan Elohim|IcewindDaleRimeoftheLamberto|Adan} and {@creature Eva Elohim|IcewindDaleRimeoftheLamberto|Eva}, all three were killed by Orin Kelek, a cleric of {@deity Auril|Faerûnian|FRHoF}, who then raised them to serve both Orin himself and the Frostmaiden. Together, they will become known as the \"Drow Killers,\" responsible for massacring multiple drow populations across {@adventure Ten-Towns|IDRotF|1} on Orin's orders."
 				],
 				"images": [
 					{
@@ -1000,9 +982,9 @@
 			"hasFluffImages": true,
 			"fluff": {
 				"entries": [
-					"{@creature Adan Elohim|IcewindDaleRimeoftheLamberto|Adan} and Eva are slight, youthful twins with fair complexions and copper-blond hair: short and tousled in {@creature Adan Elohim|IcewindDaleRimeoftheLamberto|Adan}'s case, tied back beneath a hood in Eva's. They dress alike, in blue tunics bearing the crest of Easthaven, fur-collared mantles, and leather bracers bound with copper cord.",
+					"{@creature Adan Elohim|IcewindDaleRimeoftheLamberto|Adan} and Eva are slight, youthful twins with fair complexions and copper-blond hair: short and tousled in {@creature Adan Elohim|IcewindDaleRimeoftheLamberto|Adan}'s case, tied back beneath a hood in Eva's. They dress alike, in blue tunics bearing the crest of {@adventure Easthaven|IDRotF|7}, fur-collared mantles, and leather bracers bound with copper cord.",
 					"{@creature Adan Elohim|IcewindDaleRimeoftheLamberto|Adan} and Eva Elohim were the first orphans taken in by {@creature Sephek Kaltro|IcewindDaleRimeoftheLamberto|Sephek Kaltro} when he became the caretaker of Easthaven's orphanage. Raised under his care, both regard {@creature Sephek Kaltro|IcewindDaleRimeoftheLamberto|Sephek} as their father and have refused every offer of adoption, choosing to remain at the orphanage with him.",
-					"The orphanage depends on the coin {@creature Sephek Kaltro|IcewindDaleRimeoftheLamberto|Sephek} earns through dangerous work, such as escorting caravans and hunting beasts that threaten Ten-Towns. From a young age, the twins trained to aid him in these tasks: {@creature Adan Elohim|IcewindDaleRimeoftheLamberto|Adan} as a swift and relentless blade fighter, Eva as a healer devoted to the divine. Once they had proven their skill, {@creature Sephek Kaltro|IcewindDaleRimeoftheLamberto|Sephek} allowed them to join him as his squires.",
+					"The orphanage depends on the coin {@creature Sephek Kaltro|IcewindDaleRimeoftheLamberto|Sephek} earns through dangerous work, such as escorting caravans and hunting beasts that threaten {@adventure Ten-Towns|IDRotF|1}. From a young age, the twins trained to aid him in these tasks: {@creature Adan Elohim|IcewindDaleRimeoftheLamberto|Adan} as a swift and relentless blade fighter, Eva as a healer devoted to the divine. Once they had proven their skill, {@creature Sephek Kaltro|IcewindDaleRimeoftheLamberto|Sephek} allowed them to join him as his squires.",
 					"During a journey with {@creature Sephek Kaltro|IcewindDaleRimeoftheLamberto|Sephek}, all three were killed by Orin Kelek, a cleric of {@deity Auril|Faerûnian|FRHoF}, who then raised them to serve both Orin himself and the Frostmaiden. Like {@creature Sephek Kaltro|IcewindDaleRimeoftheLamberto|Sephek}, the twins are bound to Orin's will. Together, the three will become known as the \"Drow Killers,\" responsible for massacring multiple drow populations across Ten-Towns on Orin's orders."
 				],
 				"images": [
@@ -1143,9 +1125,9 @@
 			"hasFluffImages": true,
 			"fluff": {
 				"entries": [
-					"Adan and {@creature Eva Elohim|IcewindDaleRimeoftheLamberto|Eva} are slight, youthful twins with fair complexions and copper-blond hair: short and tousled in Adan's case, tied back beneath a hood in {@creature Eva Elohim|IcewindDaleRimeoftheLamberto|Eva}'s. They dress alike, in blue tunics bearing the crest of Easthaven, fur-collared mantles, and leather bracers bound with copper cord.",
+					"Adan and {@creature Eva Elohim|IcewindDaleRimeoftheLamberto|Eva} are slight, youthful twins with fair complexions and copper-blond hair: short and tousled in Adan's case, tied back beneath a hood in {@creature Eva Elohim|IcewindDaleRimeoftheLamberto|Eva}'s. They dress alike, in blue tunics bearing the crest of {@adventure Easthaven|IDRotF|7}, fur-collared mantles, and leather bracers bound with copper cord.",
 					"Adan and {@creature Eva Elohim|IcewindDaleRimeoftheLamberto|Eva Elohim} were the first orphans taken in by {@creature Sephek Kaltro|IcewindDaleRimeoftheLamberto|Sephek Kaltro} when he became the caretaker of Easthaven's orphanage. Raised under his care, both regard {@creature Sephek Kaltro|IcewindDaleRimeoftheLamberto|Sephek} as their father and have refused every offer of adoption, choosing to remain at the orphanage with him.",
-					"The orphanage depends on the coin {@creature Sephek Kaltro|IcewindDaleRimeoftheLamberto|Sephek} earns through dangerous work, such as escorting caravans and hunting beasts that threaten Ten-Towns. From a young age, the twins trained to aid him in these tasks: Adan as a swift and relentless blade fighter, {@creature Eva Elohim|IcewindDaleRimeoftheLamberto|Eva} as a healer devoted to the divine. Once they had proven their skill, {@creature Sephek Kaltro|IcewindDaleRimeoftheLamberto|Sephek} allowed them to join him as his squires.",
+					"The orphanage depends on the coin {@creature Sephek Kaltro|IcewindDaleRimeoftheLamberto|Sephek} earns through dangerous work, such as escorting caravans and hunting beasts that threaten {@adventure Ten-Towns|IDRotF|1}. From a young age, the twins trained to aid him in these tasks: Adan as a swift and relentless blade fighter, {@creature Eva Elohim|IcewindDaleRimeoftheLamberto|Eva} as a healer devoted to the divine. Once they had proven their skill, {@creature Sephek Kaltro|IcewindDaleRimeoftheLamberto|Sephek} allowed them to join him as his squires.",
 					"During a journey with {@creature Sephek Kaltro|IcewindDaleRimeoftheLamberto|Sephek}, all three were killed by Orin Kelek, a cleric of {@deity Auril|Faerûnian|FRHoF}, who then raised them to serve both Orin himself and the Frostmaiden. Like {@creature Sephek Kaltro|IcewindDaleRimeoftheLamberto|Sephek}, the twins are bound to Orin's will. Together, the three will become known as the \"Drow Killers,\" responsible for massacring multiple drow populations across Ten-Towns on Orin's orders."
 				],
 				"images": [
@@ -1734,8 +1716,8 @@
 					{
 						"type": "entries",
 						"entries": [
-							"Sunmasters were members of the Brotherhood of the Glorious Sun, a sect within the church of Lathander that believed that the Morninglord was a reincarnation of Amaunator and destined to transform into the Yellow God at some point in history.",
-							"Anaar is a human cleric from Marsember and sunmaster of Amaunator, she runs the Shrine of Amaunator located in Bryn Shander. When Anaar arrived to the city, she began organizing a torchbearing service, employing orphans, to light the ways of citizens moving about in the dark. Her torchbearers often brought her news of unlawful things occurring in the darkness, which she sought to deal with.",
+							"Sunmasters were members of the Brotherhood of the Glorious Sun, a sect within the church of {@deity Lathander|Faerûnian|FRHoF} that believed that the Morninglord was a reincarnation of {@deity Amaunator|Faerûnian|FRHoF} and destined to transform into the Yellow God at some point in history.",
+							"Anaar is a human cleric from Marsember and sunmaster of Amaunator, she runs the {@adventure Shrine of Amaunator|IDRotF|3|Locations in Bryn Shander} located in {@adventure Bryn Shander|IDRotF|3}. When Anaar arrived to the city, she began organizing a torchbearing service, employing orphans, to light the ways of citizens moving about in the dark. Her torchbearers often brought her news of unlawful things occurring in the darkness, which she sought to deal with.",
 							"She calls Amaunator \"the Morninglord,\" a name that southerners use to describe Lathander, a god of the dawn and rebirth. Anaar views Lathander as a usurper of Amaunator's light and doesn't like it when people confuse the two deities."
 						]
 					}
@@ -1910,8 +1892,8 @@
 					{
 						"type": "entries",
 						"entries": [
-							"A half-elf barbarian of the Path of the World Tree, Yggdra was raised by a nomadic tribe attuned to nature's fury. Her bond with Yggdrasil lets her channel life-giving energy and warp space to protect others. She rose to prominence during a magical blizzard that unleashed awakened ice beasts on Easthaven. Yggdra quelled the storm, saving the town and earning her role as Captain.",
-							"Her rigid, stoic demeanor stems from tragedy: her husband Neb, a woodcarver, and their newborn perished in an avalanche unleashed by marauding yetis. This tragedy fuels her tactical brilliance and quiet empathy, driving her to shield Easthaven from harm."
+							"A half-elf barbarian of the {@subclass Path of the World Tree|Barbarian|XPHB|World Tree|XPHB}, Yggdra was raised by a nomadic tribe attuned to nature's fury. Her bond with Yggdrasil lets her channel life-giving energy and warp space to protect others. She rose to prominence during a magical blizzard that unleashed awakened ice beasts on {@adventure Easthaven|IDRotF|7}. Yggdra quelled the storm, saving the town and earning her role as Captain.",
+							"Her rigid, stoic demeanor stems from tragedy: her husband Neb, a woodcarver, and their newborn perished in an avalanche unleashed by marauding {@creature Yeti|XMM|yetis}. This tragedy fuels her tactical brilliance and quiet empathy, driving her to shield Easthaven from harm."
 						]
 					},
 					{
@@ -2302,8 +2284,8 @@
 					"Anselmo is a mechagnome made thousands of years ago to aid Netherese arcanists with their daily tasks.",
 					"Regardless of what its insides are made of, it has a metallic outer casing painted with gnomish features. It walks with a stiff gait, clanking, wheezing, whirring, and buzzing wherever it goes.",
 					"A mechagnome obeys its creator's commands when it is functioning properly, but a design flaw can cause a mechagnome to go rogue, forget its orders, and wander doing anything except what it was designed for.",
-					"Anselmo specifically was made by Drakareth, a powerful human archmage who ruled over one of the many towers of Ythryn.",
-					"Its original purpose was to aid any guests of the tower in any of their necessities, but due to the course of time and the ambiguous nature of the command, the mechagnome doesn't discern the intentions of anyone, offering its help to any new visitor who enters the upside-down tower ruins.",
+					"Anselmo specifically was made by Drakareth, a powerful human archmage who ruled over one of the many towers of {@adventure Ythryn|IDRotF|17}.",
+					"Its original purpose was to aid any guests of the tower in any of their necessities, but due to the course of time and the ambiguous nature of the command, the mechagnome doesn't discern the intentions of anyone, offering its help to any new visitor who enters the {@adventure upside-down tower ruins|IDRotF|12|Lost Spire of Netheril}.",
 					"It has knowledge of every room of the tower and will doubtlessly help its guests find the remaining secrets in the ruins, if asked the right questions."
 				],
 				"images": [
@@ -2679,7 +2661,7 @@
 			"hasFluffImages": true,
 			"fluff": {
 				"entries": [
-					"Copper Knobberknocker is a rock gnome wererat who lives in the attic of the Shrine of Amaunator in Bryn Shander, where he begrudgingly helps with services and chores.",
+					"Copper Knobberknocker is a rock gnome {@creature Wererat|XMM|wererat} who lives in the attic of the {@adventure Shrine of Amaunator|IDRotF|3|Locations in Bryn Shander} in {@adventure Bryn Shander|IDRotF|3}, where he begrudgingly helps with services and chores.",
 					"{@creature Anaar (Sunmaster)|IcewindDaleRimeoftheLamberto|Anaar} and he argue incessantly about the true identity of the Morninglord: Copper defends {@deity Lathander|Faerûnian|FRHoF} as the real incarnation of the deity, while Anaar defends her beliefs in {@deity Amaunator|Faerûnian|FRHoF}.",
 					"Copper walks around in a fuzzy suit and hood that he made himself; although it's quite warm, it makes him look like a teddy bear."
 				],
@@ -2754,7 +2736,7 @@
 			"hasFluffImages": true,
 			"fluff": {
 				"entries": [
-					"Ebonrose is a glaive whose haft is a living branch grafted from Yggdrasil itself, its head unfurling in thorned black petals like a rose in eternal bloom. It was given to Yggdra Arlaggath by the World Tree in recognition of her unbroken vigil over Easthaven.",
+					"Ebonrose is a glaive whose haft is a living branch grafted from Yggdrasil itself, its head unfurling in thorned black petals like a rose in eternal bloom. It was given to {@creature Yggdra Arlaggath|IcewindDaleRimeoftheLamberto} by the World Tree in recognition of her unbroken vigil over {@adventure Easthaven|IDRotF|7}.",
 					"The weapon answers fully only to a bearer whose fury is tempered by devotion to something greater than themselves; in less devoted hands it still functions as a fine magic glaive, but none of the tales told of it are theirs to claim."
 				],
 				"images": [
@@ -2796,7 +2778,7 @@
 			"fluff": {
 				"entries": [
 					"Scarfall is a drow scythe forged in the Lylyl family's ancestral halls, its blackened blade said to leave wounds that scar over ash-grey and never quite heal clean, like snow that falls and never fully melts.",
-					"House Lylyl grants the weapon only to commanders who have proven they can make an enemy suffer long after the battle ends. Sabrae Lylyl carries it as both a badge of rank and a promise: those who survive its first cut rarely walk away whole."
+					"House Lylyl grants the weapon only to commanders who have proven they can make an enemy suffer long after the battle ends. {@creature Sabrae Lylyl|IcewindDaleRimeoftheLamberto} carries it as both a badge of rank and a promise: those who survive its first cut rarely walk away whole."
 				]
 			}
 		}
