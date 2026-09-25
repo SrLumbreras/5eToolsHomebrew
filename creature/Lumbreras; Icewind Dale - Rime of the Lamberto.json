@@ -2290,6 +2290,11 @@
 			"environment": [
 				"arctic"
 			],
+			"hasToken": true,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://github.com/SrLumbreras/5eToolsHomebrew/releases/download/assets-tokens/Anselmo.webp"
+			},
 			"hasFluff": true,
 			"hasFluffImages": true,
 			"fluff": {
@@ -2307,6 +2312,227 @@
 						"href": {
 							"type": "external",
 							"url": "https://github.com/SrLumbreras/5eToolsHomebrew/releases/download/assets-homebrew-images/Anselmo.webp"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Elta Bernero",
+			"source": "IcewindDaleRimeoftheLamberto",
+			"page": 0,
+			"isNamedCreature": true,
+			"shortName": "Elta",
+			"alias": [
+				"Beerholder"
+			],
+			"size": [
+				"L"
+			],
+			"type": {
+				"type": "aberration",
+				"tags": [
+					"Beerholder"
+				]
+			},
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				14
+			],
+			"hp": {
+				"average": 114,
+				"formula": "12d10 + 48"
+			},
+			"speed": {
+				"walk": 0,
+				"fly": 20,
+				"canHover": true
+			},
+			"str": 10,
+			"dex": 5,
+			"con": 18,
+			"int": 10,
+			"wis": 13,
+			"cha": 15,
+			"save": {
+				"con": "+7",
+				"cha": "+5"
+			},
+			"senses": [
+				"darkvision 120 ft.",
+				"everything inside its tavern"
+			],
+			"passive": "11 (22 for nearby alcohol)",
+			"resist": [
+				"poison"
+			],
+			"conditionImmune": [
+				"frightened",
+				"poisoned",
+				"prone",
+				{
+					"special": "Common Sense"
+				}
+			],
+			"languages": [
+				"Common",
+				"Brother-in-Law"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Drunken Antimagic Cone",
+					"entries": [
+						"Elta's central eye emits an antimagic wave in a 150-foot Cone that works like the {@spell Antimagic Field|XPHB} spell, even against Elta's own Eye Rays. At the start of each of its turns, Elta decides which way the Cone faces and whether it is active, then makes a {@dc 14} Constitution saving throw. On a failed save, Elta is too dizzy to focus its eye, and the Cone is inactive until the start of its next turn."
+					]
+				},
+				{
+					"name": "Onion Stench",
+					"entries": [
+						"{@actSave con} {@dc 15}, any creature that starts its turn in a 5-foot Emanation originating from Elta. {@actSaveFail} The target has the {@condition Poisoned} condition until the start of its next turn, overcome by an irremediable feeling of nausea. {@actSaveSuccess} The target is immune to this Onion Stench for 24 hours."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atkr m} {@hit 3}, reach 5 ft. {@h}3 ({@damage 1d6}) Piercing damage plus 2 ({@damage 1d4}) Poison damage from sheer alcohol poisoning."
+					]
+				},
+				{
+					"name": "Eye Rays",
+					"entries": [
+						"Elta shoots two different \"magical\" eye rays at random (roll {@dice 1d4} twice, rerolling duplicates), choosing one or two targets it can blurrily see within 90 feet of itself. Its other eyestalks are busy holding beers.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "1: Confusion Ray",
+									"entry": "{@actSave wis} {@dc 15}, one creature. {@actSaveFail} The target sees the world through the eyes of a drunk until the end of its next turn. It can't move, and it uses its action to make a melee attack against a random creature within its reach, even one of its mates. If it can't attack anyone, it spends its action yelling insults at the sky."
+								},
+								{
+									"type": "item",
+									"name": "2: Paralyzing Ray",
+									"entry": "{@actSave con} {@dc 15}, one creature. {@actSaveFail} The target has the {@condition Paralyzed} condition and repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically. Meanwhile, it drools everywhere and people paint dicks on its forehead."
+								},
+								{
+									"type": "item",
+									"name": "3: Slowing Ray",
+									"entry": "{@actSave con} {@dc 15}, one creature. {@actSaveFail} The target gets drunk for 1 minute. While drunk, its Speed is halved, it can't take Reactions, and it can take either an action or a Bonus Action on its turn, not both. It repeats the save at the end of each of its turns, sobering up on a success."
+								},
+								{
+									"type": "item",
+									"name": "4: Wounding Ray",
+									"entry": "{@actSave dex} {@dc 15}, one creature. {@actSaveFail} 22 ({@damage 4d10}) Necrotic damage. {@actSaveSuccess} Half damage. This is an accurate simulation of what's happening to Elta's liver."
+								}
+							]
+						}
+					]
+				}
+			],
+			"senseTags": [
+				"SD"
+			],
+			"languageTags": [
+				"C",
+				"OTH"
+			],
+			"damageTags": [
+				"I",
+				"N",
+				"P"
+			],
+			"conditionInflict": [
+				"paralyzed",
+				"poisoned"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"dexterity",
+				"wisdom"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"environment": [
+				"arctic",
+				"urban"
+			],
+			"hasToken": true,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://github.com/SrLumbreras/5eToolsHomebrew/releases/download/assets-tokens/Beerholder.webp"
+			},
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"fluff": {
+				"entries": [
+					"The stench of stale ale drifts up from the cellar, chipped pint glasses clink together, and a single glazed, rheumy eye lights up the darkness. Relax: the beerholder just wants to be your friend. Or to kill you. Or to tell you a long, pointless story and borrow a few coins. Probably all three, in that order.",
+					{
+						"type": "entries",
+						"name": "Appearance",
+						"entries": [
+							"Decades of neglect, self-abuse, and bad decisions have turned the beerholder into a giant floating sack of flesh with a pint in every eyestalk. It smells like your uncle."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Arrogance",
+						"entries": [
+							"Constant drink fills a beerholder with bravado. It boasts loudly about its achievements, usually in the third person, while hovering around doing nothing at all. It bullies lesser creatures into fetching its beer."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Cellar Dweller",
+						"entries": [
+							"Beerholders are drawn to cellars, breweries, and the back rooms of taverns. When the booze runs out, they slump onto the nearest couch and piss and moan until someone brings more."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Elta's Tavern",
+						"entries": [
+							"Elta Bernero has turned the vice into a business. It runs a tavern on a small plane of its own, where there are no windows, no clocks, and time flows differently. Patrons who drop in \"for just one drink\" often stumble out to find days have passed outside. Elta insists this is not its fault. It is still early, it says, every time anyone asks.",
+							"The tavern has no fixed address. Once a week, doors to Elta's tavern appear along the Sword Coast, and anyone who walks through one ends up at the bar.",
+							"The tavern is warped by Elta's presence, which creates the following effects:",
+							{
+								"type": "list",
+								"style": "list-hang-notitle",
+								"items": [
+									{
+										"type": "item",
+										"name": "Weekly Doors",
+										"entry": "One day each week, plain wooden doors marked with a painted tankard appear in cellars, alleys, and inn walls along the Sword Coast. Any creature that passes through one arrives at the tavern. The doors vanish at dawn."
+									},
+									{
+										"type": "item",
+										"name": "Time Flies",
+										"entry": "For every hour a creature spends inside the tavern, {@dice 1d6} hours pass in the outside world."
+									},
+									{
+										"type": "item",
+										"name": "Last-Call Blizzard",
+										"entry": "Doors don't last long in Icewind Dale, so the tavern finds its patrons another way. Once a week, a magical blizzard rises somewhere in the region. Any creature caught in it is teleported to the tavern."
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://github.com/SrLumbreras/5eToolsHomebrew/releases/download/assets-homebrew-images/Beerholder.webp"
 						}
 					}
 				]
