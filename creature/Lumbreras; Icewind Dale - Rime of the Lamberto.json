@@ -2675,6 +2675,435 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Dzaan",
+			"source": "IcewindDaleRimeoftheLamberto",
+			"page": 0,
+			"isNamedCreature": true,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"wizard"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				15
+			],
+			"hp": {
+				"average": 152,
+				"formula": "24d8 + 44"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"initiative": {
+				"proficiency": 1
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 12,
+			"int": 20,
+			"wis": 14,
+			"cha": 15,
+			"save": {
+				"int": "+9",
+				"wis": "+6"
+			},
+			"skill": {
+				"arcana": "+9",
+				"deception": "+6",
+				"history": "+9",
+				"perception": "+6"
+			},
+			"passive": 16,
+			"languages": [
+				"Abyssal",
+				"Common",
+				"Giant",
+				"Infernal"
+			],
+			"cr": "11",
+			"gear": [
+				"cloak of displacement|xdmg"
+			],
+			"trait": [
+				{
+					"name": "Cloak of Displacement",
+					"entries": [
+						"Attack rolls against Dzaan have {@variantrule Disadvantage|XPHB}. If he takes damage, this trait stops functioning until the start of his next turn. It also stops functioning while Dzaan has the {@condition Incapacitated|XPHB} or {@condition Restrained|XPHB} condition or is otherwise unable to move."
+					]
+				},
+				{
+					"name": "Legendary Resistance (1/Day)",
+					"entries": [
+						"If Dzaan fails a saving throw, he can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Malleable Illusions",
+					"entries": [
+						"When Dzaan casts an illusion spell that has a duration of 1 minute or longer, he can take a {@action Magic|XPHB} action to change the nature of that illusion (using the spell's normal parameters for the illusion), provided he can see the illusion."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Dzaan makes three Phantasmal Burst attacks."
+					]
+				},
+				{
+					"name": "Phantasmal Burst",
+					"entries": [
+						"{@atkr m,r} {@hit 9}, reach 5 ft. or range 120 ft. {@h}18 ({@damage 3d8 + 5}) Psychic damage."
+					]
+				},
+				{
+					"name": "Phantasmal Dread {@recharge 5}",
+					"entries": [
+						"{@actSave int} {@dc 17}, each creature in a 20-foot-radius Sphere centered on a point Dzaan can see within 120 feet. {@actSaveFail} 36 ({@damage 8d8}) Psychic damage, and the target has the {@condition Frightened|XPHB} condition until the end of its next turn. {@actSaveSuccess} Half damage only."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Dzaan casts one of the following spells, requiring no Material components and using Intelligence as the spellcasting ability (spell save {@dc 17}):"
+					],
+					"will": [
+						"{@spell Detect Magic|XPHB}",
+						"{@spell Disguise Self|XPHB}",
+						"{@spell Mage Armor|XPHB} (included in AC)",
+						"{@spell Mage Hand|XPHB} (the hand is invisible)",
+						"{@spell Minor Illusion|XPHB}",
+						"{@spell Silent Image|XPHB}"
+					],
+					"daily": {
+						"2e": [
+							"{@spell Invisibility|XPHB}",
+							"{@spell Major Image|XPHB}",
+							"{@spell Phantasmal Force|XPHB}"
+						],
+						"1e": [
+							"{@spell Confusion|XPHB}",
+							"{@spell Hallucinatory Terrain|XPHB}",
+							"{@spell Mental Prison|XGE}",
+							"{@spell Mislead|XPHB}",
+							"{@spell Sending|XPHB}"
+						]
+					},
+					"ability": "int",
+					"displayAs": "action"
+				},
+				{
+					"name": "Counterspell (2/Day)",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Dzaan casts {@spell Counterspell|XPHB} in response to the spell's trigger, using the same spellcasting ability as Spellcasting."
+					],
+					"daily": {
+						"2": [
+							"{@spell Counterspell|XPHB}"
+						]
+					},
+					"ability": "int",
+					"displayAs": "reaction",
+					"hidden": [
+						"daily"
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Telekinetic Shove",
+					"entries": [
+						"{@actSave str} {@dc 17}, one creature Dzaan can see within 30 feet. {@actSaveFail} Dzaan moves the target up to 5 feet toward or away from himself."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Illusory Self (3/Day)",
+					"entries": [
+						"{@actTrigger} A creature Dzaan can see hits him with an attack roll. {@actResponse} Dzaan interposes an illusory duplicate of himself between the attacker and himself, and the attack misses him."
+					]
+				}
+			],
+			"legendaryActions": 1,
+			"legendary": [
+				{
+					"name": "Phantasmal Burst",
+					"entries": [
+						"Dzaan makes one Phantasmal Burst attack."
+					]
+				},
+				{
+					"name": "Move",
+					"entries": [
+						"Dzaan moves up to his {@variantrule Speed|XPHB} without provoking {@action Opportunity Attack|XPHB|Opportunity Attacks}."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"urban"
+			],
+			"traitTags": [
+				"Legendary Resistances"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"AB",
+				"C",
+				"GI",
+				"I"
+			],
+			"damageTags": [
+				"Y"
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"miscTags": [
+				"AOE",
+				"MA",
+				"RA"
+			],
+			"conditionInflict": [
+				"frightened"
+			],
+			"conditionInflictSpell": [
+				"invisible"
+			],
+			"savingThrowForced": [
+				"intelligence",
+				"strength"
+			],
+			"savingThrowForcedSpell": [
+				"intelligence",
+				"wisdom"
+			],
+			"isNpc": true,
+			"hasToken": true,
+			"tokenHref": {
+				"type": "internal",
+				"path": "bestiary/tokens/IDRotF/Dzaan.webp"
+			},
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"fluff": {
+				"entries": [
+					"Dzaan was a Red Wizard of Thay who studied the arcane tradition of illusion before moving west to the Sword Coast North, where he joined the Arcane Brotherhood of Luskan. The leaders of the brotherhood welcomed him with open arms, eager to count a Red Wizard among their ranks. Dzaan might have become a force to reckon with in the brotherhood had his quest for power not led him to Icewind Dale.",
+					{
+						"type": "entries",
+						"name": "Dzaan's Demise",
+						"entries": [
+							"Dzaan broke away from his fellow wizards and hired adventurers to scour Icewind Dale for Netherese ruins. One group of them uncovered a buried tower in the tundra, and Dzaan went out of his way to eliminate anyone who knew of it, including the adventurers who found it and several Ten-Towners with whom they had spoken. After turning the tower into his secret base, Dzaan visited {@adventure Easthaven|IDRotF|7} to gather supplies. Although he took the precaution of adopting a magical disguise, members of the local militia recognized him by the way he walked and spoke. They captured him, gagged him, confiscated his spellbook, and burned him to death."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "The Simulacrum",
+						"entries": [
+							"Unbeknownst to his executioners, Dzaan had used a spell scroll of {@spell Simulacrum|XPHB} to create a copy of himself, which waited for its creator inside the sunken Netherese spire. The spire contains a special room that can transform any magical illusion into the real thing. Having passed through it, the simulacrum is no longer a copy: it is Dzaan, authentic in every way."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Companion",
+						"entries": [
+							"Because they're so despised throughout Faerûn, Red Wizards often adopt disguises and rarely travel abroad without an escort. They generally favor undead servants and bodyguards, since they find that undead tend to be more obedient than the living. Dzaan's bodyguard is a Thayan wight named {@creature Krintaas|IcewindDaleRimeoftheLamberto}."
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/IDRotF/Dzaans Simulacrum.webp"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Krintaas",
+			"source": "IcewindDaleRimeoftheLamberto",
+			"page": 0,
+			"isNamedCreature": true,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "undead"
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				17
+			],
+			"hp": {
+				"average": 102,
+				"formula": "12d8 + 48"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 17,
+			"dex": 10,
+			"con": 18,
+			"int": 12,
+			"wis": 14,
+			"cha": 18,
+			"save": {
+				"con": "+7"
+			},
+			"skill": {
+				"intimidation": "+7",
+				"stealth": "+3"
+			},
+			"senses": [
+				"Truesight 120 ft."
+			],
+			"passive": 12,
+			"resist": [
+				"cold",
+				"necrotic"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"poisoned"
+			],
+			"languages": [
+				"Common",
+				"Infernal"
+			],
+			"cr": "5",
+			"gear": [
+				"longsword|xphb",
+				"splint armor|xphb"
+			],
+			"trait": [
+				{
+					"name": "Sunlight Sensitivity",
+					"entries": [
+						"While in sunlight, Krintaas has {@variantrule Disadvantage|XPHB} on ability checks and attack rolls."
+					]
+				},
+				{
+					"name": "Undead Fortitude",
+					"entries": [
+						"If damage reduces Krintaas to 0 {@variantrule Hit Points|XPHB}, he makes a Constitution saving throw (DC 5 plus the damage taken) unless the damage is Radiant or from a {@variantrule Critical Hit|XPHB}. On a successful save, Krintaas drops to 1 {@variantrule Hit Points|XPHB|Hit Point} instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Krintaas makes two Necrotic Sword attacks. He can replace one attack with a use of Strike Fear or Wight Song."
+					]
+				},
+				{
+					"name": "Necrotic Sword",
+					"entries": [
+						"{@atkr m} {@hit 6}, reach 5 ft. {@h}8 ({@damage 1d10 + 3}) Slashing damage plus 7 ({@damage 2d6}) Necrotic damage."
+					]
+				},
+				{
+					"name": "Strike Fear",
+					"entries": [
+						"{@actSave wis} {@dc 15}, each creature of Krintaas's choice in a 60-foot Emanation originating from him that isn't an Undead and is aware of him. {@actSaveFail} The target has the {@condition Frightened|XPHB} condition for 1 minute. If the target fails the save by 5 or more, it also has the {@condition Stunned|XPHB} condition while {@condition Frightened|XPHB} in this way. The target repeats the save at the end of each of its turns, ending the effect on itself on a success. {@actSaveSuccess} The target is immune to Krintaas's Strike Fear for 24 hours. A target for whom the effect ends also gains this immunity."
+					]
+				},
+				{
+					"name": "Wight Song",
+					"entries": [
+						"{@actSave wis} {@dc 15}, one creature Krintaas can see within 30 feet that can hear him. {@actSaveFail} The target has the {@condition Unconscious|XPHB} condition for 1 minute or until it takes damage or a creature takes an action to shake it awake. If the target fails the save by 5 or more, it instead has the {@condition Unconscious|XPHB} condition for 1 hour, and shaking it awake doesn't end the condition. {@actSaveSuccess} Unless the target succeeds by 5 or more, it has the {@condition Stunned|XPHB} condition until the end of Krintaas's next turn. Either way, the target is immune to Krintaas's Wight Song for 24 hours."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Darker than Darkness {@recharge}",
+					"entries": [
+						"Krintaas fills a 30-foot-radius Sphere centered on a point he can see within 60 feet of himself with magical Darkness that lasts for 1 minute. The Darkness spreads around corners, and nonmagical light can't illuminate it."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"underground"
+			],
+			"traitTags": [
+				"Sunlight Sensitivity",
+				"Undead Fortitude"
+			],
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"I"
+			],
+			"damageTags": [
+				"N",
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"MA",
+				"MLW"
+			],
+			"conditionInflict": [
+				"frightened",
+				"stunned",
+				"unconscious"
+			],
+			"savingThrowForced": [
+				"wisdom"
+			],
+			"isNpc": true,
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"fluff": {
+				"entries": [
+					"Krintaas is a Thayan {@creature Wight|XMM|wight} and the bodyguard of {@creature Dzaan|IcewindDaleRimeoftheLamberto}. Like many Red Wizards, Dzaan trusts the dead more than the living, and Krintaas has never given him reason to regret it.",
+					"When Dzaan left for {@adventure Easthaven|IDRotF|7}, he ordered Krintaas to stay behind and watch over his simulacrum and the buried Netherese spire. The wight kept that vigil long after its master burned. Now that Dzaan walks again, Krintaas rarely strays from his side, often hidden beneath one of the wizard's illusions in the guise of a living guard."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/IDRotF/Dzaans Simulacrum.webp"
+						}
+					}
+				]
+			}
 		}
 	],
 	"baseitem": [
