@@ -2906,12 +2906,12 @@
 			"hasFluffImages": true,
 			"fluff": {
 				"entries": [
-					"Dzaan was a Red Wizard of Thay who studied the arcane tradition of illusion before moving west to the Sword Coast North, where he joined the Arcane Brotherhood of Luskan. The leaders of the brotherhood welcomed him with open arms, eager to count a Red Wizard among their ranks. Dzaan might have become a force to reckon with in the brotherhood had his quest for power not led him to Icewind Dale.",
+					"Dzaan was a Red Wizard of Thay who studied the arcane tradition of illusion before moving west to the Sword Coast North, where he joined the {@adventure Arcane Brotherhood|IDRotF|21|Arcane Brotherhood} of Luskan. The leaders of the brotherhood welcomed him with open arms, eager to count a Red Wizard among their ranks. Dzaan might have become a force to reckon with in the brotherhood had his quest for power not led him to {@adventure Icewind Dale|IDRotF|12}.",
 					{
 						"type": "entries",
 						"name": "Dzaan's Demise",
 						"entries": [
-							"Dzaan broke away from his fellow wizards and hired adventurers to scour Icewind Dale for Netherese ruins. One group of them uncovered a buried tower in the tundra, and Dzaan went out of his way to eliminate anyone who knew of it, including the adventurers who found it and several Ten-Towners with whom they had spoken. After turning the tower into his secret base, Dzaan visited {@adventure Easthaven|IDRotF|7} to gather supplies. Although he took the precaution of adopting a magical disguise, members of the local militia recognized him by the way he walked and spoke. They captured him, gagged him, confiscated his spellbook, and burned him to death."
+							"Dzaan broke away from his fellow wizards and hired adventurers to scour Icewind Dale for Netherese ruins. One group of them uncovered a {@adventure buried tower|IDRotF|12|Lost Spire of Netheril} in the tundra, and Dzaan went out of his way to eliminate anyone who knew of it, including the adventurers who found it and several {@adventure Ten-Towners|IDRotF|1} with whom they had spoken. After turning the tower into his secret base, Dzaan visited {@adventure Easthaven|IDRotF|7} to gather supplies. Although he took the precaution of adopting a magical disguise, members of the local militia recognized him by the way he walked and spoke. They captured him, gagged him, confiscated his spellbook, and burned him to death."
 						]
 					},
 					{
@@ -2925,7 +2925,14 @@
 						"type": "entries",
 						"name": "Companion",
 						"entries": [
-							"Because they're so despised throughout Faerûn, Red Wizards often adopt disguises and rarely travel abroad without an escort. They generally favor undead servants and bodyguards, since they find that undead tend to be more obedient than the living. Dzaan's bodyguard is a Thayan wight named {@creature Krintaas|IcewindDaleRimeoftheLamberto}."
+							"Because they're so despised throughout Faerûn, Red Wizards often adopt disguises and rarely travel abroad without an escort. They generally favor undead servants and bodyguards, since they find that undead tend to be more obedient than the living. Dzaan's bodyguard is a Thayan {@creature Wight|XMM|wight} named {@creature Krintaas|IcewindDaleRimeoftheLamberto}."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Speaker of Targos",
+						"entries": [
+							"Now Dzaan wears the face of {@adventure Naerth Maxildanarr|IDRotF|10|Leaders}, speaker of {@adventure Targos|IDRotF|10}, while {@creature Krintaas|IcewindDaleRimeoftheLamberto} has taken the place of {@adventure Captain Skath|IDRotF|10|Militia}, the speaker's bodyguard. Hidden behind Dzaan's illusions, the pair now govern Targos in their place."
 						]
 					}
 				],
@@ -3098,7 +3105,7 @@
 			"fluff": {
 				"entries": [
 					"Krintaas is a Thayan {@creature Wight|XMM|wight} and the bodyguard of {@creature Dzaan|IcewindDaleRimeoftheLamberto}. Like many Red Wizards, Dzaan trusts the dead more than the living, and Krintaas has never given him reason to regret it.",
-					"When Dzaan left for {@adventure Easthaven|IDRotF|7}, he ordered Krintaas to stay behind and watch over his {@creature Dzaan's Simulacrum|IDRotF|simulacrum} and the buried Netherese spire. The wight kept that vigil long after its master burned. Now that Dzaan walks again, Krintaas rarely strays from his side, often hidden beneath one of the wizard's illusions in the guise of a living guard."
+					"When Dzaan left for {@adventure Easthaven|IDRotF|7}, he ordered Krintaas to stay behind and watch over his {@creature Dzaan's Simulacrum|IDRotF|simulacrum} and the {@adventure buried Netherese spire|IDRotF|12|Lost Spire of Netheril}. The wight kept that vigil long after its master burned. Now that Dzaan walks again, Krintaas has taken the place of {@adventure Captain Skath|IDRotF|10|Militia}, bodyguard to {@adventure Naerth Maxildanarr|IDRotF|10|Leaders}, speaker of {@adventure Targos|IDRotF|10}, whose face Dzaan now wears. Hidden behind Dzaan's illusions, the pair now govern Targos in their place."
 				],
 				"images": [
 					{
@@ -3109,6 +3116,11 @@
 						}
 					}
 				]
+			},
+			"hasToken": true,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://github.com/SrLumbreras/5eToolsHomebrew/releases/download/assets-tokens/Krintaas.webp"
 			}
 		}
 	],
