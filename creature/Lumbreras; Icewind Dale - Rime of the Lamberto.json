@@ -2290,6 +2290,11 @@
 			"environment": [
 				"arctic"
 			],
+			"hasToken": true,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://github.com/SrLumbreras/5eToolsHomebrew/releases/download/assets-tokens/Anselmo.webp"
+			},
 			"hasFluff": true,
 			"hasFluffImages": true,
 			"fluff": {
@@ -2460,6 +2465,11 @@
 				"arctic",
 				"urban"
 			],
+			"hasToken": true,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://github.com/SrLumbreras/5eToolsHomebrew/releases/download/assets-tokens/Beerholder.webp"
+			},
 			"hasFluff": true,
 			"hasFluffImages": true,
 			"fluff": {
