@@ -2932,7 +2932,7 @@
 						"type": "entries",
 						"name": "Speaker of Targos",
 						"entries": [
-							"Now Dzaan wears the face of {@adventure Naerth Maxildanarr|IDRotF|10|Leaders}, speaker of {@adventure Targos|IDRotF|10}, while {@creature Krintaas|IcewindDaleRimeoftheLamberto} has taken the place of {@adventure Captain Skath|IDRotF|10|Militia}, the speaker's bodyguard. Hidden behind Dzaan's illusions, the pair now govern Targos in their place."
+							"Now Dzaan wears the face of {@adventure Naerth Maxildanarr|IDRotF|10|Leaders}, speaker of {@adventure Targos|IDRotF|10}, while {@creature Krintaas|IcewindDaleRimeoftheLamberto} has taken the place of {@adventure Captain Skath|IDRotF|10|Militia}, leader of the town's militia. Hidden behind Dzaan's illusions, the pair now govern Targos in their place."
 						]
 					}
 				],
@@ -3105,7 +3105,7 @@
 			"fluff": {
 				"entries": [
 					"Krintaas is a Thayan {@creature Wight|XMM|wight} and the bodyguard of {@creature Dzaan|IcewindDaleRimeoftheLamberto}. Like many Red Wizards, Dzaan trusts the dead more than the living, and Krintaas has never given him reason to regret it.",
-					"When Dzaan left for {@adventure Easthaven|IDRotF|7}, he ordered Krintaas to stay behind and watch over his {@creature Dzaan's Simulacrum|IDRotF|simulacrum} and the {@adventure buried Netherese spire|IDRotF|12|Lost Spire of Netheril}. The wight kept that vigil long after its master burned. Now that Dzaan walks again, Krintaas has taken the place of {@adventure Captain Skath|IDRotF|10|Militia}, bodyguard to {@adventure Naerth Maxildanarr|IDRotF|10|Leaders}, speaker of {@adventure Targos|IDRotF|10}, whose face Dzaan now wears. Hidden behind Dzaan's illusions, the pair now govern Targos in their place."
+					"When Dzaan left for {@adventure Easthaven|IDRotF|7}, he ordered Krintaas to stay behind and watch over his {@creature Dzaan's Simulacrum|IDRotF|simulacrum} and the {@adventure buried Netherese spire|IDRotF|12|Lost Spire of Netheril}. The wight kept that vigil long after its master burned. Now that Dzaan walks again, Krintaas has taken the place of {@adventure Captain Skath|IDRotF|10|Militia}, captain of the militia of {@adventure Targos|IDRotF|10}, while Dzaan wears the face of {@adventure Naerth Maxildanarr|IDRotF|10|Leaders}, the town's speaker. Hidden behind Dzaan's illusions, the pair now govern Targos in their place."
 				],
 				"images": [
 					{
