@@ -2918,7 +2918,7 @@
 						"type": "entries",
 						"name": "The Simulacrum",
 						"entries": [
-							"Unbeknownst to his executioners, Dzaan had used a spell scroll of {@spell Simulacrum|XPHB} to create a copy of himself, which waited for its creator inside the sunken Netherese spire. The spire contains a special room that can transform any magical illusion into the real thing. Having passed through it, the simulacrum is no longer a copy: it is Dzaan, authentic in every way."
+							"Unbeknownst to his executioners, Dzaan had used a spell scroll of {@spell Simulacrum|XPHB} to create a {@creature Dzaan's Simulacrum|IDRotF|copy of himself}, which waited for its creator inside the sunken Netherese spire. The spire contains a special room that can transform any magical illusion into the real thing. Having passed through it, the simulacrum is no longer a copy: it is Dzaan, authentic in every way."
 						]
 					},
 					{
@@ -2938,7 +2938,13 @@
 						}
 					}
 				]
-			}
+			},
+			"senses": [
+				"Darkvision 150 ft."
+			],
+			"senseTags": [
+				"SD"
+			]
 		},
 		{
 			"name": "Krintaas",
@@ -3092,7 +3098,7 @@
 			"fluff": {
 				"entries": [
 					"Krintaas is a Thayan {@creature Wight|XMM|wight} and the bodyguard of {@creature Dzaan|IcewindDaleRimeoftheLamberto}. Like many Red Wizards, Dzaan trusts the dead more than the living, and Krintaas has never given him reason to regret it.",
-					"When Dzaan left for {@adventure Easthaven|IDRotF|7}, he ordered Krintaas to stay behind and watch over his simulacrum and the buried Netherese spire. The wight kept that vigil long after its master burned. Now that Dzaan walks again, Krintaas rarely strays from his side, often hidden beneath one of the wizard's illusions in the guise of a living guard."
+					"When Dzaan left for {@adventure Easthaven|IDRotF|7}, he ordered Krintaas to stay behind and watch over his {@creature Dzaan's Simulacrum|IDRotF|simulacrum} and the buried Netherese spire. The wight kept that vigil long after its master burned. Now that Dzaan walks again, Krintaas rarely strays from his side, often hidden beneath one of the wizard's illusions in the guise of a living guard."
 				],
 				"images": [
 					{
